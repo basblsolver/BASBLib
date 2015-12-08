@@ -1,9 +1,9 @@
 # ------------------------------------------------------------------------------
-# Example 3.1
-# Mitsos, A., & Barton, P. I. (2007). A Test Set for Bilevel Programs
+# Example 3.2
+# Mitsos, A., & Barton, P. I. (2006). A test set for bilevel programs.
 #
 # Optimal solution:
-#   F* = 1.0, f* = -1.0 at (y*) = (1.0)
+#   Infeasible problem
 # ------------------------------------------------------------------------------
 set I:= 1..2;
 
@@ -17,6 +17,10 @@ var mu {i in I} >= 0, <= 2,
 
 # OUTER OBJECTIVE
 minimize outer_obj: y,
+  suffix cat 1;
+
+# OUTER CONSTRAINT
+subject to outer_con: y <= 0,
   suffix cat 1;
 
 # INNER OBJECTIVE (PART OF CONSTRAINS)
