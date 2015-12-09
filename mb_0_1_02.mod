@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
 # Example 3.2
-# Mitsos, A., & Barton, P. I. (2006). A test set for bilevel programs.
+# Mitsos, A., & Barton, P. I. (2007). A Test Set for Bilevel Programs
 #
 # Optimal solution:
 #   Infeasible problem
