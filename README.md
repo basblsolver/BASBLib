@@ -1,7 +1,7 @@
 ### A Test Set of Nonconvex Bilevel Problems 
 > Used to test Branch-And-Sandwich BiLevel (BASBL) solver
 
-In this repository we provide:
+This repository provides:
 * Description of all bilevel problems in `AMPL` format, compatible with the `BASBL` solver.
 
 For more details on these problems see our illustrative [wiki-page](https://github.com/basblsolver/test-problems/wiki).
