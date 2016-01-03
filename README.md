@@ -1,6 +1,6 @@
 ### A Test Set of Nonconvex Bilevel Problems 
 
-> Used to test the performance of Branch-And-Sandwich BiLevel
+Used to test the performance of Branch-And-Sandwich BiLevel
 <a href="https://github.com/basblsolver/manual/wiki"><img src="https://github.com/basblsolver/manual/blob/master/images/BASBL-logo-landscape.png" width="100"></a>
 
 This repository provides:
