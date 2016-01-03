@@ -1,6 +1,12 @@
 # ------------------------------------------------------------------------------
-# Example 3.9
-# Mitsos, A., & Barton, P. I. (2006). A test set for bilevel programs.
+# Name
+#   Example 3.9                                                      (mb_1_1_02)
+# Source:
+#   Mitsos, A., & Barton, P.I. (2007). A Test Set for Bilevel Programs.
+#   Technical Report. Massachusetts Institute of Technology
+#
+# Optimal solution:
+#   F* = -1.0, f* = -1.0 at (x*,y*) = (-1.0,-1.0)
 # ------------------------------------------------------------------------------
 # OUTER VARIABLES
 var x >= -10, <= 10;
@@ -19,7 +25,7 @@ minimize outer_obj: x;
 # OUTER CONSTRAINT
 subject to outer_con: -x + y <= 0;
 
-# Added artificial x*(y-y), to get right variable order in .col file
+# NOTE: Added artificial x*(y-y), to get right variable order in .col file
 # INNER OBJECTIVE AS CONSTRAINT: <= 0
 subject to inner_obj: x*(y-y) + y^3 <= 0;
 

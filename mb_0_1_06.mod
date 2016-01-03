@@ -1,6 +1,9 @@
 # ------------------------------------------------------------------------------
-# Example 3.6
-# Mitsos, A., & Barton, P. I. (2006). A test set for bilevel programs.
+# Name
+#   Example 3.6                                                      (mb_0_1_06)
+# Source:
+#   Mitsos, A., & Barton, P.I. (2007). A Test Set for Bilevel Programs.
+#   Technical Report. Massachusetts Institute of Technology
 #
 # Optimal solution:
 #   F* = -1.0, f* = -1.0 at (y*) = (-1.0)
@@ -20,7 +23,7 @@ var mu2 >= 0, <= 10,
 minimize outer_obj: y,
   suffix cat 1;
 
-# INNER OBJECTIVE (PART OF CONSTRAINS)
+# INNER OBJECTIVE (PART OF CONSTRAINTS)
 subject to inner_obj: y^3 <= 0,
   suffix cat 2;
 

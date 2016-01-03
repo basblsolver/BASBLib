@@ -1,6 +1,15 @@
 # ------------------------------------------------------------------------------
-# Variant of Example 3.28
-# Example 3 in Kleniati, P. M., & Adjiman, C. S. (2014). Part II
+# Name
+#   Example 4 (Kleniati and Adjiman, 2014)                          (mb_5_5_02v)
+#   Variant of Example 3.28 from (Mitsos and Barton, 2007)
+# Source
+#   Kleniati, P.-M., & Adjiman, C. S. (2014). Branch-and-Sandwich:
+#   a deterministic global optimization algorithm for optimistic bilevel
+#   programming problems. Part II: Convergence analysis and numerical results.
+#   Journal of Global Optimization, 60(3), 459–481.
+#
+# Best known objective value(s):
+#   F* = -10.0, f* = -3.1 at (x*,y*) = (1, -1, -1, -1, -1, -1, -1, -1, -1, -1)
 # ------------------------------------------------------------------------------
 set I:= 1..5;
 set J:= 1..5;

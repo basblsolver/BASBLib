@@ -1,6 +1,9 @@
 # ------------------------------------------------------------------------------
-# Example 3.2
-# Mitsos, A., & Barton, P. I. (2007). A Test Set for Bilevel Programs
+# Name:
+#   Example 3.2                                                      (mb_0_1_02)
+# Source:
+#   Mitsos, A., & Barton, P.I. (2007). A Test Set for Bilevel Programs.
+#   Technical Report. Massachusetts Institute of Technology
 #
 # Optimal solution:
 #   Infeasible problem
@@ -23,7 +26,7 @@ minimize outer_obj: y,
 subject to outer_con: y <= 0,
   suffix cat 1;
 
-# INNER OBJECTIVE (PART OF CONSTRAINS)
+# INNER OBJECTIVE (PART OF CONSTRAINTS)
 subject to inner_obj: -y <= 0,
   suffix cat 2;
 

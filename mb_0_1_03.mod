@@ -1,6 +1,9 @@
 # ------------------------------------------------------------------------------
-# Example 3.3
-# Mitsos, A., & Barton, P. I. (2006). A test set for bilevel programs.
+# Name:
+#   Example 3.3                                                      (mb_0_1_03)
+# Source:
+#   Mitsos, A., & Barton, P.I. (2007). A Test Set for Bilevel Programs.
+#   Technical Report. Massachusetts Institute of Technology
 #
 # Optimal solution:
 #   F* = -1.0, f* = 1.0 at (y*) = (-1.0)

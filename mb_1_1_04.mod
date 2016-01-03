@@ -1,6 +1,12 @@
 # ------------------------------------------------------------------------------
-# Example 3.11
-# Mitsos, A., & Barton, P. I. (2006). A test set for bilevel programs.
+# Name
+#   Example 3.11                                                     (mb_1_1_04)
+# Source:
+#   Mitsos, A., & Barton, P.I. (2007). A Test Set for Bilevel Programs.
+#   Technical Report. Massachusetts Institute of Technology
+#
+# Optimal solution:
+#   F* = -0.8, f* = 0.0 at (x*,y*) = (0.0,-0.8)
 # ------------------------------------------------------------------------------
 set I:= 1..2;
 
@@ -33,7 +39,6 @@ subject to complementarity_1: mu[1]*(-0.8 - y) = 0,
 
 subject to complementarity_2: mu[2]*(y - 1) = 0,
   suffix cat 3;
-
 
 
 

@@ -1,6 +1,12 @@
 # ------------------------------------------------------------------------------
-# Example 3.22
-# Mitsos, A., & Barton, P. I. (2006). A test set for bilevel programs.
+# Name
+#   Example 3.22                                                     (mb_1_1_15)
+# Source:
+#   Mitsos, A., & Barton, P.I. (2007). A Test Set for Bilevel Programs.
+#   Technical Report. Massachusetts Institute of Technology
+#
+# Optimal solution:
+#   F* = 0.210, f* = -0.069 at (x*,y*) = (-0.555,0.455)
 # ------------------------------------------------------------------------------
 # OUTER VARIABLES
 var x >= -1, <= 1,
@@ -20,7 +26,7 @@ var mu2 >= 0, <= 10,
 var mu3 >= 0, <= 10,
   suffix cat 3;
 
-# Note: In Mitsos pdf: (x - 0.6)^2 + y^2, looks typos @REM
+# Note: In (Mitsos, 2007): (x - 0.6)^2 + y^2, looks typos @REM
 # OUTER OBJECTIVE
 minimize outer_obj: (x + 0.6)^2 + y^2,
   suffix cat 1;

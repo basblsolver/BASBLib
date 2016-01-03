@@ -1,6 +1,12 @@
 # ------------------------------------------------------------------------------
-# Example 3.16
-# Mitsos, A., & Barton, P. I. (2006). A test set for bilevel programs.
+# Name
+#   Example 3.16                                                     (mb_1_1_09)
+# Source:
+#   Mitsos, A., & Barton, P.I. (2007). A Test Set for Bilevel Programs.
+#   Technical Report. Massachusetts Institute of Technology
+#
+# Optimal solution:
+#   F* = -2.0, f* = 0.0 at (x*,y*) = (-1.0,0.0) and (-0.5,-1.0)
 # ------------------------------------------------------------------------------
 # OUTER VARIABLES
 var x >= -1, <= 1,

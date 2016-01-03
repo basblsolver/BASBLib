@@ -1,6 +1,15 @@
 # ------------------------------------------------------------------------------
-# Variant of Example 3.13
-# Example 3 in Kleniati, P. M., & Adjiman, C. S. (2014). Part II
+# Name
+#   Example 3 (Kleniati and Adjiman, 2014)                          (mb_1_1_06v)
+#   Variant of Example 3.13 from (Mitsos and Barton, 2007)
+# Source
+#   Kleniati, P.-M., & Adjiman, C. S. (2014). Branch-and-Sandwich:
+#   a deterministic global optimization algorithm for optimistic bilevel
+#   programming problems. Part II: Convergence analysis and numerical results.
+#   Journal of Global Optimization, 60(3), 459–481.
+#
+# Optimal solution:
+#   F* = -1.0, f* = 0.0 at (x*,y*) = (0,1)
 # ------------------------------------------------------------------------------
 # OUTER VARIABLES
 var x >= -1, <= 1,
