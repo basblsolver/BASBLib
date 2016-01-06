@@ -1,7 +1,7 @@
 ### A Test Set of Nonconvex Bilevel Problems 
 
 This repository provides:
-* Description of all bilevel problems in `AMPL` format, compatible with the <a href="https://github.com/basblsolver/manual/wiki"><img src="https://github.com/basblsolver/manual/blob/master/images/BASBL-logo-landscape.png" width="80"></a> __v0.1__.
+* Description of all bilevel problems in `AMPL` format, compatible with the <a href="https://github.com/basblsolver/manual/wiki"><img src="https://github.com/basblsolver/manual/blob/master/images/BASBL-logo-2nd-version.png" width="40"></a> __v0.1__.
 
 For more details on these problems see [wiki-page](https://github.com/basblsolver/test-problems/wiki).
 
