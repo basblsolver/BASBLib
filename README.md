@@ -1,7 +1,7 @@
 # A Library of Nonconvex Bilevel Test Problems 
 
 This repository provides:
-* Description of all bilevel problems in `AMPL` format, compatible with the [`BASBL solver`](http://basblsolver.github.io/home/).
+* Description of all bilevel problems in `AMPL` format, compatible with the [`BASBL`](http://basblsolver.github.io/home/) solver.
 
 For more details on these problems see [wiki-page](https://github.com/basblsolver/test-problems/wiki).
 
