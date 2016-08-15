@@ -15,7 +15,7 @@
 #                        Outer      Inner
 # ------------------------------------------------------------------------------
 # Number of variables:   1          1
-# Number of constraints: 2          0
+# Number of constraints: 0          0
 # ==============================================================================
 var x >= 0.1, <= 1;         # Outer variables
 var y >= -1, <= 1;          # Inner variables
