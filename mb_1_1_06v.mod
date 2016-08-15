@@ -1,8 +1,10 @@
-# ------------------------------------------------------------------------------
-# Name
-#   Example 3 (Kleniati and Adjiman, 2014)                          (mb_1_1_06v)
-#   Variant of Example 3.13 from (Mitsos and Barton, 2007)
-# Source
+# ==============================================================================
+# AMPL coding by Remigijus Paulavicius
+# Name:
+#   mb_1_1_06v.mod
+#
+# Source:
+#   Example 3 (Variant of Example 3.13 from [Mitsos and Barton, 2007]) from
 #   Kleniati, P.-M., & Adjiman, C. S. (2014). Branch-and-Sandwich:
 #   a deterministic global optimization algorithm for optimistic bilevel
 #   programming problems. Part II: Convergence analysis and numerical results.
@@ -10,47 +12,23 @@
 #
 # Optimal solution:
 #   F* = -1.0, f* = 0.0 at (x*,y*) = (0,1)
+#
+# --------------------------------- Properties ---------------------------------
+#                        Outer      Inner
 # ------------------------------------------------------------------------------
-# OUTER VARIABLES
-var x >= -1, <= 1,
-  suffix cat 1;
+# Number of variables:   1          1
+# Number of constraints: 0          0
+# ==============================================================================
+var x >= -1, <= 1;       # Outer variables
+var y >= -1, <= 1;       # Inner variables
+var l{1..2} >= 0, <= 2;  # KKT Multipliers
 
-# INNER VARIABLES
-var y >= -1, <= 1,
-  suffix cat 2;
+minimize outer_obj: x - y;
 
-# KKT MULTIPLIERS
-var mu1 >= 0, <= 2,
-  suffix cat 3;
-
-var mu2 >= 0, <= 2,
-  suffix cat 3;
-
-# OUTER OBJECTIVE
-minimize outer_obj: x - y,
-  suffix cat 1;
-
-# INNER OBJECTIVE AS CONSTRAINT: <= 0
-subject to inner_obj: 0.5*x*y^2 - x*y^3 <= 0,
-  suffix cat 2;
-
-# STATIONARITY AND COMPLEMENTARITY CONDITIONS
-subject to stationarity: x*y - 3*x*y^2 - mu1 + mu2 = 0,
-  suffix cat 3;
-
-subject to complementarity_1: mu1*(-1 - y) = 0,
-  suffix cat 3;
-
-subject to complementarity_2: mu2*(y - 1) = 0,
-  suffix cat 3;
-
-
-
-
-
-
-
-
-
-
-
+subject to
+# Inner objective:
+    inner_obj: 0.5*x*y^2 - x*y^3 = 0;
+# KKT conditions:
+    stationarity:      x*y - 3*x*y^2 - l[1] + l[2] = 0;
+    complementarity_1: l[1]*(-1 - y) = 0;
+    complementarity_2: l[2]*(y - 1) = 0;
