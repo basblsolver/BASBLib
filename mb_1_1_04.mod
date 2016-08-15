@@ -1,51 +1,32 @@
-# ------------------------------------------------------------------------------
-# Name
-#   Example 3.11                                                     (mb_1_1_04)
+# ==============================================================================
+# AMPL coding by Remigijus Paulavicius
+# Name:
+#   mb_1_1_04.mod
+#
 # Source:
-#   Mitsos, A., & Barton, P.I. (2007). A Test Set for Bilevel Programs.
-#   Technical Report. Massachusetts Institute of Technology
+#   Example 3.11 from
+#   A. Mitsos and P. I. Barton, (2006) A Test Set for Bilevel Programs,
+#   http://www.researchgate.net/publication/228455291, [Updated 19-09-2007].
 #
 # Optimal solution:
-#   F* = -0.8, f* = 0.0 at (x*,y*) = (0.0,-0.8)
+#   F* = -0.8, f* = 0.0 at (x*,y*) = (0.0, -0.8)
+#
+# --------------------------------- Properties ---------------------------------
+#                        Outer      Inner
 # ------------------------------------------------------------------------------
-set I:= 1..2;
+# Number of variables:   1          1
+# Number of constraints: 0          0
+# ==============================================================================
+var x >= -1, <= 1;         # Outer variables
+var y >= -0.8, <= 1;       # Inner variables
+var l{1..2} >= 0, <= 100;  # KKT Multipliers
 
-# OUTER VARIABLES
-var x >= -1, <= 1,
-  suffix cat 1;
+minimize outer_obj: y;     # Outer objective
 
-# INNER VARIABLES
-var y >= -0.8, <= 1,
-  suffix cat 2;
-
-# KKT MULTIPLIERS
-var mu {i in I} >= 0, <= 100,
-  suffix cat 3;
-
-# OUTER OBJECTIVE
-minimize outer_obj: y,
-  suffix cat 1;
-
-# INNER OBJECTIVE AS CONSTRAINT: <= 0
-subject to inner_obj: x*(16*y^4 + 2*y^3 - 8*y^2 - 1.5*y + 0.5) <= 0,
-  suffix cat 2;
-
-# STATIONARITY AND COMPLEMENTARITY CONDITIONS
-subject to stationarity: x*(64*y^3 + 6*y^2 - 16*y - 1.5) - mu[1] + mu[2] = 0,
-  suffix cat 3;
-
-subject to complementarity_1: mu[1]*(-0.8 - y) = 0,
-  suffix cat 3;
-
-subject to complementarity_2: mu[2]*(y - 1) = 0,
-  suffix cat 3;
-
-
-
-
-
-
-
-
-
-
+subject to
+# Inner objective:
+    inner_obj: x*(16*y^4 + 2*y^3 - 8*y^2 - 1.5*y + 0.5) = 0;
+# KKT conditions:
+    stationarity:      x*(64*y^3 + 6*y^2 - 16*y - 1.5) - l[1] + l[2] = 0;
+    complementarity_1: l[1]*(-0.8 - y) = 0;
+    complementarity_2: l[2]*(y - 1) = 0;
