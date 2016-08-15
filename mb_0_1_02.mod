@@ -17,8 +17,8 @@
 # Number of variables:   0          1
 # Number of constraints: 1          0
 # ==============================================================================
-var y >= -1, <= 1;        # Inner variable(s)
-var l{1..2} >= 0, <= 2;   # Multiplier(s)
+var y >= -1, <= 1;        # Inner variable
+var l{1..2} >= 0, <= 2;   # Multipliers
 
 minimize outer_obj: y;    # Outer objective
 
