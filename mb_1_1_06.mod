@@ -1,54 +1,32 @@
-# ------------------------------------------------------------------------------
-# Name
-#   Example 3.13                                                     (mb_1_1_06)
+# ==============================================================================
+# AMPL coding by Remigijus Paulavicius
+# Name:
+#   mb_1_1_06.mod
+#
 # Source:
-#   Mitsos, A., & Barton, P.I. (2007). A Test Set for Bilevel Programs.
-#   Technical Report. Massachusetts Institute of Technology
+#   Example 3.13 from
+#   A. Mitsos and P. I. Barton, (2006) A Test Set for Bilevel Programs,
+#   http://www.researchgate.net/publication/228455291, [Updated 19-09-2007].
 #
 # Optimal solution:
 #   F* = -1.0, f* = 0.0 at (x*,y*) = (0,1)
+#
+# --------------------------------- Properties ---------------------------------
+#                        Outer      Inner
 # ------------------------------------------------------------------------------
+# Number of variables:   1          1
+# Number of constraints: 0          0
+# ==============================================================================
+var x >= -1, <= 1;       # Outer variables
+var y >= -1, <= 1;       # Inner variables
+var l{1..2} >= 0, <= 2;  # KKT Multipliers
 
-# OUTER VARIABLES
-var x >= -1, <= 1,
-  suffix cat 1;
+minimize outer_obj: x - y;
 
-# INNER VARIABLES
-var y >= -1, <= 1,
-  suffix cat 2;
-
-# KKT MULTIPLIERS
-var mu1 >= 0, <= 2,
-  suffix cat 3;
-
-var mu2 >= 0, <= 2,
-  suffix cat 3;
-
-# OUTER OBJECTIVE
-minimize outer_obj: x - y,
-  suffix cat 1;
-
-# INNER OBJECTIVE (PART OF CONSTRAINTS)
-subject to inner_obj: 0.5*x*y^2 - y*x^3 <= 0,
-  suffix cat 2;
-
-# STATIONARITY AND COMPLEMENTARITY CONDITIONS
-subject to stationarity: x*y - x^3 - mu1 + mu2 = 0,
-  suffix cat 3;
-
-subject to complementarity_1: mu1*(-1 - y) = 0,
-  suffix cat 3;
-
-subject to complementarity_2: mu2*(y - 1) = 0,
-  suffix cat 3;
-
-
-
-
-
-
-
-
-
-
-
+subject to
+# Inner objective:
+    inner_obj: 0.5*x*y^2 - y*x^3 = 0;
+# KKT conditions:
+    stationarity:      x*y - x^3 - l[1] + l[2] = 0;
+    complementarity_1: l[1]*(-1 - y) = 0;
+    complementarity_2: l[2]*(y - 1) = 0;
