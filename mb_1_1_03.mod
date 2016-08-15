@@ -9,7 +9,7 @@
 #   http://www.researchgate.net/publication/228455291, [Updated 19-09-2007].
 #
 # Optimal solution:
-#   F* = 0.5, f* = -0.1 at (x*,y*) = (x*,y*) = ([0.1, 1.0], 0.5)
+#   F* = 0.5, f* = -0.1 at (x*,y*) = ([0.1, 1.0], 0.5)
 #
 # --------------------------------- Properties ---------------------------------
 #                        Outer      Inner
