@@ -21,7 +21,7 @@ var x >= -1, <= 1;          # Outer variables
 var y >= -1, <= 1;          # Inner variables
 var l{1..2} >= 0, <= 5;     # KKT Multipliers
 
-minimize outer_obj: (x-x)^2 + y^2;    # Outer objective
+minimize outer_obj: y^2;    # Outer objective
 
 subject to
 # Outer constraints:
