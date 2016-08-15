@@ -26,6 +26,6 @@ subject to
 # Inner objective:
     inner_obj: -y^2 = 0;
 # KKT conditions:
-    stationarity: -2*y - l[1] + l[2] = 0;
+    stationarity:      -2*y - l[1] + l[2] = 0;
     complementarity_1: l[1]*(-0.5 - y) = 0;
     complementarity_2: l[2]*(y - 1) = 0;
