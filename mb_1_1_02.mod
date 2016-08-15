@@ -27,7 +27,7 @@ subject to
 # Outer constraints:
     outer_con: -x + y <= 0;
 # Inner objective:
-    inner_obj: (x-x)^3 + y^3 = 0;  # Added trick (x-x)^3 to avoid AMPL variables reordering
+    inner_obj: (x-x)^3 + y^3 = 0;  # Added (x-x)^3 to avoid AMPL var. reordering
 # KKT conditions:
     stationarity:      3*y^2 - l[1] + l[2] = 0;
     complementarity_1: l[1]*(-1 - y) = 0;
