@@ -1,7 +1,20 @@
 # A Library of Nonconvex Bilevel Test Problems 
 
-This repository provides:
-* Description of all bilevel problems in `AMPL` format, compatible with the [`BASBL`](http://basblsolver.github.io/home/) solver.
+While the literature on the application of bilevel programming problems is extensive and diverse, there have been limited efforts in establishing a systematic test library for the evaluation of the bilevel algorithms and their implementations. Thus, the goal of this section is to present an actively growing collection of bilevel test problems gathered from the various sources devoted to the bilevel programming.
+
+## Classification of the BPP problems
+
+Since bilevel programming involves two optimization problems (the outer and the inner) the proposed classification
+is based on the nature of these problems. At the moment, in our classification we
+distinguish the following classes (types) of bilevel programming problems:
+ - **linear outer-linear inner** bilevel optimization problems (LP-LP)
+ - **linear outer-quadratic inner** bilevel optimization problems (LP-QP)
+ - **quadratic outer-quadratic inner** bilevel optimization problems (QP-QP)
+ - **linear outer-nonlinear inner** bilevel optimization problems (LP-NLP)
+ - **nonlinear outer-nonlinear inner** bilevel optimization problems (NLP-NLP)
+
+This library (repository) provides:
+* Description of bilevel problems in `AMPL` format, compatible with the [`BASBL`](http://basblsolver.github.io/home/) solver.
 
 For more details on these problems see [wiki-page](https://github.com/basblsolver/test-problems/wiki).
 
@@ -22,16 +35,6 @@ If you use this library, please cite the following sources:
   year         = 2016,
   doi          = {10.5281/zenodo.44997},
   url          = {http://dx.doi.org/10.5281/zenodo.44997}
-}
-```
-* Mitsos, A. and Barton, P.I. [A Test Set for Bilevel Programs](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs) _Tech. Report_, Massachusetts Institute of Technology, 2007.
-
-```
-@misc{mitsos2007test,
-  title     = {A test set for bilevel programs},
-  author    = {Mitsos, Alexander and Barton, Paul I},
-  year      = {2007},
-  publisher = {Technical report, Massachusetts Institute of Technology}
 }
 ```
 
