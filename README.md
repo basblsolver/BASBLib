@@ -7,7 +7,7 @@ While the literature on the application of bilevel programming problems is exten
 Since bilevel programming involves two optimization problems (the outer and the inner) the proposed classification
 is based on the nature of these problems. At the moment, in our classification we
 distinguish the following classes (types) of bilevel programming problems:
- - **linear outer-linear inner** bilevel optimization problems (LP-LP)
+ - **linear outer-linear inner** bilevel optimization problems ([LP-LP](https://github.com/basblsolver/test-problems/tree/master/LP-LP))
  - **linear outer-quadratic inner** bilevel optimization problems (LP-QP)
  - **quadratic outer-quadratic inner** bilevel optimization problems (QP-QP)
  - **linear outer-nonlinear inner** bilevel optimization problems (LP-NLP)
