@@ -40,8 +40,7 @@ If you use this library, please cite the following sources:
 
 ### Important Notice
 
-Kindly note, that this is a growing collection of nonconvex bilevel problems meant as a resource
-for researchers in the field, including problem statement, analysis, solution(s) and input file(s). 
+Kindly note, that this is a growing collection of bilevel problems meant as a resource for researchers in the field, including problem statement, analysis, solution(s) and input file(s). 
 __We welcome contributions and corrections to this resource!__ 
 
 
