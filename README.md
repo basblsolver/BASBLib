@@ -1,6 +1,6 @@
 # A Library of Bilevel Test Problems 
 
-While the literature on the application of bilevel programming problems is extensive and diverse, there have been limited efforts in establishing a systematic test library for the evaluation of the bilevel algorithms and their implementations. Thus, the goal of this library is to present an actively growing collection of bilevel test problems gathered from the various sources devoted to the bilevel programming.
+While the literature on the application of Bilevel Programming Problems (BPP) is extensive and diverse, there have been limited efforts in establishing a systematic test library for the evaluation of the bilevel algorithms and their implementations. Thus, the goal of this library is to present an actively growing collection of bilevel test problems gathered from the various sources devoted to the bilevel programming.
 
 ## Classification of the BPP problems
 
