@@ -12,7 +12,7 @@ Since bilevel programming involves two optimization problems (the outer and the 
  - **nonlinear outer-nonlinear inner** bilevel optimization problems ([NLP-NLP](https://github.com/basblsolver/test-problems/tree/master/NLP-NLP))
 
 This library (repository) provides:
-* Description of bilevel problems in `AMPL` format, compatible with the [`BASBL`](http://basblsolver.github.io/home/) solver.
+* Description of bilevel problems in `AMPL` format, compatible with our [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
 
 For more details on these problems see [wiki-page](https://github.com/basblsolver/test-problems/wiki).
 
