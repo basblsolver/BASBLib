@@ -14,7 +14,9 @@ Since bilevel programming involves two optimization problems (the outer and the 
 This library (repository) provides:
 * Description of bilevel problems in `AMPL` format, compatible with our [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
 
-For more details on these problems see [wiki-page](https://github.com/basblsolver/test-problems/wiki).
+For more details on these problems see [wiki-page](https://github.com/basblsolver/test-problems/wiki):
+
+- [Linear-Linear bilevel problems](https://github.com/basblsolver/test-problems/wiki/Linear-Linear-bilevel-problems)
 
 ### Citation
 
