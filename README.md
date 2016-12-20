@@ -16,7 +16,8 @@ This library (repository) provides:
 
 For more details on these problems see [wiki-page](https://github.com/basblsolver/test-problems/wiki):
 
-- [Summary of Linear-Linear bilevel problems](https://github.com/basblsolver/test-problems/wiki/Linear-Linear-bilevel-problems)
+- [Summary of Linear-Linear bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-LP-problems)
+- [Summary of Linear-Quadratic bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-QP-problems)
 
 ### Citation
 
