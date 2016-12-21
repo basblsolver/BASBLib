@@ -19,6 +19,8 @@ For more details on these problems see [wiki-page](https://github.com/basblsolve
 - [Linear-Linear bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-LP-problems)
 - [Linear-Quadratic bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-QP-problems)
 - [Linear-NonLinear bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-NLP-problems)
+- [Quadratic-Quadratic bilevel problems](https://github.com/basblsolver/test-problems/wiki/QP-QP-problems)
+- [NonLinear-NonLinear bilevel problems](https://github.com/basblsolver/test-problems/wiki/NLP-NLP-problems)
 
 ### Citation
 
