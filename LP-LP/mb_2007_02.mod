@@ -3,10 +3,10 @@
 # Name:
 #   mb_2007_02.mod
 #
-# Source:
-#   Example 3.2 (mb_0_0_02) from
-#   A. Mitsos and P. I. Barton, (2007) A Test Set for Bilevel Programs,
-#   http://www.researchgate.net/publication/228455291, [Updated 19-09-2007].
+# Original source:
+#  - Example 3.2 (mb_0_1_02) in:
+#    A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007.
+#    (Last updated September 19, 2007)
 #
 # Optimal solution:
 #   Infeasible problem
@@ -15,7 +15,12 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   0       1       1       0       0       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    https://github.com/basblsolver/test-problems/wiki/mb_2007_02
 # ==============================================================================
+
 var y >= -1, <= 1;        # Inner variable(s)
 var l{1..2} >= 0, <= 2;   # Multiplier(s)
 
