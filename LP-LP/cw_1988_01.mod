@@ -3,7 +3,7 @@
 # Name:
 #   cw_1988_01.mod
 #
-# Source:
+# Original source:
 #   Clark, P. A., & Westerberg, A. W. (1988).
 #   A note on the optimality conditions for the bilevel programming problem.
 #   Naval Research Logistics (NRL), 35(5), 413-418.
@@ -17,7 +17,12 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       3       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    https://github.com/basblsolver/test-problems/wiki/cw_1988_01
 # ==============================================================================
+
 var x >= 0, <= 100;         # Outer variable
 var y >= 0, <= 100;         # Inner variable
 var l{1..5} >= 0, <= 10;    # KKT Multipliers
