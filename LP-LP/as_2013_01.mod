@@ -3,10 +3,10 @@
 # Name:
 #   as_2013_01.mod
 #
-# Source: Example 3.1 from:
-#  Allende, G. B., & Still, G. (2013).
-#  Solving bilevel programs with the KKT-approach.
-#  Mathematical programming, 138(1-2), 309-332.
+# Original source:
+#  - Example 3.1 in:
+#    Allende, G. B., & Still, G. (2013). Solving bilevel programs with
+#    the KKT-approach. Mathematical programming, 138(1-2), 309-332.
 #
 # Optimal solution:
 #   F* = 0.000
@@ -18,7 +18,12 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       2       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    https://github.com/basblsolver/test-problems/wiki/as_2013_01
 # ==============================================================================
+
 var x >= -10, <= 10;        # Outer variable
 var y >= -10, <= 10;        # Inner variable
 var l{1..4} >= 0, <= 10;    # KKT Multipliers
