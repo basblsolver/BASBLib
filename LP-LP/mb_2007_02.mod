@@ -21,8 +21,8 @@
 #    https://github.com/basblsolver/test-problems/wiki/mb_2007_02
 # ==============================================================================
 
-var y >= -1, <= 1;        # Inner variable(s)
-var l{1..2} >= 0, <= 2;   # Multiplier(s)
+var y >= -1, <= 1;        # Inner variable
+var l{1..2} >= 0, <= 2;   # KKT Multipliers
 
 minimize outer_obj: y;    # Outer objective
 
