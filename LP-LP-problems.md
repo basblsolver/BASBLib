@@ -19,29 +19,29 @@
 | [ct_1982_01](ct_1982_01)     | [(Candler & Townsley, 1982)][Candler & Townsley, 1982]      |  2    |   6   | 0        |   0    |    0   |   3    |  -29.200  | 3.200   | (0.000, 0.900)    | (0.0, 0.6, 0.4, 0.0, 0.0, 0.0)   |
 
 ###  References
- - [**Allende & Still, 2013**]: [G. B. Allende and G. Still, Solving bilevel programs with the KKT-approach, *Mathematical programming*, 138 (2013), pp. 309–332](https://doi.org/10.1007/s10107-012-0535-x)
+ - [G. B. Allende and G. Still, Solving bilevel programs with the KKT-approach, *Mathematical programming*, 138 (2013), pp. 309–332](https://doi.org/10.1007/s10107-012-0535-x)
 
- - [**Anandalingam & White, 1990**]: [G. Anandalingam and D. White, A solution method for the linear static stackelberg problem using penalty functions, *IEEE Transactions on Automatic Control*, 35 (1990), pp. 1170– 1173](https://doi.org/10.1109/9.58565)
+ - [G. Anandalingam and D. White, A solution method for the linear static stackelberg problem using penalty functions, *IEEE Transactions on Automatic Control*, 35 (1990), pp. 1170– 1173](https://doi.org/10.1109/9.58565)
 
- - [**Bard, 1991**]: [J. F. Bard, Some properties of the bilevel programming problem, *Journal of optimization theory and applications*, 68 (1991), pp. 371–378](https://doi.org/10.1007/BF00941574)
+ - [J. F. Bard, Some properties of the bilevel programming problem, *Journal of optimization theory and applications*, 68 (1991), pp. 371–378](https://doi.org/10.1007/BF00941574)
 
- - [**Bard & Falk, 1982**]: [J. F. Bard and J. E. Falk, An explicit solution to the multi-level programming problem, Computers & Operations Research, 9 (1982), pp. 77–100](https://doi.org/10.1016/0305-0548(82)90007-7)
+ - [J. F. Bard and J. E. Falk, An explicit solution to the multi-level programming problem, Computers & Operations Research, 9 (1982), pp. 77–100](https://doi.org/10.1016/0305-0548(82)90007-7)
 
- - [**Candler & Townsley, 1982**]: [W. Candler and R. Townsley, A linear two-level programming problem, Computers & Operations Research, 9 (1982), pp. 59–76](https://doi.org/10.1016/0305-0548(82)90006-5)
+ - [W. Candler and R. Townsley, A linear two-level programming problem, Computers & Operations Research, 9 (1982), pp. 59–76](https://doi.org/10.1016/0305-0548(82)90006-5)
 
- - [**Clark & Westerberg, 1988**]: [P. Clark and A. Westerberg, A note on the optimality conditions for the bilevel programming problem, Naval Research Logistics (NRL), 35 (1988), pp. 413–418](https://doi.org/10.1002/1520-6750(198810)35:5<413::AID-NAV3220350505>3.0.CO;2-6)
+ - [P. Clark and A. Westerberg, A note on the optimality conditions for the bilevel programming problem, Naval Research Logistics (NRL), 35 (1988), pp. 413–418](https://doi.org/10.1002/1520-6750(198810)35:5<413::AID-NAV3220350505>3.0.CO;2-6)
 
- - [**Clark & Westerberg, 1990**]: [P. A. Clark and A. W. Westerberg, Bilevel programming for steady-state chemical process design-I. fundamentals and algorithms, Computers & Chemical Engineering, 14 (1990), pp. 87–97](https://doi.org/10.1016/0098-1354(90)87007-C)
+ - [P. A. Clark and A. W. Westerberg, Bilevel programming for steady-state chemical process design-I. fundamentals and algorithms, Computers & Chemical Engineering, 14 (1990), pp. 87–97](https://doi.org/10.1016/0098-1354(90)87007-C)
 
- - [**Liu & Hart, 1994**]: [Y.-H. Liu and S. M. Hart, Characterizing an optimal solution to the linear bilevel programming problem, European Journal of Operational Research, 73 (1994), pp. 164–166](https://doi.org/10.1016/0377-2217(94)90155-4)
+ - [Y.-H. Liu and S. M. Hart, Characterizing an optimal solution to the linear bilevel programming problem, European Journal of Operational Research, 73 (1994), pp. 164–166](https://doi.org/10.1016/0377-2217(94)90155-4)
 
- - [**Mitsos & Barton, 2007**]: [A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007. Last updated September 19, 2007](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs)
+ - [A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007. Last updated September 19, 2007](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs)
 
- - [**Savard, 1989**]: [G. Savard, Contribution à la programmation mathématique à deux niveaux, phd thesis, Ecole Polytechnique de Montréal, Université de Montréal, 1989](https://books.google.co.uk/books/about/Contribution_%C3%A0_la_programmation_math%C3%A9m.html?id=zz0VNAEACAAJ&redir_esc=y)
+ - [G. Savard, Contribution à la programmation mathématique à deux niveaux, phd thesis, Ecole Polytechnique de Montréal, Université de Montréal, 1989](https://books.google.co.uk/books/about/Contribution_%C3%A0_la_programmation_math%C3%A9m.html?id=zz0VNAEACAAJ&redir_esc=y)
 
- - [**Shimizu et al., 1997**]: [K. Shimizu, Y. Ishizuka, and J. F. Bard, Nondifferentiable and Two-Level Mathematical Programming, vol. 102, Kluwer Academic Publishers, Boston, 1997](https://doi.org/10.1016/S0377-2217(97)00228-2)
+ - [K. Shimizu, Y. Ishizuka, and J. F. Bard, Nondifferentiable and Two-Level Mathematical Programming, vol. 102, Kluwer Academic Publishers, Boston, 1997](https://doi.org/10.1016/S0377-2217(97)00228-2)
 
- - [**Visweswaran et al., 1996**]: [V. Visweswaran, C. Floudas, M. Ierapetritou, and E. Pistikopoulos, A decomposition-based global optimization approach for solving bilevel linear and quadratic programs, in State of the art in global optimization, Springer, 1996, pp. 139–162](https://doi.org/10.1007/978-1- 4613-3437-8_10)
+ - [V. Visweswaran, C. Floudas, M. Ierapetritou, and E. Pistikopoulos, A decomposition-based global optimization approach for solving bilevel linear and quadratic programs, in State of the art in global optimization, Springer, 1996, pp. 139–162](https://doi.org/10.1007/978-1- 4613-3437-8_10)
 
 
 
