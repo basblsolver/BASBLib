@@ -21,7 +21,7 @@ For more details on these problems see [wiki-page](https://github.com/basblsolve
 - [Quadratic-Quadratic bilevel problems](https://github.com/basblsolver/test-problems/wiki/QP-QP-problems)
 - [NonLinear-NonLinear bilevel problems](https://github.com/basblsolver/test-problems/wiki/NLP-NLP-problems)
 
-### Citation
+## Citation
 
 If you use this library, please cite the following sources:
 
