@@ -4,7 +4,7 @@ While the literature on the application of Bilevel Programming Problems (BPP) is
 
 ## Linear-Linear bilevel problems
 
-[[LP-LP-problems]]
+[Linear-Linear bilevel problems](LP-LP-problems.md)
 
 ## Classification of the BPP problems
 
