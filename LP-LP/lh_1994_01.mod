@@ -3,7 +3,7 @@
 # Name:
 #   lh_1994_01.mod
 #
-# Source:
+# Original source:
 #   From Liu, Y. H., & Hart, S. M. (1994). Characterizing an optimal solution
 #   to the linear bilevel programming problem.
 #   European Journal of Operational Research, 73(1), 164-166.
@@ -18,7 +18,12 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       3       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    https://github.com/basblsolver/test-problems/wiki/lh_1994_01
 # ==============================================================================
+
 var x >= 0, <= 10;          # Outer variable
 var y >= 0, <= 10;          # Inner variable
 var l{1..5} >= 0, <= 10;    # KKT Multipliers
