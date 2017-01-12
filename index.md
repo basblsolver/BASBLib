@@ -1,4 +1,4 @@
-# A Library of Bilevel Test Problems 
+# A Library of Bilevel Test Problems
 
 While the literature on the application of Bilevel Programming Problems (BPP) is extensive and diverse, there have been limited efforts in establishing a systematic test library for the evaluation of the bilevel algorithms and their implementations. Thus, the goal of this library is to present an actively growing collection of bilevel test problems gathered from the various sources devoted to the bilevel programming.
 
@@ -26,17 +26,14 @@ For more details on these problems see [wiki-page](https://github.com/basblsolve
 
 ### Citation
 
-If you use this library, please cite the following sources: 
+If you use this library, please cite the following sources:
 
 * Remigijus Paulavicius et al.. (2016). A library of nonconvex bilevel test problems with the corresponding AMPL input files. Zenodo. [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.44997.svg)](http://dx.doi.org/10.5281/zenodo.44997)
 
 ```
 @misc{remigijus_paulavicius_2016_44997,
-  author       = {Remigijus Paulavicius and
-                  Polyxeni-M. Kleniati and
-                  Claire S. Adjiman},
-  title        = {{A library of nonconvex bilevel test problems with 
-                   the corresponding AMPL input files}},
+  author       = {Remigijus Paulavicius and Polyxeni-M. Kleniati and Claire S. Adjiman},
+  title        = {{A library of nonconvex bilevel test problems with the corresponding AMPL input files}},
   month        = jan,
   year         = 2016,
   doi          = {10.5281/zenodo.44997},
@@ -46,8 +43,8 @@ If you use this library, please cite the following sources:
 
 ### Important Notice
 
-Kindly note, that this is a growing collection of bilevel problems meant as a resource for researchers in the field, including problem statement, analysis, solution(s) and input file(s). 
-__We welcome contributions and corrections to this resource!__ 
+Kindly note, that this is a growing collection of bilevel problems meant as a resource for researchers in the field, including problem statement, analysis, solution(s) and input file(s).
+__We welcome contributions and corrections to this resource!__
 
 
 
