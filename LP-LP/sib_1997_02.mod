@@ -1,11 +1,12 @@
 # ==============================================================================
 # AMPL coding by Remigijus Paulavicius
 # Name:
-#   b_1998_01.mod
+#   sib_1997_02.mod
 #
-# Source: Example 5.1.1 from Bard, J. F. (1998).
-#  Practical bilevel optimization: algorithms and applications.
-#  Kluwer Academic Publishers, Dordrecht
+# Original source:
+# - Example 16.1.1 in:
+#   K. Shimizu, Y. Ishizuka, and J. F. Bard, Nondifferentiable and Two-Level
+#   Mathematical Programming, vol. 102, Kluwer Academic Publishers, Boston, 1997
 #
 # Optimal solution:
 #   F* = -12.0
@@ -15,11 +16,16 @@
 #
 # NOTE: Fixed the last constraint (wrong inequality direction)
 #
-## ---------------------------- Problem Properties ------------------------------
+# ---------------------------- Problem Properties ------------------------------
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       4       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    https://github.com/basblsolver/test-problems/wiki/sib_1997_02
 # ==============================================================================
+
 var x >= 0, <= 10;         # Outer variable
 var y >= 0, <= 10;         # Inner variable
 var l{1..6} >= 0, <= 10;   # KKT Multipliers

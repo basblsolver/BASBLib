@@ -4,7 +4,7 @@
 #   lh_1994_01.mod
 #
 # Original source:
-#   From Liu, Y. H., & Hart, S. M. (1994). Characterizing an optimal solution
+# - Liu, Y. H., & Hart, S. M. (1994). Characterizing an optimal solution
 #   to the linear bilevel programming problem.
 #   European Journal of Operational Research, 73(1), 164-166.
 #
