@@ -33,7 +33,7 @@ If you use this library, please cite the following sources:
 ```
 @misc{remigijus_paulavicius_2016_44997,
   author       = {Remigijus Paulavicius and Polyxeni-M. Kleniati and Claire S. Adjiman},
-  title        = {{A library of nonconvex bilevel test problems with the corresponding AMPL input files}},
+  title        = {A library of nonconvex bilevel test problems with the corresponding AMPL input files},
   month        = jan,
   year         = 2016,
   doi          = {10.5281/zenodo.44997},
