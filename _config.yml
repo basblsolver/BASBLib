@@ -2,7 +2,7 @@ title: Test-problems
 description: Branch-And-Sandwich BiLevel (BASBL)
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-minimal
+theme: jekyll-theme-leap-day
 
 gems:
   - jekyll-mentions
