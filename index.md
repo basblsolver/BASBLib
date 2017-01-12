@@ -2,12 +2,12 @@
 
 While the literature on the application of Bilevel Programming Problems (BPP) is extensive and diverse, there have been limited efforts in establishing a systematic test library for the evaluation of the bilevel algorithms and their implementations. Thus, the goal of this library is to present an actively growing collection of bilevel test problems gathered from the various sources devoted to the bilevel programming.
 
-## [Linear-Linear bilevel problems](LP-LP-problems)
-
 ## Classification of the BPP problems
 
 Since bilevel programming involves two optimization problems (the outer and the inner) our classification is based on the nature of these problems. At the moment, in our classification we distinguish the following classes (types) of bilevel programming problems:
- - **linear outer-linear inner** bilevel optimization problems ([LP-LP](https://github.com/basblsolver/test-problems/tree/master/LP-LP))
+
+### [Linear outer-Linear inner bilevel optimization problems](LP-LP-problems)
+
  - **linear outer-quadratic inner** bilevel optimization problems ([LP-QP](https://github.com/basblsolver/test-problems/tree/master/LP-QP))
  - **quadratic outer-quadratic inner** bilevel optimization problems ([QP-QP](https://github.com/basblsolver/test-problems/tree/master/QP-QP))
  - **linear outer-nonlinear inner** bilevel optimization problems ([LP-NLP](https://github.com/basblsolver/test-problems/tree/master/LP-NLP))
