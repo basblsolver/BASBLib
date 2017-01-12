@@ -23,8 +23,8 @@
 #    https://github.com/basblsolver/test-problems/wiki/cw_1988_01
 # ==============================================================================
 
-var x >= 0, <= 100;         # Outer variable
-var y >= 0, <= 100;         # Inner variable
+var x >= 0, <= 30;         # Outer variable
+var y >= 0, <= 30;         # Inner variable
 var l{1..5} >= 0, <= 10;    # KKT Multipliers
 
 minimize outer_obj: x - 4*y;  # Outer objective
@@ -42,4 +42,4 @@ subject to
     complementarity_2: l[2]*(2*x + 5*y - 108) = 0;
     complementarity_3: l[3]*(2*x - 3*y + 4) = 0;
     complementarity_4: l[4]*y = 0;
-    complementarity_5: l[5]*(y - 50) = 0;
+    complementarity_5: l[5]*(y - 30) = 0;
