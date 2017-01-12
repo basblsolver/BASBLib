@@ -2,7 +2,7 @@ Description of the **linear-linear** type bilevel test problems: data and refere
 
 | Label                        | Source                                                      |  _n_  |  _m_  |   _F*_    |   _f*_  |       __x*__      |               __y*__             |
 | :--------------------------: |:-----------------------------------------------------------:|:-----:|:-----:|:---------:|:-------:|:-----------------:|:--------------------------------:|
-| [mb_2007_01](mb_2007_01)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  0    |   1   |  1.000    | -1.000  | -                 | 1.000                            |
+| [mb_2007_01](LP-LP/mb_2007_01)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  0    |   1   |  1.000    | -1.000  | -                 | 1.000                            |
 | [mb_2007_02](mb_2007_02)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  0    |   1   |  Infeas.  | Infeas. | -                 | -                                |
 | [as_2013_01](as_2013_01)     | [(Allende & Still, 2013)][Allende & Still, 2013]            |  1    |   1   |  0.000    | 0.000   | 0.000             | 0.000                            |
 | [cw_1988_01](cw_1988_01)     | [(Clark & Westerberg, 1988)][Clark & Westerberg, 1988]      |  1    |   1   |  -37.000  | 14.000  | 19.000            | 14.000                           |
