@@ -1,4 +1,4 @@
-## Description of the **linear-linear** type bilevel test problems: data and references
+Description of the **linear-linear** type bilevel test problems: data and references
 
 | Label                        | Source                                                      |  _n_  |  _m_  |   _F*_    |   _f*_  |       __x*__      |               __y*__             |
 | :--------------------------: |:-----------------------------------------------------------:|:-----:|:-----:|:---------:|:-------:|:-----------------:|:--------------------------------:|
@@ -44,7 +44,7 @@
 
  - [V. Visweswaran, C. Floudas, M. Ierapetritou, and E. Pistikopoulos, A decomposition-based global optimization approach for solving bilevel linear and quadratic programs, in State of the art in global optimization, Springer, 1996, pp. 139–162](https://doi.org/10.1007/978-1- 4613-3437-8_10)
 
-
+[back](index)
 
 [Allende & Still, 2013]: https://doi.org/10.1007/s10107-012-0535-x
 [Anandalingam & White, 1990]: https://doi.org/10.1109/9.58565
