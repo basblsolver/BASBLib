@@ -1,18 +1,11 @@
 # ==============================================================================
 # AMPL coding by Remigijus Paulavicius
 # Name:
-#   vfip_1996_3.mod
+#   b_1988_01.mod
 #
-# Source(s):
-#  Visweswaran V., Floudas C.A., Ierapetritou M.G., and Pistikopoulos E.N.,
-#  1996, A decomposition-based global optimization approach for solving bi-
-#  level linear and quadratic programs. In Floudas C.A. and Pardalos P.M.
-#  (eds.), State oi the Art in Global Optimization, Nonconvex Optimizatiün
-#  and its Applications, (p. 139), Kluwer Academic Publishers.
-#
-#  Originally from (Shimizu and Aiyoshi, 1981)
-#
-#  Also Example 7.1.1 in (Bard, 1998)
+# Original source:
+# - Example 1 in Bard, J. F. (1988). Convex two-level optimization.
+#   Mathematical Programming, 40(1-3), 15-27.
 #
 # Optimal solution:
 #   F* = 17.0
@@ -24,7 +17,12 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       3       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    https://github.com/basblsolver/test-problems/wiki/b_1988_01
 # ==============================================================================
+
 var x >= 0, <= 10;         # Outer variable
 var y >= 0, <= 10;         # Inner variable
 var l{1..5} >= 0, <= 10;   # KKT Multipliers
