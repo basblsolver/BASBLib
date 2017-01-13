@@ -1,6 +1,18 @@
 # Motivation of the library
 
-While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse, there have been limited efforts in establishing a systematic test library for the evaluation of the bilevel algorithms and their implementations. Thus, the goal of this library is to present an actively growing collection of bilevel test problems gathered from the various sources devoted to the bilevel programming.
+While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse, there have been limited efforts in establishing a systematic test library for the evaluation of the bilevel algorithms and their implementations.
+Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from the various sources devoted to the bilevel programming.
+
+Briefly, this library provides:
+
+ - Problem statement
+ - Geometrical analysis for many of these problems
+ - The best know solutions and comments about literature inaccuracies
+ - Sources where each of these problems was used
+ - [AMPL input files](https://github.com/basblsolver/test-problems) in the format, compatible with [`BASBL solver`](http://basblsolver.github.io/home/ "Bilevel Solver").
+ - Finally, convenient way to use it and contribute to it.
+
+__We welcome contributions and corrections to this resource!__
 
 # Classification of the BPP problems
 
@@ -26,9 +38,6 @@ Select problem for more information
 
 ## [Nonlinear-Nonlinear](NLP-NLP-problems) problems (NLP-NLP)
 
-This library (repository) provides:
-* Description of bilevel problems in `AMPL` format, compatible with our [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
-
 ## Citation
 
 If you use this library, please cite the following sources:
@@ -45,10 +54,6 @@ If you use this library, please cite the following sources:
   url          = {http://dx.doi.org/10.5281/zenodo.44997}
 }
 ```
-
-### Important Notice
-
-Kindly note, that this is a growing collection of bilevel problems meant as a resource for researchers in the field, including problem statement, analysis, solution(s) and input file(s).__We welcome contributions and corrections to this resource!__
 
 
 
