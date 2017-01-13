@@ -32,6 +32,8 @@ Select problem for more information
 
 ## [Linear-Quadratic](LP-QP-problems) problems (LP-QP)
 
+Select problem for more information
+
 | 1-5 instances                  | 6-10 instances                     |
 | :---------------------------   | :--------------------------------- |
 [mb_2006_01](LP-QP/mb_2006_01)   | [as_1984_01](LP-QP/as_1984_01)     |
@@ -40,11 +42,41 @@ Select problem for more information
 [b_1991_02](LP-QP/b_1991_02)     |                                    |
 [nwj_2016_01](LP-QP/nwj_2016_01) |                                    |
 
-## [Quadratic-Quadratic](QP-QP-problems) problems (QP-QP)
-
 ## [Linear-Nonlinear](LP-NLP-problems) problems (LP-NLP)
 
+Select problem for more information
+
+| 1-5 instances                 | 6-10 instances                     | 11-15 instances                  |
+| :---------------------------- | :--------------------------------- | :------------------------------- |
+[mb_2007_05](LP-NLP/mb_2007_05) | [mb_2007_15](LP-NLP/mb_2007_15)    | [gf_2001_01](LP-NLP/gf_2001_01)  |
+[mb_2007_06](LP-NLP/mb_2007_06) | [mb_2007_16](LP-NLP/mb_2007_16)    | [dd_2012_02](LP-NLP/dd_2012_02)  |
+[mb_2007_10](LP-NLP/mb_2007_10) | [ka_2014_01](LP-NLP/ka_2014_01)    | [cg_1999_01](LP-NLP/cg_1999_01)  |
+[mb_2007_11](LP-NLP/mb_2007_11) | [mb_2007_09](LP-NLP/mb_2007_09)    |                                  |
+[mb_2007_13](LP-NLP/mb_2007_13) | [fz_1998_01](LP-NLP/fz_1998_01)    |                                  |
+
+## [Quadratic-Quadratic](QP-QP-problems) problems (QP-QP)
+
+Select problem for more information
+
+| 1-5 instances                  | 6-10 instances                     | 11-15 instances                |
+| :----------------------------- | :--------------------------------- | :----------------------------- |
+[y_1996_02](QP-QP/y_1996_02)     | [sa_1981_01](QP-QP/sa_1981_01)     | [fl_1995_01](QP-QP/fl_1995_01) |
+[d_2000_01](QP-QP/d_2000_01)     | [sib_1997_01](QP-QP/sib_1997_01)   | [sa_1981_02](QP-QP/sa_1981_02) |
+[cw_1990_02](QP-QP/cw_1990_02)   | [sc_1998_01](QP-QP/sc_1998_01)     |                                |
+[tmh_2007_01](QP-QP/tmh_2007_01) | [b_1998_02](QP-QP/b_1998_02)       |                                |
+[b_1988_01](QP-QP/b_1988_01)     | [b_1998_03](QP-QP/b_1998_03)       |                                |
+
 ## [Nonlinear-Nonlinear](NLP-NLP-problems) problems (NLP-NLP)
+
+Select problem for more information
+
+| 1-5 instances                   | 6-10 instances                     | 11-15 instances                  | 16-20 instances                  | 21-25 instances                  |
+| :------------------------------ | :--------------------------------- | :------------------------------- | :------------------------------- | :------------------------------- |
+[b_1998_04](LP-NLP/b_1998_04)     | [mb_2007_17](LP-NLP/mb_2007_17)    | [mb_2007_23](LP-NLP/mb_2007_23)  |[a_1999_01](LP-NLP/a_1999_01)     |[nwj_2016_03](LP-NLP/nwj_2016_03) |
+[b_1998_05](LP-NLP/b_1998_05)     | [mb_2007_18](LP-NLP/mb_2007_18)    | [mb_2007_22](LP-NLP/mb_2007_22)  |[mb_2007_24](LP-NLP/mb_2007_24)   |[nwj_2016_05](LP-NLP/nwj_2016_05) |
+[lmp_1987_01](LP-NLP/lmp_1987_01) | [mb_2007_19](LP-NLP/mb_2007_19)    | [dd_2012_01](LP-NLP/dd_2012_01)  |[nwj_2016_02](LP-NLP/nwj_2016_02) |[ka_2014_02](LP-NLP/ka_2014_02)   |
+[mb_2007_12](LP-NLP/mb_2007_12)   | [mb_2007_20](LP-NLP/mb_2007_20)    | [mb_2007_08](LP-NLP/mb_2007_08)  |[nwj_2016_04](LP-NLP/nwj_2016_04) |
+[mb_2007_14](LP-NLP/mb_2007_14)   | [mb_2007_21](LP-NLP/mb_2007_21)    | [b_1998_07](LP-NLP/b_1998_07)    |[nwj_2016_03](LP-NLP/nwj_2016_03) |
 
 ## Citation
 
