@@ -4,11 +4,15 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
 
 Since bilevel programming involves two optimization problems (the outer and the inner) our classification is based on the nature of these problems. At the moment, in our classification we distinguish the following classes (types) of bilevel programming problems:
 
-## [Linear outer-Linear inner](LP-LP-problems)  bilevel optimization problems (LP-LP)
-## [Linear outer-Quadratic inner](LP-QP-problems)  bilevel optimization problems (LP-QP)
-## [Quadratic outer-Quadratic inner](QP-QP-problems)  bilevel optimization problems (QP-QP)
-## [Linear outer-Nonlinear inner](LP-NLP-problems)  bilevel optimization problems (LP-NLP)
-## [Nonlinear outer-Nonlinear inner](NLP-NLP-problems)  bilevel optimization problems (NLP-NLP)
+## [Linear outer-Linear inner](LP-LP-problems)  bilevel problems (LP-LP)
+
+## [Linear outer-Quadratic inner](LP-QP-problems)  bilevel problems (LP-QP)
+
+## [Quadratic outer-Quadratic inner](QP-QP-problems)  bilevel problems (QP-QP)
+
+## [Linear outer-Nonlinear inner](LP-NLP-problems)  bilevel problems (LP-NLP)
+
+## [Nonlinear outer-Nonlinear inner](NLP-NLP-problems)  bilevel problems (NLP-NLP)
 
 This library (repository) provides:
 * Description of bilevel problems in `AMPL` format, compatible with our [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
