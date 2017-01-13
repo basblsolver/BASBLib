@@ -6,20 +6,15 @@ Since bilevel programming involves two optimization problems (the outer and the 
 
 ## [Linear outer-Linear inner](LP-LP-problems) problems (LP-LP)
 
-|       1-5        |         6-10       |            11-15    |
------------------- | ------------------ | ------------------- |
-[mb_2007_01](LP-LP/mb_2007_01) | [mb_2007_02](LP-LP/mb_2007_02) | [as_2013_01](LP-LP/as_2013_01) |
-[mb_2007_01](LP-LP/mb_2007_01) | [mb_2007_02](LP-LP/mb_2007_02) | [as_2013_01](LP-LP/as_2013_01) |
-[mb_2007_01](LP-LP/mb_2007_01) | [mb_2007_02](LP-LP/mb_2007_02) | [as_2013_01](LP-LP/as_2013_01) |
-[mb_2007_01](LP-LP/mb_2007_01) | [mb_2007_02](LP-LP/mb_2007_02) | [as_2013_01](LP-LP/as_2013_01) |
-[mb_2007_01](LP-LP/mb_2007_01) | [mb_2007_02](LP-LP/mb_2007_02) | [as_2013_01](LP-LP/as_2013_01) |
+Select problem for more information
 
- - [mb_2007_01](LP-LP/mb_2007_01)
- - [mb_2007_01](LP-LP/mb_2007_01)
- - [mb_2007_01](LP-LP/mb_2007_01)
- - [mb_2007_01](LP-LP/mb_2007_01)
- - [mb_2007_01](LP-LP/mb_2007_01)
- - [mb_2007_01](LP-LP/mb_2007_01)
+| 1-5 instances                | 6-10 instances                     | 11-14 instances                |
+| :--------------------------: | :--------------------------------: | :----------------------------: |
+[mb_2007_01](LP-LP/mb_2007_01) | [sib_1997_02](LP-LP/sib_1997_02)   | [bf_1982_02](LP-LP/bf_1982_02) |
+[mb_2007_02](LP-LP/mb_2007_02) | [vfip_1996_01](LP-LP/vfip_1996_01) | [bf_1982_01](LP-LP/bf_1982_01) |
+[as_2013_01](LP-LP/as_2013_01) | [aw_1990_01](LP-LP/aw_1990_01)     | [s_1989_01](LP-LP/s_1989_01)   |
+[cw_1988_01](LP-LP/cw_1988_01) | [b_1991_01](LP-LP/b_1991_01)       | [ct_1982_01](LP-LP/ct_1982_01) |
+[lh_1994_01](LP-LP/lh_1994_01) | [cw_1990_01](LP-LP/cw_1990_01)     |                                |
 
 ## [Linear outer-Quadratic inner](LP-QP-problems) problems (LP-QP)
 
