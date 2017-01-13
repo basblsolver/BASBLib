@@ -6,7 +6,7 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
 
 Since bilevel programming involves two optimization problems (the outer and the inner) our classification is based on the nature of these problems. At the moment, in our classification we distinguish the following classes (types) of bilevel programming problems:
 
-## [Linear outer-Linear inner](LP-LP-problems) problems (LP-LP)
+## [Linear-Linear](LP-LP-problems) problems (LP-LP)
 
 Select problem for more information
 
@@ -18,13 +18,13 @@ Select problem for more information
 [cw_1988_01](LP-LP/cw_1988_01) | [b_1991_01](LP-LP/b_1991_01)       | [ct_1982_01](LP-LP/ct_1982_01) |
 [lh_1994_01](LP-LP/lh_1994_01) | [cw_1990_01](LP-LP/cw_1990_01)     |                                |
 
-## [Linear outer-Quadratic inner](LP-QP-problems) problems (LP-QP)
+## [Linear-Quadratic](LP-QP-problems) problems (LP-QP)
 
-## [Quadratic outer-Quadratic inner](QP-QP-problems) problems (QP-QP)
+## [Quadratic-Quadratic](QP-QP-problems) problems (QP-QP)
 
-## [Linear outer-Nonlinear inner](LP-NLP-problems) problems (LP-NLP)
+## [Linear-Nonlinear](LP-NLP-problems) problems (LP-NLP)
 
-## [Nonlinear outer-Nonlinear inner](NLP-NLP-problems) problems (NLP-NLP)
+## [Nonlinear-Nonlinear](NLP-NLP-problems) problems (NLP-NLP)
 
 This library (repository) provides:
 * Description of bilevel problems in `AMPL` format, compatible with our [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
