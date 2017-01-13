@@ -9,7 +9,7 @@ Briefly, this library provides:
  - Geometrical analysis for many of these problems
  - The best know solutions and comments about literature inaccuracies
  - Sources where each of these problems was used
- - [AMPL input files](https://github.com/basblsolver/test-problems) in the format, compatible with [`BASBL solver`](http://basblsolver.github.io/home/ "Bilevel Solver").
+ - [AMPL input files](https://github.com/basblsolver/test-problems) in the format, compatible with [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
  - Finally, convenient way to use it and contribute to it.
 
 __We welcome contributions and corrections to this resource!__
@@ -22,7 +22,7 @@ Since bilevel programming involves two optimization problems (the outer and the 
 
 Select problem for more information
 
-| 1-5 instances                | 6-10 instances                     | 11-14 instances                |
+| 1-5 instances                | 6-10 instances                     | 11-15 instances                |
 | :--------------------------- | :--------------------------------- | :----------------------------- |
 [mb_2007_01](LP-LP/mb_2007_01) | [sib_1997_02](LP-LP/sib_1997_02)   | [bf_1982_02](LP-LP/bf_1982_02) |
 [mb_2007_02](LP-LP/mb_2007_02) | [vfip_1996_01](LP-LP/vfip_1996_01) | [bf_1982_01](LP-LP/bf_1982_01) |
@@ -31,6 +31,14 @@ Select problem for more information
 [lh_1994_01](LP-LP/lh_1994_01) | [cw_1990_01](LP-LP/cw_1990_01)     |                                |
 
 ## [Linear-Quadratic](LP-QP-problems) problems (LP-QP)
+
+| 1-5 instances                  | 6-10 instances                     |
+| :---------------------------   | :--------------------------------- |
+[mb_2006_01](LP-QP/mb_2006_01)   | [as_1984_01](LP-QP/as_1984_01)     |
+[mb_2007_04](LP-QP/mb_2007_04)   |                                    |
+[mb_2007_03](LP-QP/mb_2007_03)   |                                    |
+[b_1991_02](LP-QP/b_1991_02)     |                                    |
+[nwj_2016_01](LP-QP/nwj_2016_01) |                                    |
 
 ## [Quadratic-Quadratic](QP-QP-problems) problems (QP-QP)
 
