@@ -1,4 +1,4 @@
-##  Summary of Linear-Linear problems
+##  Summary
 
 Description of the [Linear-Linear](LP-LP-problems) type bilevel test problems: data and references
 
