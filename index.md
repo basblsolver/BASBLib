@@ -4,22 +4,14 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
 
 Since bilevel programming involves two optimization problems (the outer and the inner) our classification is based on the nature of these problems. At the moment, in our classification we distinguish the following classes (types) of bilevel programming problems:
 
- - [**linear outer-linear inner** bilevel optimization problems (LP-LP)](LP-LP-problems) 
- - [**linear outer-quadratic inner** bilevel optimization problems (LP-QP)](LP-QP-problems) 
- - [**quadratic outer-quadratic inner** bilevel optimization problems (QP-QP)](QP-QP-problems) 
- - [**linear outer-nonlinear inner** bilevel optimization problems (LP-NLP)](LP-NLP-problems) 
- - [**nonlinear outer-nonlinear inner** bilevel optimization problems (NLP-NLP)](NLP-NLP-problems) 
+## [Linear outer-Linear inner](LP-LP-problems)  bilevel optimization problems (LP-LP)
+## [Linear outer-Quadratic inner](LP-QP-problems)  bilevel optimization problems (LP-QP)
+## [Quadratic outer-Quadratic inner](QP-QP-problems)  bilevel optimization problems (QP-QP)
+## [Linear outer-Nonlinear inner](LP-NLP-problems)  bilevel optimization problems (LP-NLP)
+## [Nonlinear outer-Nonlinear inner](NLP-NLP-problems)  bilevel optimization problems (NLP-NLP)
 
 This library (repository) provides:
 * Description of bilevel problems in `AMPL` format, compatible with our [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
-
-For more details on these problems see [wiki-page](https://github.com/basblsolver/test-problems/wiki):
-
-- [Linear-Linear bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-LP-problems)
-- [Linear-Quadratic bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-QP-problems)
-- [Linear-NonLinear bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-NLP-problems)
-- [Quadratic-Quadratic bilevel problems](https://github.com/basblsolver/test-problems/wiki/QP-QP-problems)
-- [NonLinear-NonLinear bilevel problems](https://github.com/basblsolver/test-problems/wiki/NLP-NLP-problems)
 
 ## Citation
 
@@ -40,8 +32,7 @@ If you use this library, please cite the following sources:
 
 ### Important Notice
 
-Kindly note, that this is a growing collection of bilevel problems meant as a resource for researchers in the field, including problem statement, analysis, solution(s) and input file(s).
-__We welcome contributions and corrections to this resource!__
+Kindly note, that this is a growing collection of bilevel problems meant as a resource for researchers in the field, including problem statement, analysis, solution(s) and input file(s).__We welcome contributions and corrections to this resource!__
 
 
 

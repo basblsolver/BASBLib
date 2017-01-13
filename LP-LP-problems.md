@@ -1,4 +1,6 @@
-Description of the [linear-linear](LP-LP-problems) type bilevel test problems: data and references
+##  Summary of Linear-Linear problems
+
+Description of the [Linear-Linear](LP-LP-problems) type bilevel test problems: data and references
 
 | Label                              | Source                                                      |  _n_  |  _m_  |   _F*_    |   _f*_  |       __x*__      |               __y*__             |
 | :--------------------------------: |:-----------------------------------------------------------:|:-----:|:-----:|:---------:|:-------:|:-----------------:|:--------------------------------:|
@@ -21,30 +23,19 @@ Description of the [linear-linear](LP-LP-problems) type bilevel test problems: d
 ##  References
 
  - [G. B. Allende and G. Still, Solving bilevel programs with the KKT-approach, *Mathematical programming*, 138 (2013), pp. 309–332](https://doi.org/10.1007/s10107-012-0535-x)
-
  - [G. Anandalingam and D. White, A solution method for the linear static stackelberg problem using penalty functions, *IEEE Transactions on Automatic Control*, 35 (1990), pp. 1170– 1173](https://doi.org/10.1109/9.58565)
-
  - [J. F. Bard, Some properties of the bilevel programming problem, *Journal of optimization theory and applications*, 68 (1991), pp. 371–378](https://doi.org/10.1007/BF00941574)
-
  - [J. F. Bard and J. E. Falk, An explicit solution to the multi-level programming problem, Computers & Operations Research, 9 (1982), pp. 77–100](https://doi.org/10.1016/0305-0548(82)90007-7)
-
  - [W. Candler and R. Townsley, A linear two-level programming problem, Computers & Operations Research, 9 (1982), pp. 59–76](https://doi.org/10.1016/0305-0548(82)90006-5)
-
  - [P. Clark and A. Westerberg, A note on the optimality conditions for the bilevel programming problem, Naval Research Logistics (NRL), 35 (1988), pp. 413–418](https://doi.org/10.1002/1520-6750(198810)35:5<413::AID-NAV3220350505>3.0.CO;2-6)
-
  - [P. A. Clark and A. W. Westerberg, Bilevel programming for steady-state chemical process design-I. fundamentals and algorithms, Computers & Chemical Engineering, 14 (1990), pp. 87–97](https://doi.org/10.1016/0098-1354(90)87007-C)
-
  - [Y.-H. Liu and S. M. Hart, Characterizing an optimal solution to the linear bilevel programming problem, European Journal of Operational Research, 73 (1994), pp. 164–166](https://doi.org/10.1016/0377-2217(94)90155-4)
-
  - [A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007. Last updated September 19, 2007](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs)
-
  - [G. Savard, Contribution à la programmation mathématique à deux niveaux, phd thesis, Ecole Polytechnique de Montréal, Université de Montréal, 1989](https://books.google.co.uk/books/about/Contribution_%C3%A0_la_programmation_math%C3%A9m.html?id=zz0VNAEACAAJ&redir_esc=y)
-
  - [K. Shimizu, Y. Ishizuka, and J. F. Bard, Nondifferentiable and Two-Level Mathematical Programming, vol. 102, Kluwer Academic Publishers, Boston, 1997](https://doi.org/10.1016/S0377-2217(97)00228-2)
-
  - [V. Visweswaran, C. Floudas, M. Ierapetritou, and E. Pistikopoulos, A decomposition-based global optimization approach for solving bilevel linear and quadratic programs, in State of the art in global optimization, Springer, 1996, pp. 139–162](https://doi.org/10.1007/978-1- 4613-3437-8_10)
 
-[back](index)
+ [back](index)
 
 [Allende & Still, 2013]: https://doi.org/10.1007/s10107-012-0535-x
 [Anandalingam & White, 1990]: https://doi.org/10.1109/9.58565
