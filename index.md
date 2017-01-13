@@ -4,15 +4,28 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
 
 Since bilevel programming involves two optimization problems (the outer and the inner) our classification is based on the nature of these problems. At the moment, in our classification we distinguish the following classes (types) of bilevel programming problems:
 
-## [Linear outer-Linear inner](LP-LP-problems)  bilevel problems (LP-LP)
+## [Linear outer-Linear inner](LP-LP-problems) problems (LP-LP)
 
-## [Linear outer-Quadratic inner](LP-QP-problems)  bilevel problems (LP-QP)
+                   |                    |                     |                    |                      |
+------------------ | ------------------ | ------------------- | ------------------ | -------------------- |
+[mb_2007_01](LP-LP/mb_2007_01) | [mb_2007_02](LP-LP/mb_2007_02) | [as_2013_01](LP-LP/as_2013_01) | [cw_1988_01](LP-LP/cw_1988_01) | [lh_1994_01](LP-LP/lh_1994_01) |
+[mb_2007_01](LP-LP/mb_2007_01) | [mb_2007_02](LP-LP/mb_2007_02) | [as_2013_01](LP-LP/as_2013_01) | [cw_1988_01](LP-LP/cw_1988_01) | [lh_1994_01](LP-LP/lh_1994_01) |
+[mb_2007_01](LP-LP/mb_2007_01) | [mb_2007_02](LP-LP/mb_2007_02) | [as_2013_01](LP-LP/as_2013_01) | [cw_1988_01](LP-LP/cw_1988_01) | [lh_1994_01](LP-LP/lh_1994_01) |
 
-## [Quadratic outer-Quadratic inner](QP-QP-problems)  bilevel problems (QP-QP)
+ - [mb_2007_01](LP-LP/mb_2007_01)
+ - [mb_2007_01](LP-LP/mb_2007_01)
+ - [mb_2007_01](LP-LP/mb_2007_01)
+ - [mb_2007_01](LP-LP/mb_2007_01)
+ - [mb_2007_01](LP-LP/mb_2007_01)
+ - [mb_2007_01](LP-LP/mb_2007_01)
 
-## [Linear outer-Nonlinear inner](LP-NLP-problems)  bilevel problems (LP-NLP)
+## [Linear outer-Quadratic inner](LP-QP-problems) problems (LP-QP)
 
-## [Nonlinear outer-Nonlinear inner](NLP-NLP-problems)  bilevel problems (NLP-NLP)
+## [Quadratic outer-Quadratic inner](QP-QP-problems) problems (QP-QP)
+
+## [Linear outer-Nonlinear inner](LP-NLP-problems) problems (LP-NLP)
+
+## [Nonlinear outer-Nonlinear inner](NLP-NLP-problems) problems (NLP-NLP)
 
 This library (repository) provides:
 * Description of bilevel problems in `AMPL` format, compatible with our [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
@@ -23,7 +36,7 @@ If you use this library, please cite the following sources:
 
 * Remigijus Paulavicius et al.. (2016). A library of nonconvex bilevel test problems with the corresponding AMPL input files. Zenodo. [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.44997.svg)](http://dx.doi.org/10.5281/zenodo.44997)
 
-```
+```latex
 @misc{remigijus_paulavicius_2016_44997,
   author       = {Remigijus Paulavicius and Polyxeni-M. Kleniati and Claire S. Adjiman},
   title        = {A library of nonconvex bilevel test problems with the corresponding AMPL input files},
