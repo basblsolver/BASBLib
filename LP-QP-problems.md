@@ -26,7 +26,6 @@ Description of the [Linear-Quadratic](LP-QP-problems) type bilevel test problems
 
 [Aiyoshi & Shimizu, 1984]: https://doi.org/10.1109/TAC.1984.1103455
 [Bard, 1991]: https://doi.org/10.1007/BF00941574
-[Mitsos & Barton, 2006]:
 [Mitsos & Barton, 2006]: https://yoric.mit.edu/sites/default/files/documents/bilevelissues.pdf
 [Mitsos & Barton, 2007]: https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs
 [Nie et al., 2016]: https://arxiv.org/pdf/1508.06985v3.pdf
