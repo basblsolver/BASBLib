@@ -1,4 +1,4 @@
-##  Summary
+##  Summary of QP-QP type problems
 
 Description of the [Quadratic-Quadratic](QP-QP-problems) type bilevel test problems: data and references
 
@@ -30,7 +30,7 @@ Description of the [Quadratic-Quadratic](QP-QP-problems) type bilevel test probl
  - [H. Tuy, A. Migdalas, and N. Hoai-Phuong, A novel approach to bilevel nonlinear programming, Journal of Global Optimization, 38 (2007), pp. 527–554](https://doi.org/10.1007/s10898-006-9093-1)
  - [A. Yezza, First-order necessary optimality conditions for general bilevel programming problems, Journal of Optimization Theory and Applications, 89 (1996), pp. 189–219](https://doi.org/10.1007/BF02192648)
 
- [back](index)
+[<img src="https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/128/MB__home.png" width="40" height="40">](index "Back to homepage")
 
 [Bard, 1988]: https://doi.org/10.1007/BF01580720
 [Bard, 1998]: https://doi.org/10.1007/978-1-4757-2836-1

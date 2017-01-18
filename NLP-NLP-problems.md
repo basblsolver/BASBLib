@@ -1,4 +1,4 @@
-##  Summary of NLP-NLP problems
+##  Summary of NLP-NLP type problems
 
 Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) type bilevel test problems: data and references
 

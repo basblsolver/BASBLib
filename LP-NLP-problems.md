@@ -1,4 +1,4 @@
-##  Summary
+##  Summary of LP-NLP type problems
 
 Description of the [Linear-Nonlinear](LP-NLP-problems) type bilevel test problems: data and references
 
@@ -29,7 +29,7 @@ Description of the [Linear-Nonlinear](LP-NLP-problems) type bilevel test problem
  - [P.-M. Kleniati and C. S. Adjiman, Branch-and-Sandwich: a deterministic global optimization algorithm for optimistic bilevel programming problems. Part II: Convergence analysis and numerical results, Journal of Global Optimization, 60 (2014), pp. 459–481](https://doi.org/10.1007/s10898-013-0120-8)
  - [A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007. Last updated September 19, 2007](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs)
 
- [back](index)
+[<img src="https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/128/MB__home.png" width="40" height="40">](index "Back to homepage")
 
 [Calvete & Gale, 1999]: https://doi.org/10.1016/S0377-2217(98)00078-2
 [Dempe & Dutta, 2012]: https://doi.org/10.1007/s10107-010-0342-1
