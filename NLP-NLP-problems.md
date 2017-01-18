@@ -42,7 +42,7 @@ Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) type bilevel test pro
  - [J. J. Ye and D. Zhu, New necessary optimality conditions for bilevel programs by combining the MPEC and value function approaches, SIAM Journal on Optimization, 20 (2010), pp. 1885–1905](https://doi.org/10.1137/080725088)
  - [V. Visweswaran, C. Floudas, M. Ierapetritou, and E. Pistikopoulos, A decomposition-based global optimization approach for solving bilevel linear and quadratic programs, in State of the art in global optimization, Springer, 1996, pp. 139–162](https://doi.org/10.1007/978-1- 4613-3437-8_10)
 
-##[<img src="https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/128/MB__home.png" width="40" height="40">](index "Back to homepage")
+## [<img src="https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/128/MB__home.png" width="40" height="40">](index "Back to homepage")
 
 [Amouzegar, 1999]: https://doi.org/10.1109/3477.809031
 [Bard, 1998]: https://doi.org/10.1007/978-1-4757-2836-1
