@@ -10,7 +10,7 @@ Description of the [Linear-Linear](LP-LP-problems) type bilevel test problems: d
 | [cw_1988_01](LP-LP/cw_1988_01)     | [(Clark & Westerberg, 1988)][Clark & Westerberg, 1988]      |  1    |   1   |  -37.000  | 14.000  | 19.000            | 14.000                           |
 | [lh_1994_01](LP-LP/lh_1994_01)     | [(Liu & Hart, 1994)][Liu & Hart, 1994]                      |  1    |   1   |  -16.000  | 4.000   | 4.000             | 4.000                            |
 | [sib_1997_02](LP-LP/sib_1997_02)   | [(Shimizu et al., 1997)][Shimizu et al., 1997]              |  1    |   1   |  -12.000  | 4.000   | 4.000             | 4.000                            |
-| [vfip_1996_01](LP-LP/vfip_1996_01) | [(Visweswaran et al., 1996)][Visweswaran et al., 1996]      |  1    |   1   |  3.111    | -6.667  | 0.889             | 2.222                            |
+| [b_1984_01](LP-LP/b_1984_01) 		 | [(Bard, 1984)][Bard, 1984]      							   |  1    |   1   |  3.111    | -6.667  | 0.889             | 2.222                            |
 | [aw_1990_01](LP-LP/aw_1990_01)     | [(Anandalingam & White, 1990)][Anandalingam & White, 1990]  |  1    |   1   |  -49.00   | 17.000  | 16.000            | 11.000                           |
 | [b_1991_01](LP-LP/b_1991_01)       | [(Bard, 1991)][Bard, 1991]                                  |  1    |   2   |  -1.000   | 0.000   | 1.000             | (0.000, 0.000)                   |
 |                                    |                                                             |       |       |  -1.000   | -1.000  | 0.000             | (0.000, 1.000)                   |
@@ -24,6 +24,7 @@ Description of the [Linear-Linear](LP-LP-problems) type bilevel test problems: d
 
  - [G. B. Allende and G. Still, Solving bilevel programs with the KKT-approach, *Mathematical programming*, 138 (2013), pp. 309–332](https://doi.org/10.1007/s10107-012-0535-x)
  - [G. Anandalingam and D. White, A solution method for the linear static stackelberg problem using penalty functions, *IEEE Transactions on Automatic Control*, 35 (1990), pp. 1170– 1173](https://doi.org/10.1109/9.58565)
+ - [J. F. Bard, Optimality conditions for the bilevel programming problem, Naval research logistics quarterly, 31 (1984), pp. 13–26](https://doi.org/10.1002/nav.3800310104)
  - [J. F. Bard, Some properties of the bilevel programming problem, *Journal of optimization theory and applications*, 68 (1991), pp. 371–378](https://doi.org/10.1007/BF00941574)
  - [J. F. Bard and J. E. Falk, An explicit solution to the multi-level programming problem, Computers & Operations Research, 9 (1982), pp. 77–100](https://doi.org/10.1016/0305-0548(82)90007-7)
  - [W. Candler and R. Townsley, A linear two-level programming problem, Computers & Operations Research, 9 (1982), pp. 59–76](https://doi.org/10.1016/0305-0548(82)90006-5)
@@ -33,12 +34,12 @@ Description of the [Linear-Linear](LP-LP-problems) type bilevel test problems: d
  - [A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007. Last updated September 19, 2007](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs)
  - [G. Savard, Contribution à la programmation mathématique à deux niveaux, phd thesis, Ecole Polytechnique de Montréal, Université de Montréal, 1989](https://books.google.co.uk/books/about/Contribution_%C3%A0_la_programmation_math%C3%A9m.html?id=zz0VNAEACAAJ&redir_esc=y)
  - [K. Shimizu, Y. Ishizuka, and J. F. Bard, Nondifferentiable and Two-Level Mathematical Programming, vol. 102, Kluwer Academic Publishers, Boston, 1997](https://doi.org/10.1016/S0377-2217(97)00228-2)
- - [V. Visweswaran, C. Floudas, M. Ierapetritou, and E. Pistikopoulos, A decomposition-based global optimization approach for solving bilevel linear and quadratic programs, in State of the art in global optimization, Springer, 1996, pp. 139–162](https://doi.org/10.1007/978-1- 4613-3437-8_10)
 
 [<img src="https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/128/MB__home.png" width="40" height="40">](index "Back to homepage")
 
 [Allende & Still, 2013]: https://doi.org/10.1007/s10107-012-0535-x
 [Anandalingam & White, 1990]: https://doi.org/10.1109/9.58565
+[Bard, 1984]: https://doi.org/10.1002/nav.3800310104
 [Bard, 1991]: https://doi.org/10.1007/BF00941574
 [Bard & Falk, 1982]: https://doi.org/10.1016/0305-0548(82)90007-7
 [Candler & Townsley, 1982]: https://doi.org/10.1016/0305-0548(82)90006-5
@@ -48,4 +49,3 @@ Description of the [Linear-Linear](LP-LP-problems) type bilevel test problems: d
 [Mitsos & Barton, 2007]: https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs
 [Savard, 1989]: https://books.google.co.uk/books/about/Contribution_%C3%A0_la_programmation_math%C3%A9m.html?id=zz0VNAEACAAJ&redir_esc=y
 [Shimizu et al., 1997]: https://doi.org/10.1016/S0377-2217(97)00228-2
-[Visweswaran et al., 1996]: https://doi.org/10.1007/978-1-4613-3437-8_10
