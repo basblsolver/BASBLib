@@ -28,6 +28,7 @@ Description of the [Quadratic-Quadratic](QP-QP-problems) type bilevel test probl
  - [P. A. Clark and A. W. Westerberg, Bilevel programming for steady-state chemical process design-I. fundamentals and algorithms, Computers & Chemical Engineering, 14 (1990), pp. 87–97](https://doi.org/10.1016/0098-1354(90)87007-C)
  - [S. Dempe, A necessary and a sufficient optimality condition for bilevel programming problems, Optimization, 25 (1992), pp. 341–354](https://doi.org/10.1080/02331939208843831)
  - [S. Dempe, A bundle algorithm applied to bilevel programming problems with non-unique lower level solutions, Computational Optimization and Applications, 15 (2000), pp. 145–166](https://doi.org/10.1023/A:1008735010803)
+ - [A. H. De Silva, Sensitivity formulas for nonlinear factorable programming and their application to the solution of an implicitly defined optimization model of U. S. crude oil production, phd thesis, George Washington University](http://elibrary.ru/item.asp?id=7234908) 
  - [J. E. Falk and J. Liu, On bilevel programming, part I: general nonlinear cases, Mathematical Programming, 70 (1995), pp. 47–72](https://doi.org/10.1007/BF01585928)
  - [K. H. Sahin and A. R. Ciric, A dual temperature simulated annealing approach for solvingbilevel programming problems, Computers & chemical engineering, 23 (1998), pp. 11–25](https://doi.org/10.1016/S0098-1354(98)00267-1)
  - [K. Shimizu and E. Aiyoshi, A new computational method for Stackelberg and min-max problems by use of a penalty method, IEEE Transactions on Automatic Control, 26 (1981),pp. 460–466](https://doi.org/10.1109/TAC.1981.1102607)
@@ -43,6 +44,7 @@ Description of the [Quadratic-Quadratic](QP-QP-problems) type bilevel test probl
 [Clark & Westerberg, 1990]: https://doi.org/10.1016/0098-1354(90)87007-C
 [Dempe, 1992]: https://doi.org/10.1080/02331939208843831
 [Dempe, 2000]: https://doi.org/10.1023/A:1008735010803
+[De Silva, 1978]: http://elibrary.ru/item.asp?id=7234908
 [Falk & Liu, 1995]: https://doi.org/10.1007/BF01585928
 [Sahin & Ciric, 1998]: https://doi.org/10.1016/S0098-1354(98)00267-1
 [Shimizu & Aiyoshi, 1981]: https://doi.org/10.1109/TAC.1981.1102607
