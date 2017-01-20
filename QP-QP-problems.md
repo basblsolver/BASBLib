@@ -5,6 +5,7 @@ Description of the [Quadratic-Quadratic](QP-QP-problems) type bilevel test probl
 | Label                              | Source                                                      |  _n_  |  _m_  |   _F*_    |   _f*_  |       __x*__             |               __y*__             |
 | :--------------------------------: |:-----------------------------------------------------------:|:-----:|:-----:|:---------:|:-------:|:------------------------:|:--------------------------------:|
 | [y_1996_02](QP-QP/y_1996_02)       | [(Yezza, 1996)][Yezza, 1996]                                |  1    |   1   |  1.500    | -2.500  | 0.250                    | 0.000                            |
+| [d_1992_01](QP-QP/d_1992_01)       | [(Dempe, 1992)][Dempe, 1992]                                |  1    |   1   |  31.250   | 4.000   | 1.000                    | 1.000                            |
 | [d_2000_01](QP-QP/d_2000_01)       | [(Dempe, 2000)][Dempe, 2000]                                |  1    |   1   |  0.000    | -0.250  | 0.500                    | -0.500                           |
 | [cw_1990_02](QP-QP/cw_1990_02)     | [(Clark & Westerberg, 1990)][Clark & Westerberg, 1990]      |  1    |   1   |  5.000    |  4.000  | 1.000                    | 3.000                            |
 | [tmh_2007_01](QP-QP/tmh_2007_01)   | [(Tuy et al., 2007)][Tuy et al., 2007]                      |  1    |   1   |  22.500   | -4.500  | 1.500                    | 4.500                            |
@@ -24,6 +25,7 @@ Description of the [Quadratic-Quadratic](QP-QP-problems) type bilevel test probl
  - [J. F. Bard, Convex two-level optimization, Mathematical Programming, 40 (1988), pp. 15–27](https://doi.org/10.1007/BF01580720)
  - [J. F. Bard, Practical Bilevel Optimization, vol. 30 of Nonconvex Optimization and Its Applications, Springer US, 1998](https://doi.org/10.1007/978-1-4757-2836-1)
  - [P. A. Clark and A. W. Westerberg, Bilevel programming for steady-state chemical process design-I. fundamentals and algorithms, Computers & Chemical Engineering, 14 (1990), pp. 87–97](https://doi.org/10.1016/0098-1354(90)87007-C)
+ - [S. Dempe, A necessary and a sufficient optimality condition for bilevel programming problems, Optimization, 25 (1992), pp. 341–354](https://doi.org/10.1080/02331939208843831)
  - [S. Dempe, A bundle algorithm applied to bilevel programming problems with non-unique lower level solutions, Computational Optimization and Applications, 15 (2000), pp. 145–166](https://doi.org/10.1023/A:1008735010803)
  - [J. E. Falk and J. Liu, On bilevel programming, part I: general nonlinear cases, Mathematical Programming, 70 (1995), pp. 47–72](https://doi.org/10.1007/BF01585928)
  - [K. H. Sahin and A. R. Ciric, A dual temperature simulated annealing approach for solvingbilevel programming problems, Computers & chemical engineering, 23 (1998), pp. 11–25](https://doi.org/10.1016/S0098-1354(98)00267-1)
@@ -38,6 +40,7 @@ Description of the [Quadratic-Quadratic](QP-QP-problems) type bilevel test probl
 [Bard, 1988]: https://doi.org/10.1007/BF01580720
 [Bard, 1998]: https://doi.org/10.1007/978-1-4757-2836-1
 [Clark & Westerberg, 1990]: https://doi.org/10.1016/0098-1354(90)87007-C
+[Dempe, 1992]: https://doi.org/10.1080/02331939208843831
 [Dempe, 2000]: https://doi.org/10.1023/A:1008735010803
 [Falk & Liu, 1995]: https://doi.org/10.1007/BF01585928
 [Sahin & Ciric, 1998]: https://doi.org/10.1016/S0098-1354(98)00267-1
