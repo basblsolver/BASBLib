@@ -18,7 +18,12 @@ Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) type bilevel test pro
 | [mb_2007_23](NLP-NLP/mb_2007_23)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   | -1.755    |  0.009  |  0.211                            | 1.799                            |
 | [mb_2007_22](NLP-NLP/mb_2007_22)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.210    | -0.069  | -0.555                            | 0.455                            |
 | [dd_2012_01](NLP-NLP/dd_2012_01)     | [(Dempe & Dutta, 2012)][Dempe & Dutta, 2012]                |  1    |   1   |  1.000    | 0.000   | 0.000                             | 0.000                            |
+| [c_2002_01](NLP-NLP/c_2002_01)       | [(Colson, 2002)][Colson, 2002]                              |  1    |   1   |  227.691  | 0.000   | 6.082                             | 4.487                            |
+| [c_2002_03](NLP-NLP/c_2002_03)       | [(Colson, 2002)][Colson, 2002]                              |  1    |   1   |  2.000    | 24.018  | 4.000                             | 0.000                            |
+| [c_2002_04](NLP-NLP/c_2002_04)       | [(Colson, 2002)][Colson, 2002]                              |  1    |   1   |  88.754   | -0.077  | 0.000                             | 0.579                            |
 | [mb_2007_08](NLP-NLP/mb_2007_08)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.000    |  0.000  | -0.567                            | 0.000                            |
+| [c_2002_02](NLP-NLP/c_2002_02)       | [(Colson, 2002)][Colson, 2002]                              |  1    |   1   |  17.000   | 2.000   | 1.000                             | 0.000                            |
+| [c_2002_05](NLP-NLP/c_2002_05)       | [(Colson, 2002)][Colson, 2002]                              |  1    |   2   |  2.750    | 0.548   | 1.941                             | (0.000, 1.211)                   |
 | [b_1998_07](NLP-NLP/b_1998_07)       | [(Bard, 1998)][Bard, 1998]                                  |  1    |   2   |  1.410    | 7.620   | 1.890                             | (0.890, 0.000)                   |
 | [b_1984_02](NLP-NLP/b_1984_02)       | [(Bard, 1984)][Bard, 1984]                                  |  2    |   2   | -12.680   | -1.016  | (0.000, 2.000)                    | (1.875, 0.906)                   |
 | [mb_2007_24](NLP-NLP/mb_2007_24)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  2    |   3   | -2.350    | -2.000  | (-1.000, -1.000)                  | (1.000, 1.000, -0.707)           |
@@ -34,6 +39,7 @@ Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) type bilevel test pro
 
  - [J. F. Bard, Optimality conditions for the bilevel programming problem, Naval research logistics quarterly, 31 (1984), pp. 13–26](https://doi.org/10.1002/nav.3800310104)
  - [J. F. Bard, Practical Bilevel Optimization, vol. 30 of Nonconvex Optimization and Its Applications, Springer US, 1998](https://doi.org/10.1007/978-1-4757-2836-1)
+ - [B. Colson, BIPA(BIlevel Programming with Approximation Methods)(software guide and test problems), Cahiers du GERAD, (2002)](https://www.gerad.ca/en/papers/G-2002-37/view)
  - [S. Dempe and J. Dutta, Is bilevel programming a special case of a mathematical program with complementarity constraints?, Mathematical Programming, 131 (2012), pp. 37–48](https://doi.org/10.1007/s10107-010-0342-1)
  - [P.-M. Kleniati and C. S. Adjiman, Branch-and-Sandwich: a deterministic global optimization algorithm for optimistic bilevel programming problems. Part II: Convergence analysis and numerical results, Journal of Global Optimization, 60 (2014), pp. 459–481](https://doi.org/10.1007/s10898-013-0120-8)
  - [R. Lucchetti, F. Mignanego, and G. Pieri, Existence theorems of equilibrium points in stackelberg, Optimization, 18 (1987), pp. 857–866](https://doi.org/10.1080/02331938708843300)
@@ -46,6 +52,7 @@ Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) type bilevel test pro
 
 [Bard, 1984]: https://doi.org/10.1002/nav.3800310104
 [Bard, 1998]: https://doi.org/10.1007/978-1-4757-2836-1
+[Colson, 2002]: https://www.gerad.ca/en/papers/G-2002-37/view
 [Dempe & Dutta, 2012]: https://doi.org/10.1007/s10107-010-0342-1
 [Kleniati & Adjiman, 2014]: https://doi.org/10.1007/s10898-013-0120-8
 [Lucchetti et al., 1987]: https://doi.org/10.1080/02331938708843300
