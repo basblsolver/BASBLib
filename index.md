@@ -18,7 +18,7 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
 
 __There is also an overview of the problems contained within the library__
 
-# Classification of the BPP problems
+# Classification of BPP problems
 
 Since bilevel programming involves two optimization problems (the outer and the inner) our classification is based on the nature of these problems. At the moment, in our classification we distinguish the following classes (types) of bilevel programming problems:
 
@@ -26,13 +26,11 @@ Since bilevel programming involves two optimization problems (the outer and the 
 
 Select problem for more information
 
-| 1-5 instances                | 6-10 instances                     | 11-15 instances                |
-| :--------------------------- | :--------------------------------- | :----------------------------- |
-[mb_2007_01](LP-LP/mb_2007_01) | [sib_1997_02](LP-LP/sib_1997_02)   | [bf_1982_02](LP-LP/bf_1982_02) |
-[mb_2007_02](LP-LP/mb_2007_02) | [b_1984_01](LP-LP/b_1984_01)       | [bf_1982_01](LP-LP/bf_1982_01) |
-[as_2013_01](LP-LP/as_2013_01) | [aw_1990_01](LP-LP/aw_1990_01)     | [s_1989_01](LP-LP/s_1989_01)   |
-[cw_1988_01](LP-LP/cw_1988_01) | [b_1991_01](LP-LP/b_1991_01)       | [ct_1982_01](LP-LP/ct_1982_01) |
-[lh_1994_01](LP-LP/lh_1994_01) | [cw_1990_01](LP-LP/cw_1990_01)     |                                |
+| :----------------------------- | :--------------------------------- | :----------------------------- | :----------------------------- | :----------------------------- |
+[mb_2007_01](LP-LP/mb_2007_01)   | [mb_2007_02](LP-LP/mb_2007_02)     | [as_2013_01](LP-LP/as_2013_01) | [cw_1988_01](LP-LP/cw_1988_01) | [lh_1994_01](LP-LP/lh_1994_01) |
+[sib_1997_02](LP-LP/sib_1997_02) | [b_1984_01](LP-LP/b_1984_01)       | [aw_1990_01](LP-LP/aw_1990_01) | [b_1991_01](LP-LP/b_1991_01)   | [cw_1990_01](LP-LP/cw_1990_01) |
+[bf_1982_02](LP-LP/bf_1982_02)   | [bf_1982_01](LP-LP/bf_1982_01)     | [s_1989_01](LP-LP/s_1989_01)   | [ct_1982_01](LP-LP/ct_1982_01) |
+
 
 ## [Linear-Quadratic](LP-QP-problems) problems (LP-QP)
 
@@ -99,5 +97,8 @@ If you use this library, please cite the following sources:
 }
 ```
 
+## Acknowledgment
+
+We gratefully acknowledge funding from the EPSRC through a Leadership Fellowship **[EP/J003840/1]**
 
 
