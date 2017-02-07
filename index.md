@@ -2,7 +2,7 @@
 
 While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse, there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from various sources devoted to bilevel programming.
 
-For each problem, this library provides:
+**For each problem, this library provides:**
 
  - A problem statement
  - Where feasible, a geometrical analysis of the problem
