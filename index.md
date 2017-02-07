@@ -12,8 +12,8 @@ For each problem, this library provides:
  - Finally, convenient way to use it and contribute to it.
 
 __We welcome contributions and corrections to this resource!__
- - by email remigijus.paulavicius@imperial.ac.uk
- - through github repository https://github.com/basblsolver/test-problems
+ - send us comments, corrections by email: remigijus.paulavicius@imperial.ac.uk
+ - fork (copy github repository), add new information or correct existing and create a pull request and through github repository https://github.com/basblsolver/test-problems
 
 __There is also an overview of the problems contained within the library__
 
