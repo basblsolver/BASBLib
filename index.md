@@ -1,18 +1,21 @@
-# Motivation of the library
+# Motivation for the library
 
-While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse, there have been limited efforts in establishing a systematic test library for the evaluation of the bilevel algorithms and their implementations.
-Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from the various sources devoted to the bilevel programming.
+While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse, there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from various sources devoted to bilevel programming.
 
-Briefly, this library provides:
+For each problem, this library provides:
 
- - Problem statement
- - Geometrical analysis for many of these problems
+ - A problem statement
+ - Where feasible, a geometrical analysis of the problem
  - The best know solutions and comments about literature inaccuracies
- - Sources where each of these problems was used
+ - Sources where the problem was used
  - [AMPL input files](https://github.com/basblsolver/test-problems) in the format, compatible with [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
  - Finally, convenient way to use it and contribute to it.
 
 __We welcome contributions and corrections to this resource!__
+ - by email remigijus.paulavicius@imperial.ac.uk
+ - through github repository https://github.com/basblsolver/test-problems
+
+__There is also an overview of the problems contained within the library__
 
 # Classification of the BPP problems
 
