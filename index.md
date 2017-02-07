@@ -11,9 +11,9 @@ For each problem, this library provides:
  - [AMPL input files](https://github.com/basblsolver/test-problems) in the format, compatible with [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
  - Finally, convenient way to use it and contribute to it.
 
-__We welcome contributions and corrections to this resource!__
- - send us comments, corrections by email: remigijus.paulavicius@imperial.ac.uk
- - fork (copy github repository), add new information or correct existing and create a pull request and through github repository https://github.com/basblsolver/test-problems
+__We welcome contributions and corrections to this resource:__
+ - **old way    - ** send us your comments, corrections or suggestions by email: remigijus.paulavicius@imperial.ac.uk
+ - **modern way - **[fork](https://help.github.com/articles/fork-a-repo/) (copy) github repository, add new information or correct existing and create a pull request and through github repository https://github.com/basblsolver/test-problems
 
 __There is also an overview of the problems contained within the library__
 
