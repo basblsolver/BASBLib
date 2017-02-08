@@ -91,7 +91,7 @@ If you use this library, please cite the following sources:
 ## Acknowledgment
 
 ```
-We gratefully acknowledge funding from the EPSRC through a Leadership Fellowship **[EP/J003840/1]**
+We gratefully acknowledge funding from the EPSRC through a Leadership Fellowship [EP/J003840/1]
 ```
 
 
