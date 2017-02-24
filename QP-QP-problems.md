@@ -1,6 +1,6 @@
 ##  Summary of QP-QP bilevel problems
 
-Description of the [Quadratic-Quadratic](QP-QP-problems) type bilevel test problems: data and references
+Description of the [Quadratic-Quadratic](QP-QP-problems) bilevel test problems: data and references
 
 | Label                              | Source                                                      |  _n_  |  _m_  |   _F*_    |   _f*_  |       __x*__             |               __y*__             |
 | :--------------------------------: |:-----------------------------------------------------------:|:-----:|:-----:|:---------:|:-------:|:------------------------:|:--------------------------------:|
@@ -41,7 +41,6 @@ Description of the [Quadratic-Quadratic](QP-QP-problems) type bilevel test probl
  - [R. Lucchetti, F. Mignanego, and G. Pieri, Existence theorems of equilibrium points in stackelberg, Optimization, 18 (1987), pp. 857–866](https://doi.org/10.1080/02331938708843300)
  - [K. H. Sahin and A. R. Ciric, A dual temperature simulated annealing approach for solvingbilevel programming problems, Computers & chemical engineering, 23 (1998), pp. 11–25](https://doi.org/10.1016/S0098-1354(98)00267-1)
  - [K. Shimizu and E. Aiyoshi, A new computational method for Stackelberg and min-max problems by use of a penalty method, IEEE Transactions on Automatic Control, 26 (1981),pp. 460–466](https://doi.org/10.1109/TAC.1981.1102607)
- - [K. Shimizu, Y. Ishizuka, and J. F. Bard, Nondifferentiable and Two-Level Mathematical Programming, vol. 102, Kluwer Academic Publishers, Boston, 1997](https://doi.org/10.1016/S0377-2217(97)00228-2)
  - [H. Tuy, A. Migdalas, and N. Hoai-Phuong, A novel approach to bilevel nonlinear programming, Journal of Global Optimization, 38 (2007), pp. 527–554](https://doi.org/10.1007/s10898-006-9093-1)
  - [A. Yezza, First-order necessary optimality conditions for general bilevel programming problems, Journal of Optimization Theory and Applications, 89 (1996), pp. 189–219](https://doi.org/10.1007/BF02192648)
 
@@ -60,6 +59,5 @@ Description of the [Quadratic-Quadratic](QP-QP-problems) type bilevel test probl
 [Lucchetti et al., 1987]: https://doi.org/10.1080/02331938708843300
 [Sahin & Ciric, 1998]: https://doi.org/10.1016/S0098-1354(98)00267-1
 [Shimizu & Aiyoshi, 1981]: https://doi.org/10.1109/TAC.1981.1102607
-[Shimizu et al., 1997]: https://doi.org/10.1016/S0377-2217(97)00228-2
 [Tuy et al., 2007]: https://doi.org/10.1007/s10898-006-9093-1
 [Yezza, 1996]: https://doi.org/10.1007/BF02192648
