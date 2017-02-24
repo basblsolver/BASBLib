@@ -1,6 +1,6 @@
-##  Summary of LP-LP type problems
+##  Summary of LP-LP problems
 
-Description of the [Linear-Linear](LP-LP-problems) type bilevel test problems: data and references
+Description of the [Linear-Linear](LP-LP-problems) bilevel test problems: data and references
 
 | Label                              | Source                                                      |  _n_  |  _m_  |   _F*_    |   _f*_  |       __x*__      |               __y*__             |
 | :--------------------------------: |:-----------------------------------------------------------:|:-----:|:-----:|:---------:|:-------:|:-----------------:|:--------------------------------:|
@@ -10,7 +10,7 @@ Description of the [Linear-Linear](LP-LP-problems) type bilevel test problems: d
 | [cw_1988_01](LP-LP/cw_1988_01)     | [(Clark & Westerberg, 1988)][Clark & Westerberg, 1988]      |  1    |   1   |  -37.000  | 14.000  | 19.000            | 14.000                           |
 | [lh_1994_01](LP-LP/lh_1994_01)     | [(Liu & Hart, 1994)][Liu & Hart, 1994]                      |  1    |   1   |  -16.000  | 4.000   | 4.000             | 4.000                            |
 | [sib_1997_02](LP-LP/sib_1997_02)   | [(Shimizu et al., 1997)][Shimizu et al., 1997]              |  1    |   1   |  -12.000  | 4.000   | 4.000             | 4.000                            |
-| [b_1984_01](LP-LP/b_1984_01) 		 | [(Bard, 1984)][Bard, 1984]      							   |  1    |   1   |  3.111    | -6.667  | 0.889             | 2.222                            |
+| [b_1984_01](LP-LP/b_1984_01)       | [(Bard, 1984)][Bard, 1984]                                  |  1    |   1   |  3.111    | -6.667  | 0.889             | 2.222                            |
 | [aw_1990_01](LP-LP/aw_1990_01)     | [(Anandalingam & White, 1990)][Anandalingam & White, 1990]  |  1    |   1   |  -49.00   | 17.000  | 16.000            | 11.000                           |
 | [b_1991_01](LP-LP/b_1991_01)       | [(Bard, 1991)][Bard, 1991]                                  |  1    |   2   |  -1.000   | 0.000   | 1.000             | (0.000, 0.000)                   |
 |                                    |                                                             |       |       |  -1.000   | -1.000  | 0.000             | (0.000, 1.000)                   |
