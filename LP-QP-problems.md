@@ -1,6 +1,6 @@
-##  Summary of LP-QP type problems
+##  Summary of LP-QP bilevel problems
 
-Description of the [Linear-Quadratic](LP-QP-problems) type bilevel test problems: data and references
+Description of the [Linear-Quadratic](LP-QP-problems) bilevel test problems: data and references
 
 | Label                              | Source                                                      |  _n_  |  _m_  |   _F*_    |   _f*_   |       __x*__      |               __y*__             |
 | :--------------------------------: |:-----------------------------------------------------------:|:-----:|:-----:|:---------:|:--------:|:-----------------:|:--------------------------------:|

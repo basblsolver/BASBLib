@@ -1,4 +1,4 @@
-##  Summary of LP-NLP type problems
+##  Summary of LP-NLP bilevel problems
 
 Description of the [Linear-Nonlinear](LP-NLP-problems) type bilevel test problems: data and references
 
@@ -14,6 +14,7 @@ Description of the [Linear-Nonlinear](LP-NLP-problems) type bilevel test problem
 |                                     |                                                             |       |       |  -2.000   | 0.000   | -0.500            | -1.000                           |
 | [ka_2014_01](LP-NLP/ka_2014_01)     | [(Kleniati & Adjiman, 2014)][Kleniati & Adjiman, 2014]      |  1    |   1   |  -1.000   | 0.000   | 0.000             | 1.0000                           |
 | [mb_2007_09](LP-NLP/mb_2007_09)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  -1.000   | -1.000  | -1.000            | -1.000                           |
+| [nwj_2016_01](LP-NLP/nwj_2016_01)   | [(Nie et al., 2016)][Nie et al., 2016]                      |  1    |   2   |  2.000    | 0.000   | 2.000             | (0.000, 0.000)                   |
 | [fz_1998_01](LP-NLP/fz_1998_01)     | [(Floudas & Zlobec, 1998)][Floudas & Zlobec, 1998]          |  1    |   2   |  -1.000   | 1.000   | 1.000             | (0.000, 1.000)                   |
 | [gf_2001_01](LP-NLP/gf_2001_01)     | [(Gümüş & Floudas, 2001)][Gümüş & Floudas, 2001]            |  1    |   2   |  0.190    | -7.250  | 0.194             | (9.970, 10.000)                  |
 | [dd_2012_02](LP-NLP/dd_2012_02)     | [(Dempe & Dutta, 2012)][Dempe & Dutta, 2012]                |  2    |   2   |  -1.000   | 4.000   | (0.707, 0.707)    | (0.000, 1.000)                   |
@@ -28,6 +29,7 @@ Description of the [Linear-Nonlinear](LP-NLP-problems) type bilevel test problem
  - [Z. H. Gümüş and C. A. Floudas, Global optimization of nonlinear bilevel programming problems, Journal of Global Optimization, 20 (2001), pp. 1–31](https://doi.org/10.1023/A:1011268113791)
  - [P.-M. Kleniati and C. S. Adjiman, Branch-and-Sandwich: a deterministic global optimization algorithm for optimistic bilevel programming problems. Part II: Convergence analysis and numerical results, Journal of Global Optimization, 60 (2014), pp. 459–481](https://doi.org/10.1007/s10898-013-0120-8)
  - [A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007. Last updated September 19, 2007](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs)
+ - [J. Nie, L. Wang, and J. Ye, Bilevel polynomial programs and semidefinite relaxation methods, ArXiv preprint arXiv:1508.06985, (2016)](https://arxiv.org/pdf/1508.06985v3.pdf)
 
 [<img src="https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/128/MB__home.png" width="40" height="40">](index "Back to homepage")
 
@@ -37,3 +39,4 @@ Description of the [Linear-Nonlinear](LP-NLP-problems) type bilevel test problem
 [Gümüş & Floudas, 2001]: https://doi.org/10.1023/A:1011268113791
 [Kleniati & Adjiman, 2014]: https://doi.org/10.1007/s10898-013-0120-8
 [Mitsos & Barton, 2007]: https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs
+[Nie et al., 2016]: https://arxiv.org/pdf/1508.06985v3.pdf
