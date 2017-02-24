@@ -33,6 +33,7 @@ Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) type bilevel test pro
 | [nwj_2016_03](NLP-NLP/nwj_2016_03)   | [(Nie et al., 2016)][Nie et al., 2016]                      |  4    |   4   | -0.437    | -1.190  | (0.000, 0.000, -0.707, -0.707)    | (0.618, 0.000, -0.558, -0.554)   |
 | [nwj_2016_05](NLP-NLP/nwj_2016_05)   | [(Nie et al., 2016)][Nie et al., 2016]                      |  4    |   4   | -0.437    | -1.190  | (0.000, 0.000, -0.707, -0.707)    | (0.618, 0.000, -0.558, -0.554)   |
 | [ka_2014_02](NLP-NLP/ka_2014_02)     | [(Kleniati & Adjiman, 2014)][Kleniati & Adjiman, 2014]      |  5    |   5   | -10.000   | -3.100  | (1.0, −1.0, −1.0, −1.0, −1.0)     | (−1.0, −1.0, −1.0, −1.0, −1.0)   |
+| [fz_1998_01](NLP-NLP/fz_1998_01)     | [(Floudas & Zlobec, 1998)][Floudas & Zlobec, 1998]          |  1    |   2   |  -1.000   | 1.000   | 1.000             | (0.000, 1.000)                   |
 
 
 ##  References
@@ -41,6 +42,7 @@ Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) type bilevel test pro
  - [J. F. Bard, Practical Bilevel Optimization, vol. 30 of Nonconvex Optimization and Its Applications, Springer US, 1998](https://doi.org/10.1007/978-1-4757-2836-1)
  - [B. Colson, BIPA(BIlevel Programming with Approximation Methods)(software guide and test problems), Cahiers du GERAD, (2002)](https://www.gerad.ca/en/papers/G-2002-37/view)
  - [S. Dempe and J. Dutta, Is bilevel programming a special case of a mathematical program with complementarity constraints?, Mathematical Programming, 131 (2012), pp. 37–48](https://doi.org/10.1007/s10107-010-0342-1)
+ - [C. A. Floudas and S. Zlobec, Optimality and Duality in Parametric Convex Lexicographic Programming, Springer US, Boston, MA, 1998, pp. 359–379](https://doi.org/10.1007/978-1-4613-0307-7_16)
  - [P.-M. Kleniati and C. S. Adjiman, Branch-and-Sandwich: a deterministic global optimization algorithm for optimistic bilevel programming problems. Part II: Convergence analysis and numerical results, Journal of Global Optimization, 60 (2014), pp. 459–481](https://doi.org/10.1007/s10898-013-0120-8)
  - [R. Lucchetti, F. Mignanego, and G. Pieri, Existence theorems of equilibrium points in stackelberg, Optimization, 18 (1987), pp. 857–866](https://doi.org/10.1080/02331938708843300)
  - [A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007. Last updated September 19, 2007](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs)
@@ -54,6 +56,7 @@ Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) type bilevel test pro
 [Bard, 1998]: https://doi.org/10.1007/978-1-4757-2836-1
 [Colson, 2002]: https://www.gerad.ca/en/papers/G-2002-37/view
 [Dempe & Dutta, 2012]: https://doi.org/10.1007/s10107-010-0342-1
+[Floudas & Zlobec, 1998]: https://doi.org/10.1007/978-1-4613-0307-7_16
 [Kleniati & Adjiman, 2014]: https://doi.org/10.1007/s10898-013-0120-8
 [Lucchetti et al., 1987]: https://doi.org/10.1080/02331938708843300
 [Mitsos & Barton, 2007]: https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs

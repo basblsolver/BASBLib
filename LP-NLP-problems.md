@@ -1,6 +1,6 @@
 ##  Summary of LP-NLP bilevel problems
 
-Description of the [Linear-Nonlinear](LP-NLP-problems) type bilevel test problems: data and references
+Description of the [Linear-Nonlinear](LP-NLP-problems) bilevel test problems: data and references
 
 | Label                               | Source                                                      |  _n_  |  _m_  |   _F*_    |   _f*_  |       __x*__      |               __y*__             |
 | :---------------------------------: |:-----------------------------------------------------------:|:-----:|:-----:|:---------:|:-------:|:-----------------:|:--------------------------------:|
