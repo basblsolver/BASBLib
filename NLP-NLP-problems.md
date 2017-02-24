@@ -1,6 +1,6 @@
 ##  Summary of NLP-NLP bilevel problems
 
-Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) type bilevel test problems: data and references
+Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) bilevel test problems: data and references
 
 | Label                                | Source                                                      |  _n_  |  _m_  |   _F*_    |   _f*_  |              __x*__               |               __y*__             |
 | :----------------------------------: |:-----------------------------------------------------------:|:-----:|:-----:|:---------:|:-------:|:---------------------------------:|:--------------------------------:|
@@ -24,7 +24,6 @@ Description of the [Nonlinear-Nonlinear](NLP-NLP-problems) type bilevel test pro
  - [P.-M. Kleniati and C. S. Adjiman, Branch-and-Sandwich: a deterministic global optimization algorithm for optimistic bilevel programming problems. Part II: Convergence analysis and numerical results, Journal of Global Optimization, 60 (2014), pp. 459–481](https://doi.org/10.1007/s10898-013-0120-8)
  - [A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007. Last updated September 19, 2007](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs)
  - [J. Nie, L. Wang, and J. Ye, Bilevel polynomial programs and semidefinite relaxation methods, ArXiv preprint arXiv:1508.06985, (2016)](https://arxiv.org/pdf/1508.06985v3.pdf)
- - [V. Visweswaran, C. Floudas, M. Ierapetritou, and E. Pistikopoulos, A decomposition-based global optimization approach for solving bilevel linear and quadratic programs, in State of the art in global optimization, Springer, 1996, pp. 139–162](https://doi.org/10.1007/978-1- 4613-3437-8_10)
 
 [<img src="https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/128/MB__home.png" width="40" height="40">](index "Back to homepage")
 
