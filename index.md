@@ -28,7 +28,7 @@ Since bilevel programming involves two optimization problems (the outer and the 
 
 ## [Linear-Linear (LP-LP)](LP-LP-problems) 
 
-View a summary table of [all problems in this class](LP-LP-problems) or click on a problem name below for more information
+View a summary table of [all LP-LP problems](LP-LP-problems) or click on a problem name below for more information
 
 |                                |                                    |                                |                                |                                |
 | :----------------------------- | :--------------------------------- | :----------------------------- | :----------------------------- | :----------------------------- |
