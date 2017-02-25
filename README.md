@@ -1,29 +1,24 @@
-# BASBLib - A Library of Bilevel Test Problems
----
+# An `AMPL` files for BASBLib - A Library of Bilevel Test Problems
 
-While the literature on the application of Bilevel Programming Problems (BPP) is extensive and diverse, there have been limited efforts in establishing a systematic test library for the evaluation of the bilevel algorithms and their implementations. Thus, the goal of this library is to present an actively growing collection of bilevel test problems gathered from the various sources devoted to the bilevel programming.
+While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse, there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from various sources devoted to bilevel programming.
 
-## Classification of the BPP problems
+## Problems classification
 
 Since bilevel programming involves two optimization problems (the outer and the inner) our classification is based on the nature of these problems. At the moment, in our classification we distinguish the following classes (types) of bilevel programming problems:
- - **linear outer-linear inner** bilevel optimization problems ([LP-LP](https://github.com/basblsolver/test-problems/tree/master/LP-LP))
- - **linear outer-quadratic inner** bilevel optimization problems ([LP-QP](https://github.com/basblsolver/test-problems/tree/master/LP-QP))
- - **quadratic outer-quadratic inner** bilevel optimization problems ([QP-QP](https://github.com/basblsolver/test-problems/tree/master/QP-QP))
- - **linear outer-nonlinear inner** bilevel optimization problems ([LP-NLP](https://github.com/basblsolver/test-problems/tree/master/LP-NLP))
- - **nonlinear outer-nonlinear inner** bilevel optimization problems ([NLP-NLP](https://github.com/basblsolver/test-problems/tree/master/NLP-NLP))
+ - **linear-linear** problems ([LP-LP](https://github.com/basblsolver/BASBLib/tree/master/LP-LP))
+ - **linear-quadratic** problems ([LP-QP](https://github.com/basblsolver/BASBLib/tree/master/LP-QP))
+ - **linear-nonlinear** problems ([LP-NLP](https://github.com/basblsolver/BASBLib/tree/master/LP-NLP))
+ - **quadratic-quadratic** problems ([QP-QP](https://github.com/basblsolver/BASBLib/tree/master/QP-QP))
+ - **quadratic-nonlinear** problems ([QP-NLP](https://github.com/basblsolver/BASBLib/tree/master/QP-NLP))
+ - **nonlinear-nonlinear** problems ([NLP-NLP](https://github.com/basblsolver/BASBLib/tree/master/NLP-NLP))
 
 This library (repository) provides:
-* Description of bilevel problems in `AMPL` format, compatible with our [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
+* Description of bilevel problems in the `AMPL` format, compatible with [`BASBL solver`](http://basblsolver.github.io/home/ "Bilevel Solver").
+
 
 For more details on these problems see [wiki-page](https://github.com/basblsolver/test-problems/wiki):
 
-- [Linear-Linear bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-LP-problems)
-- [Linear-Quadratic bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-QP-problems)
-- [Linear-NonLinear bilevel problems](https://github.com/basblsolver/test-problems/wiki/LP-NLP-problems)
-- [Quadratic-Quadratic bilevel problems](https://github.com/basblsolver/test-problems/wiki/QP-QP-problems)
-- [NonLinear-NonLinear bilevel problems](https://github.com/basblsolver/test-problems/wiki/NLP-NLP-problems)
-
-### Citation
+## Citation
 
 If you use this library, please cite the following sources: 
 
@@ -43,10 +38,12 @@ If you use this library, please cite the following sources:
 }
 ```
 
-### Important Notice
+## Contribution to the BASBLib
 
-Kindly note, that this is a growing collection of bilevel problems meant as a resource for researchers in the field, including problem statement, analysis, solution(s) and input file(s). 
-__We welcome contributions and corrections to this resource!__ 
+**We welcome contributions and corrections to this resource either way:**
+
+ - **common way**    - send us your comments, corrections or suggestions by email: remigijus.paulavicius@imperial.ac.uk
+ - **modern way** - [fork](https://help.github.com/articles/fork-a-repo/) github repository, add new information & correct existing, then create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and we hapilly accept your contribution!
 
 
 
