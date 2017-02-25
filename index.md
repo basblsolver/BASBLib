@@ -26,7 +26,7 @@ __There is also an overview of the problems contained within the library__
 
 Since bilevel programming involves two optimization problems (the outer and the inner) our classification is based on the nature of these problems. At the moment, in our classification we distinguish the following classes (types) of bilevel programming problems:
 
-## [Linear-Linear](LP-LP-problems) problems (LP-LP)
+## [Linear-Linear](LP-LP-problems) (LP-LP)
 
 View a summary table of [all problems in this class](LP-LP-problems) or click on a problem name below for more information
 
@@ -36,7 +36,7 @@ View a summary table of [all problems in this class](LP-LP-problems) or click on
 [sib_1997_02](LP-LP/sib_1997_02) | [b_1984_01](LP-LP/b_1984_01)       | [aw_1990_01](LP-LP/aw_1990_01) | [b_1991_01](LP-LP/b_1991_01)   | [cw_1990_01](LP-LP/cw_1990_01) |
 [bf_1982_02](LP-LP/bf_1982_02)   | [bf_1982_01](LP-LP/bf_1982_01)     | [s_1989_01](LP-LP/s_1989_01)   | [ct_1982_01](LP-LP/ct_1982_01) |
 
-## [Linear-Quadratic](LP-QP-problems) problems (LP-QP)
+## [Linear-Quadratic](LP-QP-problems) (LP-QP)
 
 View a summary table of [all problems in this class](LP-QP-problems) or click on a problem name below for more information
 
@@ -44,7 +44,7 @@ View a summary table of [all problems in this class](LP-QP-problems) or click on
 | :----------------------------- | :--------------------------------- | :----------------------------- | :----------------------------- | :----------------------------- |
 [mb_2006_01](LP-QP/mb_2006_01)   | [mb_2007_04](LP-QP/mb_2007_04)     | [mb_2007_03](LP-QP/mb_2007_03) | [b_1991_02](LP-QP/b_1991_02)   | [as_1984_01](LP-QP/as_1984_01) |
 
-## [Linear-Nonlinear](LP-NLP-problems) problems (LP-NLP)
+## [Linear-Nonlinear](LP-NLP-problems) (LP-NLP)
 
 View a summary table of [all problems in this class](LP-NLP-problems) or click on a problem name below for more information
 
@@ -54,7 +54,7 @@ View a summary table of [all problems in this class](LP-NLP-problems) or click o
 [mb_2007_15](LP-NLP/mb_2007_15)  | [mb_2007_16](LP-NLP/mb_2007_16)    | [ka_2014_01](LP-NLP/ka_2014_01) | [mb_2007_09](LP-NLP/mb_2007_09) | [nwj_2016_01](LP-NLP/nwj_2016_01) |
 [gf_2001_01](LP-NLP/gf_2001_01)  | [cg_1999_01](LP-NLP/cg_1999_01)    |                                 |                                 |                                   |
 
-## [Quadratic-Quadratic](QP-QP-problems) problems (QP-QP)
+## [Quadratic-Quadratic](QP-QP-problems) (QP-QP)
 
 View a summary table of [all problems in this class](QP-QP-problems) or click on a problem name below for more information
 
@@ -66,7 +66,7 @@ View a summary table of [all problems in this class](QP-QP-problems) or click on
 [fl_1995_01](QP-QP/fl_1995_01)  | [sa_1981_02](QP-QP/sa_1981_02)     | [b_1984_02](QP-QP/b_1984_02)     | [dd_2012_02](QP-QP/dd_2012_02)  | [as_1981_01](QP-QP/as_1981_01)    |
 
 
-## [Quadratic-Nonlinear](QP-NLP-problems) problems (QP-NLP)
+## [Quadratic-Nonlinear](QP-NLP-problems) (QP-NLP)
 
 View a summary table of [all problems in this class](QP-NLP-problems) or click on a problem name below for more information
 
@@ -76,7 +76,7 @@ View a summary table of [all problems in this class](QP-NLP-problems) or click o
 [mb_2007_20](QP-NLP/mb_2007_20)   | [mb_2007_21](QP-NLP/mb_2007_21)    | [mb_2007_23](QP-NLP/mb_2007_23)  | [mb_2007_22](QP-NLP/mb_2007_22) | [dd_2012_01](QP-NLP/dd_2012_01)   |
 [sib_1997_01](QP-NLP/sib_1997_01) | [yz_2010_01](QP-NLP/yz_2010_01)    | [mb_2007_08](QP-NLP/mb_2007_08)  | [c_2002_02](QP-NLP/c_2002_02)   | [c_2002_04](QP-NLP/c_2002_04)     |
 
-## [Nonlinear-Nonlinear](NLP-NLP-problems) problems (NLP-NLP)
+## [Nonlinear-Nonlinear](NLP-NLP-problems) (NLP-NLP)
 
 View a summary table of [all problems in this class](NLP-NLP-problems) or click on a problem name below for more information
 
