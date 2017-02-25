@@ -21,7 +21,7 @@
 # ------------------------------------------------------------------------------
 #
 # For more information, please visit corresponding wiki website at:
-#    https://github.com/basblsolver/test-problems/wiki/as_2013_01
+#    http://basblsolver.github.io/test-problems/LP-LP/as_2013_01
 # ==============================================================================
 
 var x >= -10, <= 10;        # Outer variable

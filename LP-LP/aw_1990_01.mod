@@ -18,6 +18,10 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       5       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    http://basblsolver.github.io/test-problems/LP-LP/aw_1990_01
 # ==============================================================================
 var x >= 0, <= 50;         # Outer variable
 var y >= 0, <= 50;         # Inner variable

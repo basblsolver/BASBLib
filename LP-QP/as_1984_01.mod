@@ -23,7 +23,7 @@
 # ------------------------------------------------------------------------------
 #
 # For more information, please visit corresponding wiki website at:
-#    https://github.com/basblsolver/test-problems/wiki/as_1984_01
+#    http://basblsolver.github.io/test-problems/LP-LP/b_1984_01
 # ==============================================================================
 
 var x{1..2} >=   0, <= 50;    # Outer variable

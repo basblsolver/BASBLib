@@ -20,9 +20,9 @@
 # ------------------------------------------------------------------------------
 #                   1       2       0       0       2       0
 # ==============================================================================
-var x >= 0.1, <= 10;        # Outer variables
-var y{1..2} >= 0.1, <= 10;  # Inner variables
-var l{1..6} >= 0, <= 10;    # KKT Multipliers
+var x >= 0.1, <= 10;             # Outer variables
+var y{1..2} >= 0.1, <= 10.0001;  # Inner variables
+var l{1..6} >= 0, <= 10;         # KKT Multipliers
 
 minimize outer_obj: x;   # Outer objective
 

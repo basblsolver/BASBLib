@@ -3,9 +3,10 @@
 # Name:
 #   b_1998_02.mod
 #
-# Source: Example 7.2.1 from Bard, J. F. (1998).
-#  Practical bilevel optimization: algorithms and applications.
-#  Kluwer Academic Publishers, Dordrecht
+# Source(s): 
+#  1. Example 7.2.1 from Bard, J. F. (1998).
+#     Practical bilevel optimization: algorithms and applications.
+#     Kluwer Academic Publishers, Dordrecht
 #
 # Optimal solution:
 #   F* = 0.0

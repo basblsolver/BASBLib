@@ -20,7 +20,7 @@
 # ------------------------------------------------------------------------------
 #
 # For more information, please visit corresponding wiki website at:
-#    https://github.com/basblsolver/test-problems/wiki/mb_2007_01
+#    http://basblsolver.github.io/test-problems/LP-LP/mb_2007_01
 # ==============================================================================
 
 var y >= -1, <= 1;        # Inner variable

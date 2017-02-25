@@ -1,14 +1,12 @@
 # ==============================================================================
 # AMPL coding by Remigijus Paulavicius
 # Name:
-#   vfip_1996_01.mod
+#   b_1984_01.mod
 #
-# Source:
-# Visweswaran V., Floudas C.A., Ierapetritou M.G., and Pistikopoulos E.N.,
-# 1996, A decomposition-based global optimization approach for solving bi-
-# level linear and quadratic programs. In Floudas C.A. and Pardalos P.M.
-# (eds.), State oi the Art in Global Optimization, Nonconvex Optimizatiün
-# and its Applications, (p. 139), Kluwer Academic Publishers.
+# Original source:
+# - Example 1 in:
+#   J. F. Bard, Optimality conditions for the bilevel programming problem,
+#   Naval research logistics quarterly, 31 (1984), pp. 13–26
 #
 # Optimal solution:
 #   F* = 3.111
@@ -20,6 +18,10 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       4       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    http://basblsolver.github.io/test-problems/LP-LP/b_1984_01
 # ==============================================================================
 var x >= 0, <= 10;         # Outer variable
 var y >= 0, <= 10;         # Inner variable

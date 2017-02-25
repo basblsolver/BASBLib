@@ -1,15 +1,13 @@
 # ==============================================================================
 # AMPL coding by Remigijus Paulavicius
 # Name:
-#   sa_1981_2.mod
+#   sa_1981_02.mod
 #
-# Source: Example 2 from: Shimizu, K., & Aiyoshi, E. (1981).
-#  A new computational method for Stackelberg and min-max problems by use of a
-#  penalty method. IEEE Transactions on Automatic Control, 26(2), 460-466.
+# Original source: 
+# - Example 2 in Shimizu, K., & Aiyoshi, E. (1981).
+#   A new computational method for Stackelberg and min-max problems by use of a
+#   penalty method. IEEE Transactions on Automatic Control, 26(2), 460-466.
 #
-#  www.bilevel.org: Problem TP1
-#  A. Sinha and K. Deb, “Standard Test Problems for Single-Objective Bilevel
-#  Optimization,” pp. 1–4.
 #
 # Optimal solution:
 #   F* = 225.0
@@ -21,7 +19,12 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   2       2       2       0       2       0
+# ------------------------------------------------------------------------------
+# 
+# For more information, please visit corresponding website at:
+#   http://basblsolver.github.io/test-problems/QP-QP/sa_1981_02
 # ==============================================================================
+
 set J := {1..2};
 param lb{J};                      # Lower Bounds for the outer variable
 param ub{J};                      # Upper Bounds for the outer variable

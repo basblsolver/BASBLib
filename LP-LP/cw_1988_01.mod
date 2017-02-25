@@ -20,7 +20,7 @@
 # ------------------------------------------------------------------------------
 #
 # For more information, please visit corresponding wiki website at:
-#    https://github.com/basblsolver/test-problems/wiki/cw_1988_01
+#    http://basblsolver.github.io/test-problems/LP-LP/cw_1988_01
 # ==============================================================================
 
 var x >= 0, <= 30;         # Outer variable

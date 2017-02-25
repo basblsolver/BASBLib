@@ -3,10 +3,11 @@
 # Name:
 #   bf_1982_02.mod
 #
-# Source Example 2 from:
-# Bard, J. F., & Falk, J. E. (1982).
-# An explicit solution to the multi-level programming problem.
-# Computers & Operations Research, 9(1), 77-100.
+# Original source:
+#  - Example 2 from:
+#    Bard, J. F., & Falk, J. E. (1982).
+#    An explicit solution to the multi-level programming problem.
+#    Computers & Operations Research, 9(1), 77-100.
 #
 # Optimal solution:
 #   F* = -3.25
@@ -14,14 +15,14 @@
 #   x* = (2.0, 0.0)
 #   y* = (1.5, 0.0)
 #
-# NOTE:
-#   In the paper a non-optimal solution is located at x = (1,0), y = (0.5,1)
-#   with an outer objective function value of F = -1.75.
-#
-## ---------------------------- Problem Properties ------------------------------
+# ---------------------------- Problem Properties ------------------------------
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   2       2       0       0       3       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    http://basblsolver.github.io/test-problems/LP-LP/bf_1982_02
 # ==============================================================================
 var x{1..2} >= 0, <= 10;   # Outer variable
 var y{1..2} >= 0, <= 10;   # Inner variable

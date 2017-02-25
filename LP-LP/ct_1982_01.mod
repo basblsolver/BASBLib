@@ -3,9 +3,10 @@
 # Name:
 #   ct_1982_01.mod
 #
-# Source:
-# Candler, W., & Townsley, R. (1982). A linear two-level programming problem.
-# Computers & Operations Research, 9(1), 59-76.
+# Original source:
+#  - from Sec. 6 Numerical Example:
+#    Candler, W., & Townsley, R. (1982). A linear two-level programming problem.
+#    Computers & Operations Research, 9(1), 59-76.
 #
 # Optimal solution:
 #   F* = -29.20
@@ -17,6 +18,10 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   2       6       0       0       3       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    https://github.com/basblsolver/test-problems/wiki/ct_1982_01
 # ==============================================================================
 var x{1..2} >= 0, <= 10;   # Outer variable
 var y{1..6} >= 0, <= 10;   # Inner variable

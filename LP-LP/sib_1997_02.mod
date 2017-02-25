@@ -23,7 +23,7 @@
 # ------------------------------------------------------------------------------
 #
 # For more information, please visit corresponding wiki website at:
-#    https://github.com/basblsolver/test-problems/wiki/sib_1997_02
+#    http://basblsolver.github.io/test-problems/LP-LP/sib_1997_02
 # ==============================================================================
 
 var x >= 0, <= 10;         # Outer variable
@@ -36,10 +36,10 @@ subject to
 # Inner objective:
     inner_obj: y = 0;
 # Inner constraints
-    inner_con1:  -x - y + 3 <= 0;
-    inner_con2:  -2*x + y <= 0;
-    inner_con3:   2*x + y - 12 <= 0;
-    inner_con4:   3*x - 2*y - 4 <= 0;
+    inner_con1: -x - y + 3 <= 0;
+    inner_con2: -2*x + y <= 0;
+    inner_con3: 2*x + y - 12 <= 0;
+    inner_con4: 3*x - 2*y - 4 <= 0;
 # KKT conditions:
     stationarity:      1 - l[1] + l[2] + l[3] - 2*l[4] - l[5] + l[6] = 0;
     complementarity_1: l[1]*(-x - y + 3) = 0;

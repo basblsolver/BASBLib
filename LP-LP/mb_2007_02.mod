@@ -18,10 +18,10 @@
 # ------------------------------------------------------------------------------
 #
 # For more information, please visit corresponding wiki website at:
-#    https://github.com/basblsolver/test-problems/wiki/mb_2007_02
+#    http://basblsolver.github.io/test-problems/LP-LP/mb_2007_01
 # ==============================================================================
 
-var y >= -1, <= 1;        # Inner variable
+var y >= -1, <= 1;        # Inner variable(s)
 var l{1..2} >= 0, <= 2;   # KKT Multipliers
 
 minimize outer_obj: y;    # Outer objective

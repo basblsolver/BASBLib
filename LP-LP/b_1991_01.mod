@@ -3,11 +3,10 @@
 # Name:
 #   b_1991_01.mod
 #
-# Source: Example 2.2. from:
-# Bard, J. F. (1991). Some properties of the bilevel programming problem.
-# Journal of optimization theory and applications, 68(2), 371-378.
-#
-#  Example 8.1.2 in (Bard, 1998)
+# Original source:
+# - Example 2.2 in:
+#   Bard, J. F. (1991). Some properties of the bilevel programming problem.
+#   Journal of optimization theory and applications, 68(2), 371-378.
 #
 # Optimal solutions:
 #   F* = -1.000
@@ -24,6 +23,10 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       2       0       0       3       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    http://basblsolver.github.io/test-problems/LP-LP/b_1991_01
 # ==============================================================================
 var x >= 0, <= 10;         # Outer variable
 var y{1..2} >= 0, <= 10;   # Inner variable

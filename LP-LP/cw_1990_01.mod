@@ -3,12 +3,11 @@
 # Name:
 #   cw_1990_01.mod
 #
-# Source:
-#   From Sect. 3.1. Multiple inner problem maxima from:
-#   Clark, P. A., Westerberg, A. W. (1990).
-#   Bilevel programming for steady-state chemical process design—I.
-#   fundamentals and algorithms.
-#   Computers & Chemical Engineering, 14(1), 87-97.
+# Original source:
+#  - From Sect. 3.1. Multiple inner problem maxima from:
+#    Clark, P. A., Westerberg, A. W. (1990).Bilevel programming for steady-state
+#    chemical process design—I. fundamentals and algorithms.
+#    Computers & Chemical Engineering, 14(1), 87-97
 #
 # Optimal solution:
 #   F* = -13.0
@@ -20,7 +19,12 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       2       0       0       3       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding wiki website at:
+#    http://basblsolver.github.io/test-problems/LP-LP/cw_1990_01
 # ==============================================================================
+
 var x >= 0, <= 8;           # Outer variable
 var y{1..2} >= 0, <= 4;     # Inner variable
 var l{1..7} >= 0, <= 10;    # KKT Multipliers
