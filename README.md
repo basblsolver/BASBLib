@@ -33,18 +33,10 @@ If you use this library, please cite the following sources:
 
 * Remigijus Paulavicius et al.. (2016). A library of nonconvex bilevel test problems with the corresponding AMPL input files. Zenodo. [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.44997.svg)](http://dx.doi.org/10.5281/zenodo.44997)
 
+## Acknowledgment
+
 ```
-@misc{remigijus_paulavicius_2016_44997,
-  author       = {Remigijus Paulavicius and
-                  Polyxeni-M. Kleniati and
-                  Claire S. Adjiman},
-  title        = {{A library of nonconvex bilevel test problems with 
-                   the corresponding AMPL input files}},
-  month        = jan,
-  year         = 2016,
-  doi          = {10.5281/zenodo.44997},
-  url          = {http://dx.doi.org/10.5281/zenodo.44997}
-}
+We gratefully acknowledge funding from the EPSRC through a Leadership Fellowship [EP/J003840/1]
 ```
 
 
