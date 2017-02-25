@@ -26,7 +26,7 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
 
 * Remigijus Paulavicius et al.. (2016). A library of nonconvex bilevel test problems with the corresponding AMPL input files. Zenodo. [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.44997.svg)](http://dx.doi.org/10.5281/zenodo.44997)
 
-# Classification of BPP problems
+# Problems classification
 
 Since bilevel programming involves two optimization problems (the outer and the inner) our classification is based on the nature of these problems. At the moment, in our classification we distinguish the following classes (types) of bilevel programming problems:
 
@@ -82,7 +82,7 @@ View a summary table of [all QP-NLP problems](QP-NLP-problems) or click on a pro
 
 ## [Nonlinear-Nonlinear (NLP-NLP)](NLP-NLP-problems)
 
-View a summary table of [all NLP-NLP problems](NLP-NLP-problems) or click on a problem name below for more information.
+View a summary table of [all NLP-NLP problems](NLP-NLP-problems) or click on a problem name for more information.
 
 |                                  |                                    |                                    |                                    |                                    |
 | :------------------------------- | :--------------------------------- | :--------------------------------- | :--------------------------------- | :--------------------------------- |
