@@ -18,7 +18,7 @@ Since bilevel programming involves two optimization problems (the outer and the 
 
 ## BASBLib home-page
 
-For more details on these problems see [BASBLib home-page](http://basblsolver.github.io/BASBLib/).
+For more details on bilevel test problems see [BASBLib home-page](http://basblsolver.github.io/BASBLib/).
 
 ## Citation
 
