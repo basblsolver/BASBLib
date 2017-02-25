@@ -2,6 +2,8 @@
 
 While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse, there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from various sources devoted to bilevel programming.
 
+## Features
+
 **For each problem, this library provides:**
 
  - A problem statement
@@ -10,6 +12,8 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
  - Sources where the problem was used
  - [AMPL input files](https://github.com/basblsolver/test-problems) in the format, compatible with [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
  - Finally, convenient way to use it and contribute to it.
+
+## Contribution 
 
 **We welcome contributions and corrections to this resource either way:**
 
