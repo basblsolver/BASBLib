@@ -1,4 +1,4 @@
-# An `AMPL` files for BASBLib - A Library of Bilevel Test Problems
+# BASBLib - A Library of Bilevel Test Problems
 
 While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse, there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from various sources devoted to bilevel programming.
 
@@ -11,12 +11,14 @@ Since bilevel programming involves two optimization problems (the outer and the 
  - **quadratic-quadratic** problems ([QP-QP](https://github.com/basblsolver/BASBLib/tree/master/QP-QP))
  - **quadratic-nonlinear** problems ([QP-NLP](https://github.com/basblsolver/BASBLib/tree/master/QP-NLP))
  - **nonlinear-nonlinear** problems ([NLP-NLP](https://github.com/basblsolver/BASBLib/tree/master/NLP-NLP))
+ 
+ ## Goal of this repository
+ 
+* This repository provides a description of bilevel test problems in the `AMPL` modelling format, compatible with [`BASBL solver`](http://basblsolver.github.io/home/ "Bilevel Solver").
 
-This library (repository) provides:
-* Description of bilevel problems in the `AMPL` format, compatible with [`BASBL solver`](http://basblsolver.github.io/home/ "Bilevel Solver").
+## BASBLib home-page
 
-
-For more details on these problems see [wiki-page](https://github.com/basblsolver/test-problems/wiki):
+For more details on these problems see [BASBLib home-page](http://basblsolver.github.io/BASBLib/).
 
 ## Citation
 
