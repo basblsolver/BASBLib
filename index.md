@@ -20,7 +20,11 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
  - **common way**    - send us your comments, corrections or suggestions by email: remigijus.paulavicius@imperial.ac.uk
  - **modern way** - [fork](https://help.github.com/articles/fork-a-repo/) github repository, add new information & correct existing, then create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and we hapilly accept your contribution!
 
-__There is also an overview of the problems contained within the library__
+## Citation
+
+**If you use this library, please cite the following source:**
+
+* Remigijus Paulavicius et al.. (2016). A library of nonconvex bilevel test problems with the corresponding AMPL input files. Zenodo. [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.44997.svg)](http://dx.doi.org/10.5281/zenodo.44997)
 
 # Classification of BPP problems
 
@@ -28,7 +32,7 @@ Since bilevel programming involves two optimization problems (the outer and the 
 
 ## [Linear-Linear (LP-LP)](LP-LP-problems) 
 
-View a summary table of [all LP-LP problems](LP-LP-problems) or click on a problem name for more information
+View a summary table of [all LP-LP problems](LP-LP-problems) or click on a problem name for more information.
 
 |                                |                                    |                                |                                |                                |
 | :----------------------------- | :--------------------------------- | :----------------------------- | :----------------------------- | :----------------------------- |
@@ -38,7 +42,7 @@ View a summary table of [all LP-LP problems](LP-LP-problems) or click on a probl
 
 ## [Linear-Quadratic (LP-QP)](LP-QP-problems)
 
-View a summary table of [all problems in this class](LP-QP-problems) or click on a problem name below for more information
+View a summary table of [all LP-QP problems](LP-QP-problems) or click on a problem name for more information.
 
 |                                |                                    |                                |                                |                                |
 | :----------------------------- | :--------------------------------- | :----------------------------- | :----------------------------- | :----------------------------- |
@@ -46,7 +50,7 @@ View a summary table of [all problems in this class](LP-QP-problems) or click on
 
 ## [Linear-Nonlinear (LP-NLP)](LP-NLP-problems) 
 
-View a summary table of [all problems in this class](LP-NLP-problems) or click on a problem name below for more information
+View a summary table of [all LP-NLP problems](LP-NLP-problems) or click on a problem name for more information.
 
 |                                |                                    |                                 |                                 |                                   |
 | :----------------------------- | :--------------------------------- | :------------------------------ | :------------------------------ | :-------------------------------- |
@@ -56,7 +60,7 @@ View a summary table of [all problems in this class](LP-NLP-problems) or click o
 
 ## [Quadratic-Quadratic (QP-QP)](QP-QP-problems) 
 
-View a summary table of [all problems in this class](QP-QP-problems) or click on a problem name below for more information
+View a summary table of [all QP-QP problems](QP-QP-problems) or click on a problem name for more information.
 
 |                               |                                    |                                  |                                 |                                   |
 | :---------------------------- | :--------------------------------- | :------------------------------- | :------------------------------ | :-------------------------------- |
@@ -68,7 +72,7 @@ View a summary table of [all problems in this class](QP-QP-problems) or click on
 
 ## [Quadratic-Nonlinear (QP-NLP)](QP-NLP-problems) 
 
-View a summary table of [all problems in this class](QP-NLP-problems) or click on a problem name below for more information
+View a summary table of [all QP-NLP problems](QP-NLP-problems) or click on a problem name for more information.
 
 |                                 |                                    |                                  |                                 |                                   |
 | :------------------------------ | :--------------------------------- | :------------------------------- | :------------------------------ | :-------------------------------- |
@@ -78,21 +82,15 @@ View a summary table of [all problems in this class](QP-NLP-problems) or click o
 
 ## [Nonlinear-Nonlinear (NLP-NLP)](NLP-NLP-problems)
 
-View a summary table of [all problems in this class](NLP-NLP-problems) or click on a problem name below for more information
+View a summary table of [all NLP-NLP problems](NLP-NLP-problems) or click on a problem name below for more information.
 
 |                                  |                                    |                                    |                                    |                                    |
 | :------------------------------- | :--------------------------------- | :--------------------------------- | :--------------------------------- | :--------------------------------- |
 [c_2002_01](NLP-NLP/c_2002_01)     | [c_2002_03](NLP-NLP/c_2002_03)     | [c_2002_05](NLP-NLP/c_2002_05)     | [fz_1998_01](NLP-NLP/fz_1998_01)   | [mb_2007_24](NLP-NLP/mb_2007_24)   |
 [nwj_2016_02](NLP-NLP/nwj_2016_02) | [nwj_2016_04](NLP-NLP/nwj_2016_04) | [nwj_2016_03](NLP-NLP/nwj_2016_03) | [nwj_2016_05](NLP-NLP/nwj_2016_05) | [ka_2014_02](NLP-NLP/ka_2014_02)   |
 
-## Citation
 
-If you use this library, please cite the following sources:
-
-* Remigijus Paulavicius et al.. (2016). A library of nonconvex bilevel test problems with the corresponding AMPL input files. Zenodo. [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.44997.svg)](http://dx.doi.org/10.5281/zenodo.44997)
-
-
-## Acknowledgment
+# Acknowledgment
 
 ```
 We gratefully acknowledge funding from the EPSRC through a Leadership Fellowship [EP/J003840/1]
