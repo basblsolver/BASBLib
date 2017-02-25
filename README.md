@@ -12,7 +12,7 @@ Since bilevel programming involves two optimization problems (the outer and the 
  - **quadratic-nonlinear** problems ([QP-NLP](https://github.com/basblsolver/BASBLib/tree/master/QP-NLP))
  - **nonlinear-nonlinear** problems ([NLP-NLP](https://github.com/basblsolver/BASBLib/tree/master/NLP-NLP))
  
- ## Goal of this repository
+## Goal of this repository
  
 * This repository provides a description of bilevel test problems in the `AMPL` modelling format, compatible with [`BASBL solver`](http://basblsolver.github.io/home/ "Bilevel Solver").
 
