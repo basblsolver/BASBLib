@@ -25,7 +25,7 @@ For more details on bilevel test problems see [BASBLib home-page](http://basblso
 **We welcome contributions and corrections to this resource either way:**
 
  - **common way**    - send us your comments, corrections or suggestions by email: remigijus.paulavicius@imperial.ac.uk
- - **modern way** - [fork](https://help.github.com/articles/fork-a-repo/) github repository, add new information & correct existing, then create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and we thankfully incorporate your contribution!
+ - **modern way** - [fork](https://help.github.com/articles/fork-a-repo/) github repository, add new information & correct existing, then create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and we gratefully incorporate your contribution!
  
 ## Citation
 
