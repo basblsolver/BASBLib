@@ -5,12 +5,12 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
 ## Problems classification
 
 Since bilevel programming involves two optimization problems (the outer and the inner) our classification is based on the nature of these problems. At the moment, in our classification we distinguish the following classes (types) of bilevel programming problems:
- - **linear-linear** problems ([LP-LP](https://github.com/basblsolver/BASBLib/tree/master/LP-LP))
- - **linear-quadratic** problems ([LP-QP](https://github.com/basblsolver/BASBLib/tree/master/LP-QP))
- - **linear-nonlinear** problems ([LP-NLP](https://github.com/basblsolver/BASBLib/tree/master/LP-NLP))
- - **quadratic-quadratic** problems ([QP-QP](https://github.com/basblsolver/BASBLib/tree/master/QP-QP))
- - **quadratic-nonlinear** problems ([QP-NLP](https://github.com/basblsolver/BASBLib/tree/master/QP-NLP))
- - **nonlinear-nonlinear** problems ([NLP-NLP](https://github.com/basblsolver/BASBLib/tree/master/NLP-NLP))
+ - **linear outer-linear inner** problems ([LP-LP](https://github.com/basblsolver/BASBLib/tree/master/LP-LP))
+ - **linear outer-quadratic inner** problems ([LP-QP](https://github.com/basblsolver/BASBLib/tree/master/LP-QP))
+ - **linear outer-nonlinear inner** problems ([LP-NLP](https://github.com/basblsolver/BASBLib/tree/master/LP-NLP))
+ - **quadratic outer-quadratic inner** problems ([QP-QP](https://github.com/basblsolver/BASBLib/tree/master/QP-QP))
+ - **quadratic outer-nonlinear inner** problems ([QP-NLP](https://github.com/basblsolver/BASBLib/tree/master/QP-NLP))
+ - **nonlinear outer-nonlinear inner** problems ([NLP-NLP](https://github.com/basblsolver/BASBLib/tree/master/NLP-NLP))
  
 ## Goal of this repository
  
