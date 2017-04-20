@@ -3,10 +3,10 @@
 # Name:
 #   nwj_2016_02.mod
 #
-# Source:
-#  Example 5.2. from:  Nie, J., Wang, L., & Ye, J. (2016).
-#  Bilevel polynomial programs and semidefinite relaxation methods.
-#  arXiv preprint arXiv:1508.06985.
+# Original source:
+# - Example 5.2. in:
+#   Nie, J., Wang, L., & Ye, J. (2016). Bilevel polynomial programs and 
+#   semidefinite relaxation methods. arXiv preprint arXiv:1508.06985.
 #
 # Optimal solution:
 #   F* = -1.71
@@ -18,22 +18,27 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   2       3       1       0       2       0
+# ------------------------------------------------------------------------------
+# 
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/NLP-NLP/nwj_2016_02
 # ==============================================================================
 var x{1..2} >= -1, <= 1;    # Outer variables
 var y{1..3} >= -10, <= 10;  # Inner variables
-var l{1..8} >= 0, <= 100;   # Multipliers
+var l{1..8} >= 0, <= 100;   # KKT multipliers
 
+# Outer objective:
 minimize outer_obj: x[1]*y[1] + x[2]*y[2] + x[1]*x[2]*y[1]*y[2]*y[3];
 
 subject to
 # Outer constraints:
     outer_con: -x[1]^2 + y[1]*y[2] <= 0;
-# Inner objective
+# Inner objective:
     inner_obj: x[1]*y[1]^2 + x[2]^2*y[2]*y[3] - y[1]*y[3]^2 = 0;
 # Inner constraints:
     inner_con_1:  -y[1]^2 - y[2]^2 - y[3]^2 + 1 <= 0;
     inner_con_2:  y[1]^2 + y[2]^2 + y[3]^2 - 2 <= 0;
-# KKT conditions
+# KKT conditions:
     stationarity_1: 2*x[1]*y[1] - y[3]^2 - 2*l[1]*y[1] + 2*l[2]*y[1] - l[3] + l[4] = 0;
     stationarity_2: x[2]^2*y[3] - 2*l[1]*y[2] + 2*l[2]*y[2] - l[5] + l[6] = 0;
     stationarity_3: x[2]^2*y[2] - 2*y[1]*y[3] -2*l[1]*y[3] + 2*l[2]*y[3] - l[7] + l[8] = 0;

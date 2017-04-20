@@ -3,8 +3,8 @@
 # Name:
 #   mb_2007_15.mod
 #
-# Source:
-#   Example 3.15 (mb_1_1_08) from
+# Original source:
+# - Example 3.15 (mb_1_1_08) from
 #   A. Mitsos and P. I. Barton, (2007) A Test Set for Bilevel Programs,
 #   http://www.researchgate.net/publication/228455291, [Updated 19-09-2007].
 #
@@ -18,11 +18,16 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       0       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-NLP/mb_2007_15
 # ==============================================================================
 var x >= -1, <= 1;       # Outer variable
 var y >= -1, <= 1;       # Inner variable
 var l{1..2} >= 0, <= 2;  # Multipliers
 
+# Outer objective:
 minimize outer_obj: x + y;
 
 subject to

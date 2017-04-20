@@ -9,6 +9,8 @@
 #    problems with non-unique lower level solutions. 
 #    Computational Optimization and Applications, 15(2), 145-166.
 #
+# NOTE: d > 0 should be fixed; we use d = 1
+# 
 # Optimal solution:
 #   F* = 0.0
 #   f* = -0.25
@@ -21,23 +23,23 @@
 #                   1       1       0       0       2       0
 # ------------------------------------------------------------------------------
 # 
-# For more information, please visit corresponding website at:
-#   http://basblsolver.github.io/test-problems/QP-QP/d_2000_01
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/QP-QP/d_2000_01
 # ==============================================================================
-
 var x >= -0.5, <= 10;     # Outer variables
 var y >= -10, <= 11;      # Inner variables
 var l{1..4} >= 0, <= 10;  # KKT Multipliers
 
-minimize outer_obj: (-x + y + 1)^2;  # d > 0 fixed, so we use d = 1
+# Outer objective:
+minimize outer_obj: (-x + y + 1)^2; 
 
 subject to
-# Inner objective
+# Inner objective:
     inner_obj: x*y = 0;
-# Inner constraints
+# Inner constraints:
     inner_con1: -x - y <= 0;
     inner_con2: -x + y -1 <= 0;
-# KKT conditions
+# KKT conditions:
     stationarity:      x - l[1] + l[2] - l[3] + l[4] = 0;
     complementarity_1: l[1]*(-x - y) = 0;
     complementarity_2: l[2]*(-x + y - 1) = 0;

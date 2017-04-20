@@ -3,10 +3,10 @@
 # Name:
 #   nwj_2016_05.mod
 #
-# Source:
-#  Example 5.8. from:  Nie, J., Wang, L., & Ye, J. (2016).
-#  Bilevel polynomial programs and semidefinite relaxation methods.
-#  arXiv preprint arXiv:1508.06985.
+# Original source:
+# - Example 5.8. in:
+#   Nie, J., Wang, L., & Ye, J. (2016). Bilevel polynomial programs and 
+#   semidefinite relaxation methods. arXiv preprint arXiv:1508.06985.
 #
 # Optimal solution:
 #   F* = -0.437
@@ -18,11 +18,16 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   4       4       3       0       2       0
+# ------------------------------------------------------------------------------
+# 
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/NLP-NLP/nwj_2016_05
 # ==============================================================================
 var x{1..4} >= -1, <= 1;    # Outer variables
 var y{1..4} >= -10, <= 10;  # Inner variables
 var l{1..10} >= 0, <= 100;  # Multipliers
 
+# Outer objective:
 minimize outer_obj: (x[1] + x[2] + x[3] + x[4])*(y[1] + y[2] + y[3] + y[4]);
 
 subject to
@@ -30,12 +35,12 @@ subject to
     outer_con_1:  x[1]^2 + x[2]^2 + x[3]^2 + x[4]^2 - 1 <= 0;
     outer_con_2: -x[1] + y[2]*y[4] <= 0;
     outer_con_3: -x[4] + y[3]^2 <= 0;
-# Inner objective
+# Inner objective:
     inner_obj: x[1]*y[1] + x[2]*y[2] + 0.1*y[3] + 0.5*y[4] - y[3]*y[4] = 0;
 # Inner constraints:
     inner_con_1:  y[1]^2 + 2*y[2]^2 + 3*y[3]^2 + 4*y[4]^2 - x[1]^2 - x[3]^2 - x[2] - x[4] <= 0;
     inner_con_2:  y[1]*y[4] - y[2]*y[3] <= 0;
-# KKT conditions
+# KKT conditions:
     stationarity_1: x[1] + 2*l[1]*y[1] + l[2]*y[4] - l[3] + l[4] = 0;
     stationarity_2: x[2] + 4*l[1]*y[2] - l[2]*y[3] - l[5] + l[6] = 0;
     stationarity_3: 0.1 - y[4] + 6*l[1]*y[3] - l[2]*y[2] - l[7] + l[8] = 0;

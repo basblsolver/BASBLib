@@ -3,10 +3,11 @@
 # Name:
 #   aw_1990_01.mod
 #
-# Source: Example from:
-#  Anandalingam, G., & White, D.J. (1990).
-#  A solution method for the linear static Stackelberg problem using penalty
-#  functions. IEEE Transactions on Automatic Control, 35(10), 1170-1173.
+# Original source: 
+#  - Example-E1 in:
+#    Anandalingam, G., & White, D.J. (1990). A solution method for the linear 
+#    static Stackelberg problem using penalty functions. 
+#    IEEE Transactions on Automatic Control, 35(10), 1170-1173.
 #
 # Optimal solution:
 #   F* = -49.000
@@ -20,24 +21,25 @@
 #                   1       1       0       0       5       0
 # ------------------------------------------------------------------------------
 #
-# For more information, please visit corresponding wiki website at:
-#    http://basblsolver.github.io/test-problems/LP-LP/aw_1990_01
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-LP/aw_1990_01
 # ==============================================================================
 var x >= 0, <= 50;         # Outer variable
 var y >= 0, <= 50;         # Inner variable
 var l{1..7} >= 0, <= 10;   # KKT Multipliers
 
-minimize outer_obj: -x - 3*y;  # Outer objective
+# Outer objective:
+minimize outer_obj: -x - 3*y;
 
 subject to
 # Inner objective:
     inner_obj: -x + 3*y = 0;
-# Inner constraints
+# Inner constraints:
     inner_con1:    -x - 2*y + 10 <= 0;
     inner_con2:     x - 2*y - 6 <= 0;
     inner_con3:     2*x - y - 21 <= 0;
     inner_con4:     x + 2*y - 38 <= 0;
-    inner_con5:     -x + 2*y - 18 <= 0;
+    inner_con5:    -x + 2*y - 18 <= 0;
 # KKT conditions:
     stationarity:    3 - 2*l[1] - 2*l[2] - l[3] + 2*l[4] + 2*l[5] - l[6] + l[7]= 0;
     complementarity_1: l[1]*(-x - 2*y + 10) = 0;

@@ -20,8 +20,8 @@
 #                   4       4       1       0       4       0
 # ------------------------------------------------------------------------------
 # 
-# For more information, please visit corresponding website at:
-#   http://basblsolver.github.io/test-problems/QP-QP/as_1981_01
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/QP-QP/as_1981_01
 # ==============================================================================
 set I := {1..4};
 set J := {1..4};
@@ -33,11 +33,12 @@ var x{i in I} >= xlb[i], <= xub[i];  # Outer variable
 var y{j in J} >= ylb[j], <= yub[j];  # Inner variable
 var l{1..12} >= 0, <= 1000;          # KKT Multipliers
 
-minimize outer_obj: -(200 - y[1] - y[3])*(y[1] + y[3]) - (160 - y[2] - y[4])*(y[2] + y[4]) 
-+ (x[1]-x[1])^2 + (x[2]-x[2])^2 + (x[3]-x[3])^2 + (x[4]-x[4])^2;   # Outer objective
+# Outer objective
+minimize outer_obj: -(200 - y[1] - y[3])*(y[1] + y[3]) + (-160 + y[2] + y[4])*(y[2] + y[4]) 
++ (x[1]-x[1])^2 + (x[2]-x[2])^2 + (x[3]-x[3])^2 + (x[4]-x[4])^2;
 
 subject to
-# Inner constraints
+# Outer constraints:
     outer_con1: x[1] + x[2] + x[3] + x[4] - 40 <= 0;
 # Inner objective:
     inner_obj: (y[1] - 4)^2 + (y[2] - 13)^2 + (y[3] - 35)^2 + (y[4] - 2)^2 = 0;

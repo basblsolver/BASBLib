@@ -20,20 +20,20 @@
 #                   1       1       0       0       3       0
 # ------------------------------------------------------------------------------
 #
-# For more information, please visit corresponding wiki website at:
-#    http://basblsolver.github.io/test-problems/LP-LP/lh_1994_01
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-LP/lh_1994_01
 # ==============================================================================
-
 var x >= 0, <= 10;          # Outer variable
 var y >= 0, <= 10;          # Inner variable
 var l{1..5} >= 0, <= 10;    # KKT Multipliers
 
-minimize outer_obj: -x - 3*y;  # Outer objective
+ # Outer objective:
+minimize outer_obj: -x - 3*y; 
 
 subject to
 # Inner objective:
     inner_obj: y = 0;
-# Inner constraints
+# Inner constraints:
     inner_con1:  -x + y - 3 <= 0;
     inner_con2:   x + 2*y - 12 <= 0;
     inner_con3:   4*x - y - 12 <= 0;

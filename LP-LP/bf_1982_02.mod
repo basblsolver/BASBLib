@@ -22,18 +22,19 @@
 # ------------------------------------------------------------------------------
 #
 # For more information, please visit corresponding wiki website at:
-#    http://basblsolver.github.io/test-problems/LP-LP/bf_1982_02
+#    http://basblsolver.github.io/BASBLib/LP-LP/bf_1982_02
 # ==============================================================================
 var x{1..2} >= 0, <= 10;   # Outer variable
 var y{1..2} >= 0, <= 10;   # Inner variable
 var l{1..7} >= 0, <= 10;   # KKT Multipliers
 
-minimize outer_obj: -2*x[1] + x[2] + 0.5*y[1];  # Outer objective
+# Outer objective:
+minimize outer_obj: -2*x[1] + x[2] + 0.5*y[1];  
 
 subject to
 # Inner objective:
     inner_obj: x[1] + x[2] - 4*y[1] + y[2] = 0;
-# Inner constraints
+# Inner constraints:
     inner_con1: -2*x[1] + y[1] - y[2] + 2.5 <= 0;
     inner_con2: x[1] - 3*x[2] + y[2] - 2 <= 0;
     inner_con3: x[1] + x[2] - 2 <= 0;

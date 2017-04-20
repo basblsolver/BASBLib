@@ -13,26 +13,27 @@
 #   f* = 14.0
 #   x* = 19.0
 #   y* = 14.0
+#   
 # ---------------------------- Problem Properties ------------------------------
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       3       0
 # ------------------------------------------------------------------------------
 #
-# For more information, please visit corresponding wiki website at:
-#    http://basblsolver.github.io/test-problems/LP-LP/cw_1988_01
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-LP/cw_1988_01
 # ==============================================================================
-
 var x >= 0, <= 30;         # Outer variable
 var y >= 0, <= 30;         # Inner variable
 var l{1..5} >= 0, <= 10;    # KKT Multipliers
 
-minimize outer_obj: x - 4*y;  # Outer objective
+# Outer objective:
+minimize outer_obj: x - 4*y;  
 
 subject to
 # Inner objective:
     inner_obj: y = 0;
-# Inner constraints
+# Inner constraints:
     inner_con1:  -2*x + y <= 0;
     inner_con2:   2*x + 5*y - 108 <= 0;
     inner_con3:   2*x - 3*y + 4 <= 0;

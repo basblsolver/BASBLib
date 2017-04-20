@@ -3,10 +3,11 @@
 # Name:
 #   sa_1981_02.mod
 #
-# Original source: 
-# - Example 2 in Shimizu, K., & Aiyoshi, E. (1981).
-#   A new computational method for Stackelberg and min-max problems by use of a
-#   penalty method. IEEE Transactions on Automatic Control, 26(2), 460-466.
+# Original source:
+# - Example 1 in: 
+#   Shimizu, K., & Aiyoshi, E. (1981). A new computational method for 
+#   Stackelberg and min-max problems by use of a penalty method. 
+#   IEEE Transactions on Automatic Control, 26(2), 460-466.
 #
 #
 # Optimal solution:
@@ -21,10 +22,9 @@
 #                   2       2       2       0       2       0
 # ------------------------------------------------------------------------------
 # 
-# For more information, please visit corresponding website at:
-#   http://basblsolver.github.io/test-problems/QP-QP/sa_1981_02
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/QP-QP/sa_1981_02
 # ==============================================================================
-
 set J := {1..2};
 param lb{J};                      # Lower Bounds for the outer variable
 param ub{J};                      # Upper Bounds for the outer variable
@@ -32,7 +32,8 @@ var x{j in J} >= lb[j] <= ub[j];  # Outer variable
 var y{1..2} >= 0, <= 10;          # Inner variable
 var l{1..4} >= 0, <= 100;         # KKT Multipliers
 
-minimize outer_obj: (x[1] - 30)^2 + (x[2] - 20)^2 - 20*y[1] + 20*y[2];   # Outer objective
+# Outer objective:
+minimize outer_obj: (x[1] - 30)^2 + (x[2] - 20)^2 - 20*y[1] + 20*y[2];   
 
 subject to
 # Outer constraints

@@ -3,11 +3,12 @@
 # Name:
 #   b_1998_05.mod
 #
-# Source: Example 8.1.3 from Bard, J. F. (1998).
-#  Practical bilevel optimization: algorithms and applications.
-#  Kluwer Academic Publishers, Dordrecht
+# Original source: 
+# - Example 8.1.3 in:
+#  Bard, J. F. (1998). Practical bilevel optimization: algorithms and 
+#  applications. Kluwer Academic Publishers, Dordrecht
 #
-#  (Augmented by a nonnegativity constraint on y)
+#  NOTE: Compared to  b_1998_04, augmented by a nonnegativity constraint on y.
 #
 # Optimal solution:
 #   F* = 1.0
@@ -19,12 +20,17 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       0       0
+# ------------------------------------------------------------------------------
+#                
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/QP-QP/b_1998_05
 # ==============================================================================
 var x >= -100, <= 100;      # Outer variable
 var y >= 0, <= 100;         # Inner variable
 var l{1..2} >= 0, <= 1000;  # KKT Multipliers
 
-minimize outer_obj: (x - 1)^2 + (y - 1)^2;  # Outer objective
+# Outer objective:
+minimize outer_obj: (x - 1)^2 + (y - 1)^2;
 
 subject to
 # Inner objective:

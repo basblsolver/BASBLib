@@ -21,15 +21,16 @@
 #                   2       2       0       0       0       0
 # ------------------------------------------------------------------------------
 # 
-# For more information, please visit corresponding website at:
-#   http://basblsolver.github.io/test-problems/QP-QP/ds_1978_01
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/QP-QP/d_1978_01
 # ==============================================================================
 
 var x{1..2} >= 0, <= 10;     # Outer variable
 var y{1..2} >= 0.5, <= 1.5;  # Inner variable
 var l{1..4} >= 0, <= 100;    # KKT Multipliers
 
-minimize outer_obj: x[1]^2 - 2*x[1] + x[2]^2 - 2*x[2] + y[1]^2 + y[2]^2;   # Outer objective
+# Outer objective:
+minimize outer_obj: x[1]^2 - 2*x[1] + x[2]^2 - 2*x[2] + y[1]^2 + y[2]^2;   
 
 subject to
 # Inner objective:

@@ -4,7 +4,8 @@
 #   b_1988_01.mod
 #
 # Original source:
-#  - Example 1 in Bard, J. F. (1988). Convex two-level optimization. 
+#  - Example 1 in:
+#    Bard, J. F. (1988). Convex two-level optimization. 
 #    Mathematical Programming, 40(1-3), 15-27.
 #
 # Optimal solution:
@@ -18,21 +19,21 @@
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       3       0
 # ------------------------------------------------------------------------------
-# 
-# For more information, please visit corresponding website at:
-#   http://basblsolver.github.io/test-problems/QP-QP/b_1988_01
+#                
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/QP-QP/b_1988_01
 # ==============================================================================
-
 var x >= 0, <= 10;         # Outer variable
 var y >= 0, <= 10;         # Inner variable
 var l{1..5} >= 0, <= 10;   # KKT Multipliers
 
-minimize outer_obj: (x - 5)^2 + (2*y + 1)^2;  # Outer objective
+# Outer objective:
+minimize outer_obj: (x - 5)^2 + (2*y + 1)^2;
 
 subject to
 # Inner objective:
     inner_obj: (y - 1)^2 - 1.5*x*y = 0;
-# Inner constraints
+# Inner constraints:
     inner_con1:    -3*x + y + 3 <= 0;
     inner_con2:     x - 0.5*y - 4 <= 0;
     inner_con3:     x + y - 7 <= 0;

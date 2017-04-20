@@ -1,12 +1,12 @@
 # ==============================================================================
 # AMPL coding by Remigijus Paulavicius
 # Name:
-#   tmh_2007.mod
+#   tmh_2007_01.mod
 #
-# Source:
-# Example 1 from: Tuy, H., Migdalas, A., & Hoai-Phuong, N. T. (2007).
-# A novel approach to bilevel nonlinear programming.
-# Journal of Global Optimization, 38(4), 527-554.
+# Original source:
+# - Example 1 in: 
+#   Tuy, H., Migdalas, A., & Hoai-Phuong, N. T. (2007). A novel approach to 
+#   bilevel nonlinear programming. Journal of Global Optimization, 38(4), 527-554
 #
 # Optimal solution:
 #   F* = 22.5
@@ -18,17 +18,22 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       3       0
+# ------------------------------------------------------------------------------
+# 
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/QP-QP/tmh_2007_01
 # ==============================================================================
 var x >= 0, <= 10;         # Outer variable
 var y >= 0, <= 10;         # Inner variable
 var l{1..5} >= 0, <= 10;   # KKT Multipliers
 
-minimize outer_obj: x^2 + y^2;  # Outer objective
+# Outer objective:
+minimize outer_obj: x^2 + y^2;  
 
 subject to
 # Inner objective:
     inner_obj: -y = 0;
-# Inner constraints
+# Inner constraints:
     inner_con1:     3*x + y - 15 <= 0;
     inner_con2:     x + y - 7 <= 0;
     inner_con3:     x + 3*y - 15 <= 0;

@@ -3,10 +3,10 @@
 # Name:
 #   nwj_2016_01.mod
 #
-# Source:
-#  Example 3.4. from:  Nie, J., Wang, L., & Ye, J. (2016).
-#  Bilevel polynomial programs and semidefinite relaxation methods.
-#  arXiv preprint arXiv:1508.06985.
+# Original source:
+# - Example 3.4. in:
+#   Nie, J., Wang, L., & Ye, J. (2016). Bilevel polynomial programs and 
+#   semidefinite relaxation methods. arXiv preprint arXiv:1508.06985.
 #
 # Optimal solution:
 #   F* = 2.0
@@ -18,17 +18,22 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       2       0       0       1       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-NLP/nwj_2016_01
 # ==============================================================================
 var x >= 2, <= 3;          # Outer variable
 var y{1..2} >= 0, <= 10;   # Inner variable
 var l{1..5} >= 0, <= 100;  # KKT Multipliers
 
-minimize outer_obj: x + y[1] + y[2];  # Outer objective
+# Outer objective:
+minimize outer_obj: x + y[1] + y[2];  
 
 subject to
 # Inner objective:
     inner_obj:      x*y[1] + x*y[2] = 0;
-# Inner constraints
+# Inner constraints:
     inner_con:      -y[1]^2 + y[2]^2 + y[1]^4 + 2*y[1]^2*y[2]^2 + y[2]^4 <= 0;
 # KKT conditions:
     stationarity_1:    x + l[1]*(-2*y[1] + 4*y[1]^3 + 4*y[1]*y[2]^2) - l[2] + l[3] = 0;

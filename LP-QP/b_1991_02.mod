@@ -3,11 +3,10 @@
 # Name:
 #   b_1991_02.mod
 #
-# Source: Example 2.1. from:
-#  Bard, J. F. (1991). Some properties of the bilevel programming problem.
-#  Journal of optimization theory and applications, 68(2), 371-378.
-#
-#  Example 8.1.1 in (Bard, 1998)
+# Original source: 
+# - Example 2.1 in:
+#   Bard, J. F. (1991). Some properties of the bilevel programming problem.
+#   Journal of optimization theory and applications, 68(2), 371-378.
 #
 # Optimal solution:
 #   F* = 2.0
@@ -19,17 +18,22 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       2       0       0       1       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-QP/b_1991_02
 # ==============================================================================
 var x >= 2, <= 4;          # Outer variable
 var y{1..2} >= 0, <= 10;   # Inner variable
 var l{1..5} >= 0, <= 100;  # KKT Multipliers
 
-minimize outer_obj: x + y[2];  # Outer objective
+# Outer objective:
+minimize outer_obj: x + y[2];  
 
 subject to
 # Inner objective:
     inner_obj:      2*y[1] + x*y[2] = 0;
-# Inner constraints
+# Inner constraints:
     inner_con:      x - y[1] - y[2] + 4 <= 0;
 # KKT conditions:
     stationarity_1:    2 - l[1] - l[2] + l[3] = 0;

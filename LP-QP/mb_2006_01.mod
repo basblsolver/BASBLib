@@ -3,8 +3,8 @@
 # Name:
 #   mb_2006_01.mod
 #
-# Source:
-#   Example 4.2 from
+# Original source:
+# - Example 4.2 in:
 #   Mitsos, A., & Barton, P.I. (2006). Issues in the development of global
 #   optimization algorithms for bilevel programs with a nonconvex inner program
 #
@@ -17,12 +17,16 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   0       1       0       0       0       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-QP/mb_2006_01
 # ==============================================================================
 var y >= -1, <= 1;       # Inner variables
 var l{1..2} >= 0, <= 2;  # KKT Multipliers
 
-# OUTER OBJECTIVE
-minimize outer_obj: y;   # Outer objective
+# Outer objective:
+minimize outer_obj: y;   
 
 subject to
 # Inner objective:

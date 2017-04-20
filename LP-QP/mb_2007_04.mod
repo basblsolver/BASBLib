@@ -3,8 +3,8 @@
 # Name:
 #   mb_2007_04.mod
 #
-# Source:
-#   Example 3.4 (mb_0_1_04) from
+# Original source:
+# - Example 3.4 (mb_0_1_04) in:
 #   A. Mitsos and P. I. Barton, (2006) A Test Set for Bilevel Programs,
 #   http://www.researchgate.net/publication/228455291, [Updated 19-09-2007].
 #
@@ -17,11 +17,16 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   0       1       0       0       0       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-QP/mb_2007_04
 # ==============================================================================
 var y >= -0.5, <= 1;      # Inner variables
 var l{1..2} >= 0, <= 2;   # KKT Multipliers
 
-minimize outer_obj: y;    # Outer objective
+# Outer objective:
+minimize outer_obj: y;    
 
 subject to
 # Inner objective:

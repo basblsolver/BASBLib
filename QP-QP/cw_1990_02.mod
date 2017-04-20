@@ -3,8 +3,8 @@
 # Name:
 #   cw_1990_02.mod
 #
-# Source:
-#   From Sect. 3.2. Nonconvexity from:
+# Original source:
+#   From Sect. 3.2. Nonconvexity in:
 #   Clark, P. A., Westerberg, A. W. (1990).
 #   Bilevel programming for steady-state chemical process design—I. fundamentals and algorithms.
 #   Computers & Chemical Engineering, 14(1), 87-97.
@@ -19,17 +19,22 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       3       0
+# ------------------------------------------------------------------------------
+#                
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/QP-QP/cw_1990_02
 # ==============================================================================
 var x >= 0, <= 8;           # Outer variable
 var y >= 0, <= 8;           # Inner variable
 var l{1..5} >= 0, <= 10;    # KKT Multipliers
 
-minimize outer_obj: (x-3)^2 + (y-2)^2;  # Outer objective
+# Outer objective:
+minimize outer_obj: (x-3)^2 + (y-2)^2;  
 
 subject to
 # Inner objective:
     inner_obj: (y - 5)^2 = 0;
-# Inner constraints
+# Inner constraints:
     inner_con1:  -2*x + y - 1 <= 0;
     inner_con2:   x - 2*y + 2 <= 0;
     inner_con3:   x + 2*y - 14 <= 0;

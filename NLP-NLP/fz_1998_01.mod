@@ -1,10 +1,10 @@
 # ==============================================================================
 # AMPL coding by Remigijus Paulavicius
 # Name:
-#   gf_2001_02.mod
+#   fz_1998_01.mod
 #
-# Source:
-#   Example 2 from
+# Original source:
+# - Example 2 in:
 #   Gümüs, Z. H., Floudas, C. A., (2001). Global Optimization of Nonlinear
 #   Bilevel Programming Problems. Journal of Global Optimization, 20(1), 1–31.
 #   http://doi.org/10.1023/A:1011268113791
@@ -19,6 +19,10 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       2       0
+# ------------------------------------------------------------------------------
+# 
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/NLP-NLP/fz_1998_01
 # ==============================================================================
 set J := {1..2};
 var x >= 0, <= 1;                 # Outer variable
@@ -27,12 +31,13 @@ param ub{J};                      # Upper Bounds for the inner variable
 var y{j in J} >= lb[j] <= ub[j];  # Inner variable
 var l{1..6} >= 0, <= 10;          # KKT Multipliers
 
-minimize outer_obj: x^3*y[1] + y[2];   # Outer objective
+# Outer objective:
+minimize outer_obj: x^3*y[1] + y[2];
 
 subject to
 # Inner objective:
     inner_obj: -y[2] = 0;
-# Inner constraints
+# Inner constraints:
     inner_con1: x*y[1] - 10 <= 0;
     inner_con2: y[1]^2 + x*y[2] -1 <= 0;
 # KKT conditions:

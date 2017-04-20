@@ -20,22 +20,22 @@
 #                   1       1       0       0       1       0
 # ------------------------------------------------------------------------------
 # 
-# For more information, please visit corresponding website at:
-#   http://basblsolver.github.io/test-problems/QP-QP/d_1992_01
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/QP-QP/d_1992_01
 # ==============================================================================
-
 var x >= 1, <= 10;         # Outer variables
 var y >= 1, <= 10;         # Inner variables
 var l{1..3} >= 0, <= 100;  # KKT Multipliers
 
-minimize outer_obj: (x - 3.5)^2 + (y + 4)^2;  # d > 0 fixed, so we use d = 1
+# Outer objective:
+minimize outer_obj: (x - 3.5)^2 + (y + 4)^2; 
 
 subject to
-# Inner objective
+# Inner objective:
     inner_obj: (y - 3)^2 = 0;
-# Inner constraints
+# Inner constraints:
     inner_con: y^2 - x <= 0;
-# KKT conditions
+# KKT conditions:
     stationarity:      2*(y - 3) + 2*y*l[1] - l[2] + l[3] = 0;
     complementarity_1: l[1]*(y^2 - x) = 0;
     complementarity_2: l[2]*(-y - 1) = 0;

@@ -17,14 +17,14 @@
 #                   0       1       1       0       0       0
 # ------------------------------------------------------------------------------
 #
-# For more information, please visit corresponding wiki website at:
-#    http://basblsolver.github.io/test-problems/LP-LP/mb_2007_01
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-LP/mb_2007_02
 # ==============================================================================
-
 var y >= -1, <= 1;        # Inner variable(s)
 var l{1..2} >= 0, <= 2;   # KKT Multipliers
 
-minimize outer_obj: y;    # Outer objective
+# Outer objective:
+minimize outer_obj: y;
 
 subject to
 # Outer constraints:

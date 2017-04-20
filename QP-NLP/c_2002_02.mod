@@ -19,20 +19,20 @@
 #                   1       1       0       0       3       0
 # ------------------------------------------------------------------------------
 # 
-# For more information, please visit corresponding website at:
-#   http://basblsolver.github.io/test-problems/NLP-NLP/c_2002_02
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/QP-NLP/c_2002_02
 # ==============================================================================
-
 var x >= 0, <= 10;         # Outer variable
 var y >= 0, <= 10;         # Inner variable
 var l{1..5} >= 0, <= 10;   # KKT Multipliers
 
-minimize outer_obj: (x - 5)^2 + (2*y + 1)^2;  # Outer objective
+# Outer objective:
+minimize outer_obj: (x - 5)^2 + (2*y + 1)^2;
 
 subject to
 # Inner objective:
-    inner_obj: (y - 1)^2 - 1.5*x*y + x^3 = 0;
-# Inner constraints
+    inner_obj: (y - 1)^2 + (-1.5)*x*y + x^3 = 0;
+# Inner constraints:
     inner_con1:    -3*x + y + 3 <= 0;
     inner_con2:     x - 0.5*y - 4 <= 0;
     inner_con3:     x + y - 7 <= 0;

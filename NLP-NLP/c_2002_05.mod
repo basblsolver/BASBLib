@@ -19,8 +19,8 @@
 #                   1       2       0       0       2       0
 # ------------------------------------------------------------------------------
 # 
-# For more information, please visit corresponding website at:
-#   http://basblsolver.github.io/test-problems/NLP-NLP/c_2002_05
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/NLP-NLP/c_2002_05
 # ==============================================================================
 set J := {1..2};
 param ylb{J};                        # Lower Bounds for the inner variable
@@ -29,12 +29,13 @@ var x >= 0, <= 10;                   # Outer variable
 var y{j in J} >= ylb[j], <= yub[j];  # Inner variable
 var l{1..6} >= 0, <= 100;            # KKT Multipliers
 
-minimize outer_obj: (x - y[2])^4 + (y[1] - 1)^2 + (y[1] - y[2])^2;  # Outer objective
+# Outer objective:
+minimize outer_obj: (x - y[2])^4 + (y[1] - 1)^2 + (y[1] - y[2])^2;  
 
 subject to
 # Inner objective:
     inner_obj: 2*x + exp(y[1]) + y[1]^2 + 4*y[1] + 2*y[2]^2 - 6*y[2] = 0;
-# Inner constraints
+# Inner constraints:
     inner_con_1:    6*x + y[1]^2 + exp(y[2]) - 15 <= 0;
     inner_con_2:    5*x + y[1]^4 - y[2] - 25 <= 0;
 # KKT conditions:

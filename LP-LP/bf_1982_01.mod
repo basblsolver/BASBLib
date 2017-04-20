@@ -3,10 +3,10 @@
 # Name:
 #   bf_1982_01.mod
 #
-# Source Example 1 from:
-# Bard, J. F., & Falk, J. E. (1982).
-# An explicit solution to the multi-level programming problem.
-# Computers & Operations Research, 9(1), 77-100.
+# Original source:
+# - Example 1 from:
+#   Bard, J. F., & Falk, J. E. (1982). An explicit solution to the multi-level 
+#   programming problem. Computers & Operations Research, 9(1), 77-100.
 #
 # Optimal solution:
 #   F* = -26.0
@@ -14,21 +14,26 @@
 #   x* = (0.0, 0.9)
 #   y* = (0.0, 0.6, 0.4)
 #
-## ---------------------------- Problem Properties ------------------------------
+# ---------------------------- Problem Properties ------------------------------
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   2       3       0       0       3       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-LP/bf_1982_01
 # ==============================================================================
 var x{1..2} >= 0, <= 10;   # Outer variable
 var y{1..3} >= 0, <= 10;   # Inner variable
 var l{1..9} >= 0, <= 10;   # KKT Multipliers
 
-minimize outer_obj: -8*x[1] - 4*x[2] + 4*y[1] - 40*y[2] + 4*y[3];  # Outer objective
+# Outer objective:
+minimize outer_obj: -8*x[1] - 4*x[2] + 4*y[1] - 40*y[2] + 4*y[3]; 
 
 subject to
 # Inner objective:
     inner_obj: x[1] + 2*x[2] + y[1] + y[2] + 2*y[3] = 0;
-# Inner constraints
+# Inner constraints:
     inner_con1: -y[1]  + y[2] + y[3] - 1 <= 0;
     inner_con2: 2*x[1] - y[1] + 2*y[2] - 0.5*y[3] - 1 <= 0;
     inner_con3: 2*x[2] + 2*y[1] - y[2] - 0.5*y[3] - 1 <= 0;

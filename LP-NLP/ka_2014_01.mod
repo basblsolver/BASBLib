@@ -3,8 +3,8 @@
 # Name:
 #   ka_2014_01.mod
 #
-# Source:
-#   Example 3 (Variant of Example 3.13 (mb_1_1_06) from [Mitsos and Barton, 2007]) from
+# Original source:
+# - Example 3 (Variant of Example 3.13 (mb_1_1_06)) in:
 #   Kleniati, P.-M., & Adjiman, C. S. (2014). Branch-and-Sandwich:
 #   a deterministic global optimization algorithm for optimistic bilevel
 #   programming problems. Part II: Convergence analysis and numerical results.
@@ -20,11 +20,16 @@
 #                   n       m       #G     #H       #g      #h
 # ------------------------------------------------------------------------------
 #                   1       1       0       0       0       0
+# ------------------------------------------------------------------------------
+#
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/LP-NLP/ka_2014_01
 # ==============================================================================
 var x >= -1, <= 1;       # Outer variables
 var y >= -1, <= 1;       # Inner variables
 var l{1..2} >= 0, <= 2;  # KKT Multipliers
 
+# Outer objective:
 minimize outer_obj: x - y;
 
 subject to

@@ -19,22 +19,22 @@
 #                   1       1       1       0       1       0
 # ------------------------------------------------------------------------------
 # 
-# For more information, please visit corresponding website at:
-#   http://basblsolver.github.io/test-problems/NLP-NLP/c_2002_03
+# For more information, please visit corresponding page at BASBLib website:
+#    http://basblsolver.github.io/BASBLib/NLP-NLP/c_2002_03
 # ==============================================================================
-
 var x >= 0, <= 10;          # Outer variable
 var y >= 0, <= 10;          # Inner variable
 var l{1..3} >= 0, <= 100;   # KKT Multipliers
 
-minimize outer_obj: (x - 5)^4 + (2*y + 1)^4;  # Outer objective
+# Outer objective:
+minimize outer_obj: (x - 5)^4 + (2*y + 1)^4;  
 
 subject to
-# Outer constraints
+# Outer constraints:
     outer_con:  x + y - 4 <= 0;
 # Inner objective:
     inner_obj: exp(-x+y) + x^2 + 2*x*y + y^2 + 2*x + 6*y = 0;
-# Inner constraints
+# Inner constraints:
     inner_con:    -x + y - 2 <= 0;
 # KKT conditions:
     stationarity:      exp(-x+y) + 2*x + 2*y + 6 + l[1] - l[2] + l[3] = 0;
