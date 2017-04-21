@@ -22,9 +22,10 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
 
 ## Citation
 
-**If you use this library, please cite the following source:**
+If you use **BASBLib**, please cite the following source: 
 
-* Remigijus Paulavicius et al.. (2016). A library of nonconvex bilevel test problems with the corresponding AMPL input files. Zenodo. [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.44997.svg)](http://dx.doi.org/10.5281/zenodo.44997)
+* Remigijus Paulavicius, & Claire S. Adjiman. (2017). BASBLib - a library of bilevel test problems [Data set]. Zenodo. 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.556423.svg)](https://doi.org/10.5281/zenodo.556423)
 
 # Problems classification
 
