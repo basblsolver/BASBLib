@@ -29,7 +29,7 @@ For more details on bilevel test problems see [BASBLib home-page](http://basblso
  
 ## Citation
 
-If you use this library, please cite the following sources: 
+If you use **BASBLib**, please cite the following source: 
 
 * Remigijus Paulavicius, & Claire S. Adjiman. (2017). BASBLib - a library of bilevel test problems [Data set]. Zenodo. 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.556423.svg)](https://doi.org/10.5281/zenodo.556423)
