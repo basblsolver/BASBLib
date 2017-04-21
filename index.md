@@ -10,7 +10,7 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
  - Where feasible, a geometrical analysis of the problem
  - The best know solutions and comments about literature inaccuracies
  - Sources where the problem was used
- - [AMPL input files](https://github.com/basblsolver/test-problems) in the format, compatible with [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
+ - [AMPL input files](https://github.com/basblsolver/BASBLib) in the format, compatible with [`BASBL`](http://basblsolver.github.io/home/ "Bilevel Solver") solver.
  - Finally, convenient way to use it and contribute to it.
 
 ## Contribution 
