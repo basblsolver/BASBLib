@@ -34,6 +34,20 @@ If you use this library, please cite the following sources:
 * Remigijus Paulavicius, & Claire S. Adjiman. (2017). BASBLib - a library of bilevel test problems [Data set]. Zenodo. 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.556423.svg)](https://doi.org/10.5281/zenodo.556423)
 
+### BibTeX Export
+
+```
+@misc{remigijus_paulavicius_2017_556423,
+  author       = {Remigijus Paulavicius and
+                  Claire S. Adjiman},
+  title        = {BASBLib - a library of bilevel test problems},
+  month        = apr,
+  year         = 2017,
+  doi          = {10.5281/zenodo.556423},
+  url          = {https://doi.org/10.5281/zenodo.556423}
+}
+```
+
 ## Acknowledgment
 
 ```
