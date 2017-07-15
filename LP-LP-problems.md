@@ -49,6 +49,6 @@ Description of the [Linear-Linear](LP-LP-problems) bilevel test problems: data a
 [Clark & Westerberg, 1990]: https://doi.org/10.1016/0098-1354(90)87007-C
 [Liu & Hart, 1994]: https://doi.org/10.1016/0377-2217(94)90155-4
 [Mitsos & Barton, 2007]: https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs
-[Paulavicius et al., 2017b]: 
 [Savard, 1989]: https://books.google.co.uk/books/about/Contribution_%C3%A0_la_programmation_math%C3%A9m.html?id=zz0VNAEACAAJ&redir_esc=y
 [Shimizu et al., 1997]: https://doi.org/10.1016/S0377-2217(97)00228-2
+[Paulavicius et al., 2017b]:
