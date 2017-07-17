@@ -81,4 +81,6 @@ We gratefully acknowledge funding from the EPSRC through a Leadership Fellowship
 ```
 
 
+[1]: https://doi.org/10.1007/978-1-4757-2836-1
+[2]: https://doi.org/10.1137/0914049
 
