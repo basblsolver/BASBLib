@@ -8,7 +8,8 @@ Description of the [Quadratic-Nonlinear](QP-NLP-problems) bilevel test problems:
 | [mb_2007_14](QP-NLP/mb_2007_14)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.250    | -0.083  | 0.250                             | 0.500                   |
 | [mb_2007_17](QP-NLP/mb_2007_17)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.188    | -0.016  | -0.250                            | 0.500                   |
 |                                    |                                                             |       |       |  0.188    | -0.016  | -0.250                            | -0.500                  |
-| [mb_2007_18](QP-NLP/mb_2007_18)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.250    |  0.000  | 0.500                             | 0.000                   |
+| [mb_2007_18](QP-NLP/mb_2007_18)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   | -1.000    |  0.000  | 1.000                             | 0.000                   |
+| [mb_2007_18v](QP-NLP/mb_2007_18v)  | [(Paulavicius et al., 2017b)][Paulavicius et al., 2017b]    |  1    |   1   |  0.250    |  0.000  | 0.500                             | 0.000                   |
 | [mb_2007_19](QP-NLP/mb_2007_19)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   | -0.258    | -0.018  | 0.189                             | 0.439                   |
 | [mb_2007_20](QP-NLP/mb_2007_20)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.313    | -0.083  | 0.500                             | 0.500                   |
 | [mb_2007_21](QP-NLP/mb_2007_21)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.210    | -0.069  | -0.555                            | 0.455                   |
