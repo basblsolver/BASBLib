@@ -28,6 +28,7 @@ Description of the [Quadratic-Nonlinear](QP-NLP-problems) bilevel test problems:
  - [B. Colson, BIPA(BIlevel Programming with Approximation Methods)(software guide and test problems), Cahiers du GERAD, (2002)](https://www.gerad.ca/en/papers/G-2002-37/view)
  - [S. Dempe and J. Dutta, Is bilevel programming a special case of a mathematical program with complementarity constraints?, Mathematical Programming, 131 (2012), pp. 37–48](https://doi.org/10.1007/s10107-010-0342-1)
  - [A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007. Last updated September 19, 2007](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs)
+ - [R. Paulavičius, P.M. Kleniati, and C. S. Adjiman, BASBL: Branch-And-Sandwich BiLevel solver. II. Implementation and computational study with the BASBLib test set, (2017). Submitted.]()
  - [K. Shimizu, Y. Ishizuka, and J. F. Bard, Nondifferentiable and Two-Level Mathematical Programming, vol. 102, Kluwer Academic Publishers, Boston, 1997](https://doi.org/10.1016/S0377-2217(97)00228-2)
  - [Ye, J. J., & Zhu, D. (2010). New necessary optimality conditions for bilevel programs by combining the MPEC and value function approaches. SIAM Journal on Optimization, 20(4), 1885-1905](https://doi.org/10.1137/080725088)
 
