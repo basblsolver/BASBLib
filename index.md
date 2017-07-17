@@ -50,16 +50,6 @@ View a summary table of [all LP-QP problems](LP-QP-problems) or click on a probl
 | :----------------------------- | :--------------------------------- | :----------------------------- | :----------------------------- | :----------------------------- |
 [mb_2006_01](LP-QP/mb_2006_01)   | [mb_2007_04](LP-QP/mb_2007_04)     | [mb_2007_03](LP-QP/mb_2007_03) | [b_1991_02](LP-QP/b_1991_02)   | [as_1984_01](LP-QP/as_1984_01) |
 
-## [Linear-Nonlinear (LP-NLP)](LP-NLP-problems) 
-
-View a summary table of [all LP-NLP problems](LP-NLP-problems) or click on a problem name for more information.
-
-|                                |                                    |                                 |                                 |                                   |
-| :----------------------------- | :--------------------------------- | :------------------------------ | :------------------------------ | :-------------------------------- |
-[mb_2007_05](LP-NLP/mb_2007_05)  | [mb_2007_06](LP-NLP/mb_2007_06)    | [mb_2007_10](LP-NLP/mb_2007_10) | [mb_2007_11](LP-NLP/mb_2007_11) | [mb_2007_13](LP-NLP/mb_2007_13)   |
-[mb_2007_13v](LP-NLP/mb_2007_13v)| [mb_2007_15](LP-NLP/mb_2007_15)    | [mb_2007_16](LP-NLP/mb_2007_16) | [ka_2014_01](LP-NLP/ka_2014_01) | [mb_2007_09](LP-NLP/mb_2007_09)   | 
-[nwj_2016_01](LP-NLP/nwj_2016_01)|[gf_2001_01](LP-NLP/gf_2001_01)     | [cg_1999_01](LP-NLP/cg_1999_01) |                                 |                                   |
-
 ## [Quadratic-Quadratic (QP-QP)](QP-QP-problems) 
 
 View a summary table of [all QP-QP problems](QP-QP-problems) or click on a problem name for more information.
@@ -71,6 +61,15 @@ View a summary table of [all QP-QP problems](QP-QP-problems) or click on a probl
 [sc_1998_01](QP-QP/sc_1998_01)  | [b_1998_02](QP-QP/b_1998_02)       | [b_1998_03](QP-QP/b_1998_03)     | [b_1998_07](QP-QP/b_1998_07)    | [d_1978_01](QP-QP/d_1978_01)      |
 [fl_1995_01](QP-QP/fl_1995_01)  | [sa_1981_02](QP-QP/sa_1981_02)     | [b_1984_02](QP-QP/b_1984_02)     | [dd_2012_02](QP-QP/dd_2012_02)  | [as_1981_01](QP-QP/as_1981_01)    |
 
+## [Linear-Nonlinear (LP-NLP)](LP-NLP-problems) 
+
+View a summary table of [all LP-NLP problems](LP-NLP-problems) or click on a problem name for more information.
+
+|                                |                                    |                                 |                                 |                                   |
+| :----------------------------- | :--------------------------------- | :------------------------------ | :------------------------------ | :-------------------------------- |
+[mb_2007_05](LP-NLP/mb_2007_05)  | [mb_2007_06](LP-NLP/mb_2007_06)    | [mb_2007_10](LP-NLP/mb_2007_10) | [mb_2007_11](LP-NLP/mb_2007_11) | [mb_2007_13](LP-NLP/mb_2007_13)   |
+[mb_2007_13v](LP-NLP/mb_2007_13v)| [mb_2007_15](LP-NLP/mb_2007_15)    | [mb_2007_16](LP-NLP/mb_2007_16) | [ka_2014_01](LP-NLP/ka_2014_01) | [mb_2007_09](LP-NLP/mb_2007_09)   | 
+[nwj_2016_01](LP-NLP/nwj_2016_01)|[gf_2001_01](LP-NLP/gf_2001_01)     | [cg_1999_01](LP-NLP/cg_1999_01) |                                 |                                   |
 
 ## [Quadratic-Nonlinear (QP-NLP)](QP-NLP-problems) 
 
