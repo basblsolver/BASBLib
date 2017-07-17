@@ -9,6 +9,7 @@ Description of the [Linear-Nonlinear](LP-NLP-problems) bilevel test problems: da
 | [mb_2007_10](LP-NLP/mb_2007_10)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.500    | -0.100  | [0.100, 1.000]    | 0.500                            |
 | [mb_2007_11](LP-NLP/mb_2007_11)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  -0.800   | 0.000   | 0.000             | -0.800                           |
 | [mb_2007_13](LP-NLP/mb_2007_13)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  -1.000   | 0.000   | 0.000             | 1.000                            |
+| [mb_2007_13v](LP-NLP/mb_2007_13v)   | [(Paulavicius et al., 2017b)][Paulavicius et al., 2017b]    |  1    |   1   |  -2.000   | -1.500  | -1.000            | -1.000                           |
 | [mb_2007_15](LP-NLP/mb_2007_15)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.000    | -0.830  | -1.000            | 1.000                            |
 | [mb_2007_16](LP-NLP/mb_2007_16)     | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  -2.000   | 0.000   | -1.000            | 0.000                            |
 |                                     |                                                             |       |       |  -2.000   | 0.000   | -0.500            | -1.000                           |
@@ -25,6 +26,7 @@ Description of the [Linear-Nonlinear](LP-NLP-problems) bilevel test problems: da
  - [P.-M. Kleniati and C. S. Adjiman, Branch-and-Sandwich: a deterministic global optimization algorithm for optimistic bilevel programming problems. Part II: Convergence analysis and numerical results, Journal of Global Optimization, 60 (2014), pp. 459–481](https://doi.org/10.1007/s10898-013-0120-8)
  - [A. Mitsos and P. I. Barton, A Test Set for Bilevel Programs, 2007. Last updated September 19, 2007](https://www.researchgate.net/publication/228455291_A_test_set_for_bilevel_programs)
  - [J. Nie, L. Wang, and J. Ye, Bilevel polynomial programs and semidefinite relaxation methods, ArXiv preprint arXiv:1508.06985, (2016)](https://arxiv.org/pdf/1508.06985v3.pdf)
+ - [R. Paulavičius, P.M. Kleniati, and C. S. Adjiman, BASBL: Branch-And-Sandwich BiLevel solver. II. Implementation and computational study with the BASBLib test set, (2017). Submitted.]()
 
 [<img src="https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/128/MB__home.png" width="40" height="40">](index "Back to homepage")
 
