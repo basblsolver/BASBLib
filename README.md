@@ -52,27 +52,27 @@ If you use **BASBLib**, please cite the following source:
 
 ## References
 
-[1] [J. F. Bard, Practical Bilevel Optimization, vol. 30 of Nonconvex Optimization and Its Applications, Springer US, 1998](https://doi.org/10.1007/978-1-4757-2836-1).
+[1] [J. F. Bard, Practical Bilevel Optimization, vol. 30 of Nonconvex Optimization and Its Applications, Springer US, 1998](https://doi.org/10.1007/978-1-4757-2836-1)
 
-[2] [P. H. Calamai and L. N. Vicente, Generating linear and linear-quadratic bilevel programming problems, SIAM Journal on Scientific Computing, 14 (1993), pp. 770–782](https://doi.org/10.1137/0914049).
+[2] [P. H. Calamai and L. N. Vicente, Generating linear and linear-quadratic bilevel programming problems, SIAM Journal on Scientific Computing, 14 (1993), pp. 770–782](https://doi.org/10.1137/0914049)
 
-[3] P. H. Calamai and L. N. Vicente, Generating quadratic bilevel programming test problems, ACM Transactions on Mathematical Software (TOMS), 20 (1994), pp. 103–119, doi:10.1145/174603.174411.
+[3] [P. H. Calamai and L. N. Vicente, Generating quadratic bilevel programming test problems, ACM Transactions on Mathematical Software (TOMS), 20 (1994), pp. 103–119](https://doi.org/10.1145/174603.174411)
 
-[4] P. H. Calamai, L. N. Vicente, and J. J. Júdice, A new technique for generating quadratic programming test problems, Mathematical Programming, 61 (1993), pp. 215–231, doi:10.1007/BF01582148.
+[4] [P. H. Calamai, L. N. Vicente, and J. J. Júdice, A new technique for generating quadratic programming test problems, Mathematical Programming, 61 (1993), pp. 215–231](https://doi.org/10.1007/BF01582148)
 
-[5] B. Colson, BIPA (BIlevel Programming with Approximation Methods)(software guide and test problems), Cahiers du GERAD, (2002).
+[5] [B. Colson, BIPA (BIlevel Programming with Approximation Methods)(software guide and test problems), Cahiers du GERAD, (2002)](https://www.gerad.ca/en/papers/G-2002-37/view)
 
-[6] S. Dempe, Foundations of Bilevel Programming, vol. 61 of Nonconvex Optimization and Its Applications, Kluwer Academic Publishers, Boston, 2002, doi:10.1007/b101970.
+[6] [S. Dempe, Foundations of Bilevel Programming, vol. 61 of Nonconvex Optimization and Its Applications, Kluwer Academic Publishers, Boston, 2002](https://doi.org/10.1007/b101970)
 
-[7] S. Dempe, V. Kalashnikov, G. A. Pérez-Valdés, and N. Kalashnykova, Bilevel programming problems, Energy Systems, Springer Berlin Heidelberg, Berlin, Heidelberg, 2015, doi:10.1007/978-3-662-45827-3.
+[7] [S. Dempe, V. Kalashnikov, G. A. Pérez-Valdés, and N. Kalashnykova, Bilevel programming problems, Energy Systems, Springer Berlin Heidelberg, Berlin, Heidelberg, 2015](https://doi.org/10.1007/978-3-662-45827-3)
 
-[8] EMPlib Library. https://www.gams.com/emplib/libhtml/alfindx.htm. Accessed: 2017-04-21.
+[8] [EMPlib Library. https://www.gams.com/emplib/libhtml/alfindx.htm. Accessed: 2017-04-21](https://www.gams.com/emplib/libhtml/alfindx.htm)
 
-[9] C. A. Floudas, P. M. Pardalos, C. S. Adjiman, W. R. Esposito, Z. H. Gümüs, S. T. Harding, J. L. Klepeis, C. A. Meyer, and C. A. Schweiger, Handbook of test problems in local and global optimization, Springer Science & Business Media, 1999, doi:10.1007/978-1-4757-3040-1.
+[9] [C. A. Floudas, P. M. Pardalos, C. S. Adjiman, W. R. Esposito, Z. H. Gümüs, S. T. Harding, J. L. Klepeis, C. A. Meyer, and C. A. Schweiger, Handbook of test problems in local and global optimization, Springer Science & Business Media, 1999] (https://doi.org/10.1007/978-1-4757-3040-1)
 
-[10] A. Mitsos and P. I. Barton, A test set for bilevel programs. http://www.researchgate.net/publication/228455291, 2007. [Last updated September 19, 2007].
+[10] [A. Mitsos and P. I. Barton, A test set for bilevel programs. http://www.researchgate.net/publication/228455291, 2007. Last updated September 19, 2007](http://www.researchgate.net/publication/228455291)
 
-[11] K. Shimizu, Y. Ishizuka, and J. F. Bard, Nondifferentiable and two-level mathematical programming, vol. 102, Kluwer Academic Publishers, Boston, 1997, doi:10.1016/S0377-2217(97)00228-2.
+[11] [K. Shimizu, Y. Ishizuka, and J. F. Bard, Nondifferentiable and two-level mathematical programming, vol. 102, Kluwer Academic Publishers, Boston, 1997](https://doi.org/10.1016/S0377-2217(97)00228-2)
 
 ## Acknowledgment
 
@@ -83,4 +83,12 @@ We gratefully acknowledge funding from the EPSRC through a Leadership Fellowship
 
 [1]: https://doi.org/10.1007/978-1-4757-2836-1
 [2]: https://doi.org/10.1137/0914049
-
+[3]: https://doi.org/10.1145/174603.174411
+[4]: https://doi.org/10.1007/BF01582148
+[5]: https://www.gerad.ca/en/papers/G-2002-37/view
+[6]: https://doi.org/10.1007/b101970
+[7]: https://doi.org/10.1007/978-3-662-45827-3
+[8]: https://www.gams.com/emplib/libhtml/alfindx.htm
+[9]: https://doi.org/10.1007/978-1-4757-3040-1
+[10]: http://www.researchgate.net/publication/228455291
+[11]: https://doi.org/10.1016/S0377-2217(97)00228-2
