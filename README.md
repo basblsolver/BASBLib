@@ -10,11 +10,9 @@ e.g., [[1][1], [6][6], [7][7], [11][11]] and references therein), there have bee
  - The test set included with BIPA [5][5] contains convex inner problems (__22 problems in total__)
  - A test set for bilevel problems [10][10] containing either nonconvex inner problems or problems with a structure that causes convergence issues for algorithms (__36 problems in total__)
 
+## BASBLib resources
 
-
-Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from various sources devoted to bilevel programming.
-
-* This repository provides a description of bilevel test problems in the `AMPL` modelling format, compatible with [`BASBL solver`](http://basblsolver.github.io/home/ "Bilevel Solver").
+Thus, with the introduction of `BASBLib`, we present an actively growing online collection of bilevel test problems, gathered from the various sources and devoted to bilevel programming. The library is designed as an open resource to which other researchers in the bilevel programming community can easily contribute. An in-depth description of BASBLib is provided in an online resource: http://basblsolver.github.io/BASBLib/ . It includes problem statements, a geometrical analysis of the problems, the best-known solutions, comments on inaccuracies in the literature, sources where the problem was used, and AMPL input files in the [`BASBL solver's format`](http://basblsolver.github.io/home/ "Bilevel Solver"). 
 
 ## Problems classification
 
@@ -26,10 +24,6 @@ Since bilevel programming involves two optimization problems (the outer and the 
  - **quadratic outer-nonlinear inner** problems ([QP-NLP](https://github.com/basblsolver/BASBLib/tree/master/QP-NLP))
  - **nonlinear outer-nonlinear inner** problems ([NLP-NLP](https://github.com/basblsolver/BASBLib/tree/master/NLP-NLP))
 
-
-## BASBLib home-page
-
-For more details on bilevel test problems see [BASBLib home-page](http://basblsolver.github.io/BASBLib/).
 
 ## Contribution to the BASBLib
 
