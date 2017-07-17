@@ -53,7 +53,7 @@ If you use **BASBLib**, please cite the following source:
 ## References
 
 [1] [J. F. Bard, Practical Bilevel Optimization, vol. 30 of Nonconvex Optimization and Its Applications, Springer US, 1998, doi:10.1007/978-1-4757-2836-1](https://doi.org/10.1007/978-1-4757-2836-1).
-P. H. Calamai and L. N. Vicente, Generating linear and linear-quadratic bilevel programming problems, SIAM Journal on Scientific Computing, 14 (1993), pp. 770–782, doi:10.1137/0914049.
+[2] [P. H. Calamai and L. N. Vicente, Generating linear and linear-quadratic bilevel programming problems, SIAM Journal on Scientific Computing, 14 (1993), pp. 770–782, doi:10.1137/0914049](https://doi.org/10.1137/0914049).
 P. H. Calamai and L. N. Vicente, Generating quadratic bilevel programming test problems, ACM Transactions on Mathematical Software (TOMS), 20 (1994), pp. 103–119, doi:10.1145/174603.174411.
 P. H. Calamai, L. N. Vicente, and J. J. Júdice, A new technique for generating quadratic programming test problems, Mathematical Programming, 61 (1993), pp. 215–231, doi:10.1007/BF01582148.
 B. Colson, BIPA (BIlevel Programming with Approximation Methods)(software guide and test problems), Cahiers du GERAD, (2002).
