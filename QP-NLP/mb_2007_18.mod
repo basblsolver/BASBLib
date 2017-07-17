@@ -9,9 +9,9 @@
 #   http://www.researchgate.net/publication/228455291, [Updated 19-09-2007].
 #
 # Optimal solution:
-#   F* = 0.25
+#   F* = -1.0
 #   f* = 0.0
-#   x* = 0.5
+#   x* = 1.0
 #   y* = 0.0
 #
 # ---------------------------- Problem Properties ------------------------------
@@ -28,7 +28,7 @@ var y >= -1, <= 1;       # Inner variable
 var l{1..2} >= 0, <= 2;  # Multipliers
 
 # Outer objective:
-minimize outer_obj: x^2 + y^2;
+minimize outer_obj: -x^2 + y^2;
 
 subject to
 # Inner objective:
