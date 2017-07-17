@@ -68,7 +68,7 @@ If you use **BASBLib**, please cite the following source:
 
 8. [EMPlib Library. https://www.gams.com/emplib/libhtml/alfindx.htm. Accessed: 2017-04-21](https://www.gams.com/emplib/libhtml/alfindx.htm)
 
-9. [C. A. Floudas, P. M. Pardalos, C. S. Adjiman, W. R. Esposito, Z. H. Gümüs, S. T. Harding, J. L. Klepeis, C. A. Meyer, and C. A. Schweiger, Handbook of test problems in local and global optimization, Springer Science & Business Media, 1999] (https://doi.org/10.1007/978-1-4757-3040-1)
+9. [C. A. Floudas, P. M. Pardalos, C. S. Adjiman, W. R. Esposito, Z. H. Gümüs, S. T. Harding, J. L. Klepeis, C. A. Meyer, and C. A. Schweiger, Handbook of test problems in local and global optimization, Springer Science & Business Media, 1999](https://doi.org/10.1007/978-1-4757-3040-1)
 
 10. [A. Mitsos and P. I. Barton, A test set for bilevel programs. http://www.researchgate.net/publication/228455291, 2007. Last updated September 19, 2007](http://www.researchgate.net/publication/228455291)
 
