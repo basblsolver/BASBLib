@@ -3,7 +3,7 @@
 ## Goal of this repository
  
 While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse (see
-e.g., [1, 6, 7, 11] and references therein), there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from various sources devoted to bilevel programming.
+e.g., [[1][1], [6][6], [7][7], [11][11]] and references therein), there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from various sources devoted to bilevel programming.
 
 * This repository provides a description of bilevel test problems in the `AMPL` modelling format, compatible with [`BASBL solver`](http://basblsolver.github.io/home/ "Bilevel Solver").
 
@@ -52,9 +52,9 @@ If you use **BASBLib**, please cite the following source:
 
 ## References
 
-[1] [J. F. Bard, Practical Bilevel Optimization, vol. 30 of Nonconvex Optimization and Its Applications, Springer US, 1998, doi:10.1007/978-1-4757-2836-1](https://doi.org/10.1007/978-1-4757-2836-1).
+[1] [J. F. Bard, Practical Bilevel Optimization, vol. 30 of Nonconvex Optimization and Its Applications, Springer US, 1998](https://doi.org/10.1007/978-1-4757-2836-1).
 
-[2] [P. H. Calamai and L. N. Vicente, Generating linear and linear-quadratic bilevel programming problems, SIAM Journal on Scientific Computing, 14 (1993), pp. 770–782, doi:10.1137/0914049](https://doi.org/10.1137/0914049).
+[2] [P. H. Calamai and L. N. Vicente, Generating linear and linear-quadratic bilevel programming problems, SIAM Journal on Scientific Computing, 14 (1993), pp. 770–782](https://doi.org/10.1137/0914049).
 
 [3] P. H. Calamai and L. N. Vicente, Generating quadratic bilevel programming test problems, ACM Transactions on Mathematical Software (TOMS), 20 (1994), pp. 103–119, doi:10.1145/174603.174411.
 
