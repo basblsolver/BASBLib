@@ -3,7 +3,16 @@
 ## Goal of this repository
  
 While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse (see
-e.g., [[1][1], [6][6], [7][7], [11][11]] and references therein), there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from various sources devoted to bilevel programming.
+e.g., [[1][1], [6][6], [7][7], [11][11]] and references therein), there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. While there exist generators of bilevel test problems [[2][2], [3][3], [4][4]], they are limited to linear and quadratic problems. There already exist several “__static__” collections of bilevel test problems:
+
+ - Chapter 9 in [9][9] contains linear and quadratic problems (__19 problems in total__)
+ - The GAMS EMP Library [8][8] contains mainly linear and quadratic problems (__33 problems in total__)
+ - The test set included with BIPA [5][5] contains convex inner problems (__22 problems in total__)
+ - A test set for bilevel problems [10][10] containing either nonconvex inner problems or problems with a structure that causes convergence issues for algorithms (__36 problems in total__)
+
+
+
+Thus, the primary goal of this library is to present an __actively growing collection of bilevel test problems__ gathered from various sources devoted to bilevel programming.
 
 * This repository provides a description of bilevel test problems in the `AMPL` modelling format, compatible with [`BASBL solver`](http://basblsolver.github.io/home/ "Bilevel Solver").
 
