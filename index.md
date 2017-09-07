@@ -69,7 +69,7 @@ View a summary table of [all LP-NLP problems](LP-NLP-problems) or click on a pro
 | :----------------------------- | :--------------------------------- | :------------------------------ | :------------------------------ | :-------------------------------- |
 [mb_2007_05](LP-NLP/mb_2007_05)  | [mb_2007_06](LP-NLP/mb_2007_06)    | [mb_2007_10](LP-NLP/mb_2007_10) | [mb_2007_11](LP-NLP/mb_2007_11) | [mb_2007_13](LP-NLP/mb_2007_13)   |
 [mb_2007_13v](LP-NLP/mb_2007_13v)| [mb_2007_15](LP-NLP/mb_2007_15)    | [mb_2007_16](LP-NLP/mb_2007_16) | [ka_2014_01](LP-NLP/ka_2014_01) | [mb_2007_09](LP-NLP/mb_2007_09)   | 
-[nwj_2016_01](LP-NLP/nwj_2016_01)|[gf_2001_01](LP-NLP/gf_2001_01)     | [cg_1999_01](LP-NLP/cg_1999_01) |                                 |                                   |
+[nwj_2017_01](LP-NLP/nwj_2017_01)|[gf_2001_01](LP-NLP/gf_2001_01)     | [cg_1999_01](LP-NLP/cg_1999_01) |                                 |                                   |
 
 ## [Quadratic-Nonlinear (QP-NLP)](QP-NLP-problems) 
 
@@ -89,7 +89,7 @@ View a summary table of [all NLP-NLP problems](NLP-NLP-problems) or click on a p
 |                                  |                                    |                                    |                                    |                                    |
 | :------------------------------- | :--------------------------------- | :--------------------------------- | :--------------------------------- | :--------------------------------- |
 [c_2002_01](NLP-NLP/c_2002_01)     | [c_2002_03](NLP-NLP/c_2002_03)     | [c_2002_05](NLP-NLP/c_2002_05)     | [fz_1998_01](NLP-NLP/fz_1998_01)   | [mb_2007_24](NLP-NLP/mb_2007_24)   |
-[nwj_2016_02](NLP-NLP/nwj_2016_02) | [nwj_2016_04](NLP-NLP/nwj_2016_04) | [nwj_2016_03](NLP-NLP/nwj_2016_03) | [nwj_2016_05](NLP-NLP/nwj_2016_05) | [ka_2014_02](NLP-NLP/ka_2014_02)   |
+[nwj_2017_02](NLP-NLP/nwj_2017_02) | [nwj_2017_04](NLP-NLP/nwj_2017_04) | [nwj_2017_03](NLP-NLP/nwj_2017_03) | [nwj_2017_05](NLP-NLP/nwj_2017_05) | [ka_2014_02](NLP-NLP/ka_2014_02)   |
 
 
 # Acknowledgment
