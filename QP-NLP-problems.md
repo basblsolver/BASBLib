@@ -14,7 +14,8 @@ Description of the [Quadratic-Nonlinear](QP-NLP-problems) bilevel test problems:
 | [mb_2007_20](QP-NLP/mb_2007_20)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.313    | -0.083  | 0.500                             | 0.500                   |
 | [mb_2007_21](QP-NLP/mb_2007_21)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.210    | -0.069  | -0.555                            | 0.455                   |
 | [mb_2007_23](QP-NLP/mb_2007_23)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   | -1.755    |  0.009  |  0.211                            | 1.799                   |
-| [mb_2007_22](QP-NLP/mb_2007_22)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.210    | -0.069  | -0.555                            | 0.455                   |
+| [mb_2007_22](QP-NLP/mb_2007_22)    | [(Mitsos & Barton, 2007)][Mitsos & Barton, 2007]            |  1    |   1   |  0.189    | -0.042  | 0.635                             | -0.433                  |
+| [mb_2007_22v](QP-NLP/mb_2007_22v)  | [(Paulavicius et al., 2017b)][Paulavicius et al., 2017b]    |  1    |   1   |  0.210    | -0.069  | -0.555                            | 0.455                   |
 | [dd_2012_01](QP-NLP/dd_2012_01)    | [(Dempe & Dutta, 2012)][Dempe & Dutta, 2012]                |  1    |   1   |  1.000    | 0.000   | 0.000                             | 0.000                   |
 | [sib_1997_01](QP-NLP/sib_1997_01)  | [(Shimizu et al., 1997)][Shimizu et al., 1997]              |  1    |   1   |  2250.000 | 194.800 | 11.250                            | 5.000                   |
 | [yz_2010_01](QP-NLP/yz_2010_01)    | [(Ye & Zhu, 2010)][Ye & Zhu, 2010]                          |  1    |   1   |  1.000    | -2.000  | 1.000                             | 1.000                   |
