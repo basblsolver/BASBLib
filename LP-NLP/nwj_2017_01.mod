@@ -1,12 +1,12 @@
 # ==============================================================================
 # AMPL coding by Remigijus Paulavicius
 # Name:
-#   nwj_2016_01.mod
+#   nwj_2017_01.mod
 #
 # Original source:
 # - Example 3.4. in:
-#   Nie, J., Wang, L., & Ye, J. (2016). Bilevel polynomial programs and 
-#   semidefinite relaxation methods. arXiv preprint arXiv:1508.06985.
+#   Nie, J., Wang, L., & Ye, J. J. (2017). Bilevel polynomial programs and 
+#   semidefinite relaxation methods. SIAM Journal on Optimization, 27(3), 1728-1757
 #
 # Optimal solution:
 #   F* = 2.0
@@ -21,7 +21,7 @@
 # ------------------------------------------------------------------------------
 #
 # For more information, please visit corresponding page at BASBLib website:
-#    http://basblsolver.github.io/BASBLib/LP-NLP/nwj_2016_01
+#    http://basblsolver.github.io/BASBLib/LP-NLP/nwj_2017_01
 # ==============================================================================
 var x >= 2, <= 3;          # Outer variable
 var y{1..2} >= 0, <= 10;   # Inner variable
