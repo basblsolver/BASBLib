@@ -9,10 +9,10 @@
 #   http://www.researchgate.net/publication/228455291, [Updated 19-09-2007].
 #
 # Optimal solution:
-#   F* = 0.210
-#   f* = -0.069
-#   x* = -0.555
-#   y* = 0.455
+#   F* = 0.189
+#   f* = -0.042
+#   x* = 0.635
+#   y* = -0.433
 #
 # ---------------------------- Problem Properties ------------------------------
 #                   n       m       #G     #H       #g      #h
@@ -28,7 +28,7 @@ var y >= -1, <= 1;        # Inner variables
 var l{1..3} >= 0, <= 10;  # KKT Multipliers
 
 # Outer objective:
-minimize outer_obj: (x + 0.6)^2 + y^2;
+minimize outer_obj: (x - 0.6)^2 + y^2;
 
 subject to
 # Inner objective:
