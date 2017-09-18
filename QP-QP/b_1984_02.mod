@@ -9,10 +9,10 @@
 #   Naval research logistics quarterly, 31 (1984), pp. 13–26
 #
 # Optimal solution:
-#   F* = -18.687
-#   f* = -1.016
+#   F* = -12.687
+#   f* = -6.473
 #   x* = (0.0, 2.0)
-#   y* = (0.909, 1.878)
+#   y* = (1.875, 0.9063)
 #
 # ---------------------------- Problem Properties ------------------------------
 #                   n       m       #G     #H       #g      #h
@@ -28,7 +28,7 @@ var y{1..2} >= 0, <= 10;   # Inner variable
 var l{1..6} >= 0, <= 100;  # KKT Multipliers
 
 # Outer objective:
-minimize outer_obj: -x[1]^2 - 3*x[2]^2 - 4*y[1] + y[2]^2;  
+minimize outer_obj: -x[1]^2 - 3*x[2] - 4*y[1] + y[2]^2;  
 
 subject to
 # Outer constraints:
