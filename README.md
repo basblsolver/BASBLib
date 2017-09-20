@@ -38,20 +38,20 @@ Since bilevel programming involves two optimization problems (the outer and the 
 
 If you use **BASBLib**, please cite the following source: 
 
-* Remigijus Paulavicius, & Claire S. Adjiman. (2017). BASBLib - a library of bilevel test problems [Data set]. Zenodo. 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.556423.svg)](https://doi.org/10.5281/zenodo.556423)
+* Remigijus Paulavicius, & Claire S. Adjiman. (2017). BASBLib - a library of bilevel test problems, v2.2 [Data set]. Zenodo. 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.897966.svg)](https://doi.org/10.5281/zenodo.897966)
 
 ### BibTeX Export
 
 ```
-@misc{remigijus_paulavicius_2017_556423,
+@misc{remigijus_paulavicius_2017_897966,
   author       = {Remigijus Paulavicius and
                   Claire S. Adjiman},
   title        = {BASBLib - a library of bilevel test problems},
-  month        = apr,
+  month        = sep,
   year         = 2017,
-  doi          = {10.5281/zenodo.556423},
-  url          = {https://doi.org/10.5281/zenodo.556423}
+  doi          = {10.5281/zenodo.897966},
+  url          = {https://doi.org/10.5281/zenodo.897966}
 }
 ```
 
