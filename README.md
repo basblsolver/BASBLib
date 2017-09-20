@@ -3,16 +3,18 @@
 ## Goal of this repository
  
 While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse (see
-e.g., [[1][1], [6][6], [7][7], [11][11]] and references therein), there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. While there exist generators of bilevel test problems [[2][2], [3][3], [4][4]], they are limited to linear and quadratic problems. There already exist several “__static__” collections of bilevel test problems:
+e.g., [[1][1], [6][6], [7][7], [11][11]] and references therein), there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. While there exist generators of bilevel test problems [[2][2], [3][3], [4][4]], they are limited to linear and quadratic problems. There already exist several collections of bilevel test problems, however, again, limited to special subclasses::
 
  - Chapter 9 in [[9]] contains linear and quadratic problems (__19 problems in total__)
  - The GAMS EMP Library [[8]] contains mainly linear and quadratic problems (__33 problems in total__)
  - The test set included with BIPA [[5]] contains convex inner problems (__22 problems in total__)
  - A test set for bilevel problems [[10]] containing either nonconvex inner problems or problems with a structure that causes convergence issues for algorithms (__36 problems in total__)
+ - MIPLIB [[12]] containing bilevel problems with only binary variables (__57 problems in total__)
+ - Bilevel optimization problem library, version 0.1 [[13]] containing binary bilevel problems (__315 problems in total__)
 
 ## BASBLib resources
 
-Thus, with the introduction of `BASBLib`, we present an actively growing online collection of bilevel test problems, gathered from the various sources and devoted to bilevel programming. The library is designed as an open resource to which other researchers in the bilevel programming community can easily contribute. An in-depth description of BASBLib is provided in an online resource: http://basblsolver.github.io/BASBLib/ . It includes problem statements, a geometrical analysis of the problems, the best-known solutions, comments on inaccuracies in the literature, sources where the problem was used, and AMPL input files in the [`BASBL solver's format`](http://basblsolver.github.io/home/ "Bilevel Solver"). 
+Thus, with the introduction of `BASBLib`, we present an actively growing online collection of general bilevel test problems, gathered from the various sources and devoted to bilevel programming. The library is designed as an open resource to which other researchers in the bilevel programming community can easily contribute. An in-depth description of BASBLib is provided in an online resource: http://basblsolver.github.io/BASBLib/ . It includes problem statements, a geometrical analysis of the problems, the best-known solutions, comments on inaccuracies in the literature, sources where the problem was used, and AMPL input files in the [`BASBL solver's format`](http://basblsolver.github.io/home/ "Bilevel Solver"). 
 
 ## Problems classification
 
@@ -76,6 +78,10 @@ If you use **BASBLib**, please cite the following source:
 10. [A. Mitsos and P. I. Barton, A test set for bilevel programs. http://www.researchgate.net/publication/228455291, 2007. Last updated September 19, 2007](http://www.researchgate.net/publication/228455291)
 
 11. [K. Shimizu, Y. Ishizuka, and J. F. Bard, Nondifferentiable and two-level mathematical programming, vol. 102, Kluwer Academic Publishers, Boston, 1997](https://doi.org/10.1016/S0377-2217(97)00228-2)
+
+12. [M. Fischetti, I. Ljubić, M. Monaci, and M. Sinnl, Intersection Cuts for Bilevel Optimization, Springer International Publishing, 2016, pp. 77–88](https://doi.org/10.1007/978-3-319-33461-5_7)
+
+13. [T. Ralphs and E. Adams, Bilevel instance library, 2016](http://coral.ise.lehigh.edu/data-sets/bilevel-instances/)
 
 ## Acknowledgment
 
