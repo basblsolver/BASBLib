@@ -101,3 +101,5 @@ We gratefully acknowledge funding from the EPSRC through a Leadership Fellowship
 [9]: https://doi.org/10.1007/978-1-4757-3040-1
 [10]: http://www.researchgate.net/publication/228455291
 [11]: https://doi.org/10.1016/S0377-2217(97)00228-2
+[12]: https://doi.org/10.1007/978-3-319-33461-5_7
+[13]: http://coral.ise.lehigh.edu/data-sets/bilevel-instances/
