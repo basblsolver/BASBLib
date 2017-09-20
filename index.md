@@ -24,8 +24,8 @@ While the literature on the application of Bilevel Programming Problems (**BPP**
 
 If you use **BASBLib**, please cite the following source: 
 
-* Remigijus Paulavicius, & Claire S. Adjiman. (2017). BASBLib - a library of bilevel test problems [Data set]. Zenodo. 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.556423.svg)](https://doi.org/10.5281/zenodo.556423)
+* Remigijus Paulavicius, & Claire S. Adjiman. (2017). BASBLib - a library of bilevel test problems, v2.2 [Data set]. Zenodo. 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.897966.svg)](https://doi.org/10.5281/zenodo.897966)
 
 # Problems classification
 
