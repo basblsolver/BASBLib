@@ -3,7 +3,7 @@
 ## Goal of this repository
  
 While the literature on the application of Bilevel Programming Problems (**BPP**) is extensive and diverse (see
-e.g., [[1][1], [6][6], [7][7], [11][11]] and references therein), there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. While there exist generators of bilevel test problems [[2][2], [3][3], [4][4]], they are limited to linear and quadratic problems. There already exist several collections of bilevel test problems, however, again, limited to special subclasses::
+e.g., [[1][1], [6][6], [7][7], [11][11]] and references therein), there have been limited efforts in establishing a comprehensive test library for the evaluation of bilevel algorithms and their implementations. While there exist generators of bilevel test problems [[2][2], [3][3], [4][4]], they are limited to linear and quadratic problems. There already exist several collections of bilevel test problems, however, again, limited to special subclasses:
 
  - Chapter 9 in [[9]] contains linear and quadratic problems (__19 problems in total__)
  - The GAMS EMP Library [[8]] contains mainly linear and quadratic problems (__33 problems in total__)
