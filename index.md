@@ -95,7 +95,9 @@ View a summary table of [all NLP-NLP problems](NLP-NLP-problems) or click on a p
 # Acknowledgment
 
 ```
-We gratefully acknowledge funding from the EPSRC through a Leadership Fellowship [EP/J003840/1]
+This work was partially funded by a Grant (No. P-MIP-17-60) from the Research Council of Lithuania.
+
+We also gratefully acknowledge funding from the EPSRC through a Leadership Fellowship [EP/J003840/1]
 ```
 
 
