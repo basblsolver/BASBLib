@@ -55,6 +55,25 @@ If you use **BASBLib**, please cite the following source:
 }
 ```
 
+## Changelog
+
+### [v2.2](https://github.com/basblsolver/BASBLib/releases/tag/v2.2) - (2017-09-20)
+
+#### Added
+
+- `mb_2007_22v` problem, variant of problem  `mb_2007_22`
+
+#### Changed
+
+**Renamed the following problems**:
+
+- `nwj_2016_01` to `nwj_2017_01`
+- `nwj_2016_02` to `nwj_2017_02`
+- `nwj_2016_03` to `nwj_2017_03`
+- `nwj_2016_04` to `nwj_2017_04`
+- `nwj_2016_05` to `nwj_2017_05`
+
+
 ## References
 
 1. [J. F. Bard, Practical Bilevel Optimization, vol. 30 of Nonconvex Optimization and Its Applications, Springer US, 1998](https://doi.org/10.1007/978-1-4757-2836-1)
