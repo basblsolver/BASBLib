@@ -34,14 +34,36 @@ Since bilevel programming involves two optimization problems (the outer and the 
  - **common way**    - send us your comments, corrections or suggestions by email: remigijus.paulavicius@imperial.ac.uk
  - **modern way** - [fork](https://help.github.com/articles/fork-a-repo/) github repository, add new information & correct existing, then create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and we gratefully incorporate your contribution!
  
-## Citation
+## Citations
 
-If you use **BASBLib**, please cite the following source: 
+- `BASBLibv2.3`: 
 
-* Remigijus Paulavicius, & Claire S. Adjiman. (2017). BASBLib - a library of bilevel test problems, v2.2 [Data set]. Zenodo. 
+Remigijus Paulavicius, & Claire S. Adjiman. (2019). BASBLib - a library of bilevel test problems (Version v2.3) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3266835
+
+- `BASBLibv2.2`: 
+
+Remigijus Paulavicius, & Claire S. Adjiman. (2017). BASBLib - a library of bilevel test problems, v2.2 [Data set]. Zenodo. 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.897966.svg)](https://doi.org/10.5281/zenodo.897966)
 
+
+
 ### BibTeX Export
+
+- For `BASBLibv2.3`:
+
+```
+@misc{remigijus_paulavicius_2019_3266835,
+  author       = {Remigijus Paulavicius and
+                  Claire S. Adjiman},
+  title        = {BASBLib - a library of bilevel test problems},
+  month        = jul,
+  year         = 2019,
+  doi          = {10.5281/zenodo.3266835},
+  url          = {https://doi.org/10.5281/zenodo.3266835}
+}
+```
+
+- For `BASBLibv2.2`:
 
 ```
 @misc{remigijus_paulavicius_2017_897966,
@@ -54,6 +76,7 @@ If you use **BASBLib**, please cite the following source:
   url          = {https://doi.org/10.5281/zenodo.897966}
 }
 ```
+
 
 ## Changelog
 
