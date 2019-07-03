@@ -57,6 +57,20 @@ If you use **BASBLib**, please cite the following source:
 
 ## Changelog
 
+### [v2.3](https://github.com/basblsolver/BASBLib/releases/tag/v2.3) - (2019-07-03)
+
+#### Added
+
+**7 flexibility index problems:**
+
+- `bpp_2002_01_FI`
+- `bpp_2002_02_FI`
+- `fgi_2001_01_FI`
+- `fgi_2001_02_FI`
+- `gf_1987_01_FI`
+- `gf_1987_02_FI`
+- `rbb_2000_01_FI`
+
 ### [v2.2](https://github.com/basblsolver/BASBLib/releases/tag/v2.2) - (2017-09-20)
 
 #### Added
